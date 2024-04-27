@@ -17,8 +17,8 @@ class RunController extends Controller
     }
     public function store(RunStoreRequest $request): Response
     {
-        $attributes = $request->validated();
-        $this->runRepository->create($attributes);
+        $data = $request->validated();
+        $this->runRepository->createMany($data);
 
         return response()->noContent();
     }

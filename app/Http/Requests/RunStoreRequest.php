@@ -17,12 +17,11 @@ class RunStoreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'uuid' => ['sometimes', 'uuid'],
-            'vertices' => ['required', 'integer', 'min:1'],
-            'edges' => ['required', 'integer', 'min:1'],
-            'instance' => ['required', 'string'],
-            'value' => ['required', 'integer', 'min:0'],
-            'algorithm' => ['required', Rule::enum(Algorithm::class)],
+            '*.vertices' => ['required', 'integer', 'min:1'],
+            '*.edges' => ['required', 'integer', 'min:1'],
+            '*.instance' => ['required', 'string'],
+            '*.value' => ['required', 'integer', 'min:0'],
+            '*.algorithm' => ['required', Rule::enum(Algorithm::class)],
         ];
     }
 }

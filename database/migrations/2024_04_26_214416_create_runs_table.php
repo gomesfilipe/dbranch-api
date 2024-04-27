@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('instance');
             $table->decimal('value', unsigned: true);
             $table->enum('algorithm', Algorithm::values());
+            $table->decimal('time', 10, 6);
             $table->timestamps();
         });
     }

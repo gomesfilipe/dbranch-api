@@ -15,6 +15,7 @@ class HmacAuth
      */
     public function handle(Request $request, Closure $next): Response
     {
+        $request->headers->set('X-Requested-With', 'XMLHttpRequest');
         return $next($request);
     }
 }

@@ -4,6 +4,8 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use App\Enums\Algorithm;
+use App\Repositories\Interfaces\OptimalRepositoryInterface;
+use App\Models\Optimal;
 
 return new class extends Migration
 {
@@ -15,12 +17,17 @@ return new class extends Migration
         Schema::create('optimals', function (Blueprint $table) {
             $table->id();
             $table->unsignedInteger('vertices');
-            $table->unsignedInteger('edges');
+            $table->decimal('edges', unsigned: true);
             $table->enum('algorithm', Algorithm::values());
-            $table->decimal('min');
-            $table->decimal('mean');
+            $table->decimal('min', unsigned: true);
+            $table->decimal('mean', unsigned: true);
             $table->timestamps();
         });
+
+        $data = Optimal::optimalResults();
+
+        app()->make(OptimalRepositoryInterface::class)
+            ->createMany($data);
     }
 
     /**

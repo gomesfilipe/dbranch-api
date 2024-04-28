@@ -9,7 +9,6 @@ use App\Http\Requests\RunStoreRequest;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use App\Services\RunService;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class RunController extends Controller

@@ -2,37 +2,40 @@
 
 namespace App\Enums;
 
-enum InstanceType: string
+enum Metric: string
 {
-    case MEDIUM = 'Medium Instance';
+    case MIN = 'min';
 
-    case LARGE = 'Large Instance';
+    case MEAN = 'mean';
 
     public static function values(): array
     {
         return array_column(self::cases(), 'value');
     }
 
-    public function groupBy(): array
+    public function optimalColumns(): array
     {
         return match ($this) {
-            self::MEDIUM => [
+            self::MIN => [
                 'vertices',
                 'algorithm',
-            ],
-            self::LARGE => [
-                'vertices',
                 'edges',
+                'min',
+            ],
+            self::MEAN => [
+                'vertices',
                 'algorithm',
+                'edges',
+                'mean',
             ],
         };
     }
 
-    public function operator(): string
+    public function sqlMetric(): string
     {
         return match ($this) {
-            self::MEDIUM => '<',
-            self::LARGE => '>=',
+            self::MIN => 'MIN',
+            self::MEAN => 'AVG',
         };
     }
 }

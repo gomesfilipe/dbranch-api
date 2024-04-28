@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Enums\InstanceType;
+use App\Enums\Metric;
 use App\Models\Optimal;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
@@ -28,18 +29,21 @@ class RunRepository implements RunRepositoryInterface
             ->insert($data);
     }
 
-    public function minResults(InstanceType $instanceType): Collection
+    public function results(InstanceType $instanceType, Metric $metric): Collection
     {
         $groupBy = $instanceType->groupBy();
         $operator = $instanceType->operator();
         $delimiter = 600;
+
+        $optimalColumns = $metric->optimalColumns();
+        $sqlMetric = $metric->sqlMetric();
 
         return Run::query()
             ->select([
                 'vertices',
                 'algorithm',
                 DB::raw('ROUND(AVG(edges), 2)::numeric as edges'),
-                DB::raw('ROUND(AVG(min_value), 2)::numeric as value'),
+                DB::raw('ROUND(AVG(value), 2)::numeric as value'),
             ])
             ->from(
                 Run::query()
@@ -48,7 +52,7 @@ class RunRepository implements RunRepositoryInterface
                         'vertices',
                         'edges',
                         'algorithm',
-                        DB::raw('MIN(value) as min_value'),
+                        DB::raw("$sqlMetric(value) as value"),
                     ])
                     ->where('vertices', $operator, $delimiter)
                     ->groupBy([
@@ -62,12 +66,7 @@ class RunRepository implements RunRepositoryInterface
             ->groupBy($groupBy)
             ->union(
                 Optimal::query()
-                    ->select([
-                        'vertices',
-                        'algorithm',
-                        'edges',
-                        'min',
-                    ])
+                    ->select($optimalColumns)
                     ->where('vertices', $operator, $delimiter)
             )
             ->orderBy('vertices')

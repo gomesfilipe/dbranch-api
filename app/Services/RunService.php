@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Enums\InstanceType;
+use App\Enums\Metric;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use Illuminate\Support\Collection;
@@ -16,10 +17,10 @@ class RunService
         //
     }
 
-    public function minResults(InstanceType $instanceType): array
+    public function results(InstanceType $instanceType, Metric $metric): array
     {
         return $this->runRepository
-            ->minResults($instanceType)
+            ->results($instanceType, $metric)
             ->map(fn (Run $item) => $item->toArray())
             ->groupBy(['vertices', 'edges'])
             ->map(function (Collection $verticeItem, int $verticeGroup)
@@ -40,10 +41,38 @@ class RunService
                     ])
                     ->sortBy(fn (int|float $value, string $key) => $this->sortKeysCallback($key))
                     ->toArray();
-                });
+                })
+                ->toArray();
             })
             ->flatten(1)
             ->toArray();
+    }
+
+    public function gapResults(InstanceType $instanceType): array
+    {
+        $metric = Metric::MIN;
+        $results = $this->results($instanceType, $metric);
+
+        return collect($results)->map(function (array $item)
+        {
+                $excludeColumns = [
+                    'vertices',
+                    'edges',
+                ];
+
+                $optimalKey = 'Exact';
+                $optimalValue = $item[$optimalKey];
+
+                return collect($item)->map(function (int|float $value, string $key) use ($excludeColumns, $optimalValue)
+                    {
+                        return in_array($key, $excludeColumns)
+                            ? $value
+                            : $this->gap($optimalValue, $value);
+                    })
+                    ->filter(fn (int|float|null $value, string $key) => $key !== $optimalKey)
+                    ->toArray();
+        })
+        ->toArray();
     }
 
     private function sortKeysCallback(string $key): int
@@ -55,5 +84,12 @@ class RunService
             'Moreno Et Al' => 3,
             default => 4,
         };
+    }
+
+    private function gap(float $ref, float $value): ?float
+    {
+        return $ref === 0.0
+            ? null
+            : round(100.0 * ($value - $ref) / $ref, 1);
     }
 }

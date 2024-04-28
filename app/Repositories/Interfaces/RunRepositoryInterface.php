@@ -3,6 +3,7 @@
 namespace App\Repositories\Interfaces;
 
 use App\Enums\InstanceType;
+use App\Enums\Metric;
 use App\Models\Run;
 use Illuminate\Support\Collection;
 
@@ -12,5 +13,5 @@ interface RunRepositoryInterface
 
     public function createMany(array $data): bool;
 
-    public function minResults(InstanceType $instanceType): Collection;
+    public function results(InstanceType $instanceType, Metric $metric): Collection;
 }

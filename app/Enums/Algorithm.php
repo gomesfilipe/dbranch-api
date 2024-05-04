@@ -10,6 +10,8 @@ enum Algorithm: string
 
     case EXACT = 'Exact';
 
+    case BEP_ANDERSON = 'BEP Anderson';
+
     public static function values(): array
     {
         return array_column(self::cases(), 'value');

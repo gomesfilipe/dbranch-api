@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Enums\Algorithm;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\RunCompareRequest;
 use App\Http\Requests\RunGapResultsRequest;
 use App\Http\Requests\RunResultsRequest;
 use App\Http\Requests\RunStoreRequest;
@@ -49,6 +51,30 @@ class RunController extends Controller
 
         return response()->json(
             $this->runService->gapResults($instanceType)
+        );
+    }
+
+    public function compareDiffs(RunCompareRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $algorithmA = Algorithm::from($data['algorithm_a']);
+        $algorithmB = Algorithm::from($data['algorithm_b']);
+
+        return response()->json(
+            $this->runService->compareDiffs($algorithmA, $algorithmB)
+        );
+    }
+
+    public function compareValues(RunCompareRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $algorithmA = Algorithm::from($data['algorithm_a']);
+        $algorithmB = Algorithm::from($data['algorithm_b']);
+
+        return response()->json(
+            $this->runRepository->compareValues($algorithmA, $algorithmB)
         );
     }
 }

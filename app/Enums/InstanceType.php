@@ -35,4 +35,29 @@ enum InstanceType: string
             self::LARGE => '>=',
         };
     }
+
+    public static function delimiter(): int
+    {
+        return 600;
+    }
+
+    public static function field(): string
+    {
+        return 'category';
+    }
+
+    public static function orderByRaw(): string
+    {
+        $medium = self::MEDIUM->value;
+        $large = self::LARGE->value;
+        $field = self::field();
+
+        return "
+            CASE
+                WHEN $field = '$medium' THEN 0
+                WHEN $field = '$large' THEN 1
+                ELSE 2
+            END
+        ";
+    }
 }

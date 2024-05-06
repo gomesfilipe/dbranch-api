@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Enums\Algorithm;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Models\Run;
@@ -91,5 +92,17 @@ class RunService
         return $ref === 0.0
             ? null
             : round(100.0 * ($value - $ref) / $ref, 1);
+    }
+
+    public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB): array
+    {
+        return $this->runRepository->compareDiffs($algorithmA, $algorithmB)
+            ->map(function (\stdClass $item)
+            {
+                $item = (array) $item;
+                $item['diff'] = intval($item['diff']);
+                return $item;
+            })
+            ->toArray();
     }
 }

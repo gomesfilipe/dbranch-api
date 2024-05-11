@@ -12,6 +12,8 @@ enum Algorithm: string
 
     case BEP_ANDERSON = 'BEP Anderson';
 
+    case PR_BEP = 'PageRank Branch Expanding Prim';
+
     public static function values(): array
     {
         return array_column(self::cases(), 'value');

@@ -18,10 +18,10 @@ class RunService
         //
     }
 
-    public function results(InstanceType $instanceType, Metric $metric): array
+    public function results(InstanceType $instanceType, Metric $metric, array $params = []): array
     {
         return $this->runRepository
-            ->results($instanceType, $metric)
+            ->results($instanceType, $metric, $params)
             ->map(fn (Run $item) => $item->toArray())
             ->groupBy(['vertices', 'edges'])
             ->map(function (Collection $verticeItem, int $verticeGroup)
@@ -49,10 +49,10 @@ class RunService
             ->toArray();
     }
 
-    public function gapResults(InstanceType $instanceType): array
+    public function gapResults(InstanceType $instanceType, array $params = []): array
     {
         $metric = Metric::MIN;
-        $results = $this->results($instanceType, $metric);
+        $results = $this->results($instanceType, $metric, $params);
 
         return collect($results)->map(function (array $item)
         {

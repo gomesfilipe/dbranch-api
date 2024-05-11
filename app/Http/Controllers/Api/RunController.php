@@ -38,8 +38,10 @@ class RunController extends Controller
         $instanceType = InstanceType::from($data['instance_type']);
         $metric = Metric::from($data['metric']);
 
+        unset($data['instance_type'], $data['metric']);
+
         return response()->json(
-            $this->runService->results($instanceType, $metric)
+            $this->runService->results($instanceType, $metric, $data)
         );
     }
 
@@ -49,8 +51,10 @@ class RunController extends Controller
 
         $instanceType = InstanceType::from($data['instance_type']);
 
+        unset($data['instance_type']);
+
         return response()->json(
-            $this->runService->gapResults($instanceType)
+            $this->runService->gapResults($instanceType, $data)
         );
     }
 

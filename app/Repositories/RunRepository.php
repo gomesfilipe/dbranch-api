@@ -8,6 +8,7 @@ use App\Enums\Metric;
 use App\Models\Optimal;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Query\JoinClause;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection;
@@ -31,8 +32,10 @@ class RunRepository implements RunRepositoryInterface
             ->insert($data);
     }
 
-    public function results(InstanceType $instanceType, Metric $metric): Collection
+    public function results(InstanceType $instanceType, Metric $metric, array $params = []): Collection
     {
+        $algorithms = $params['algorithms'] ?? null;
+
         $groupBy = $instanceType->groupBy();
         $operator = $instanceType->operator();
         $delimiter = InstanceType::delimiter();
@@ -70,6 +73,9 @@ class RunRepository implements RunRepositoryInterface
                 Optimal::query()
                     ->select($optimalColumns)
                     ->where('vertices', $operator, $delimiter)
+            )
+            ->when(! is_null($algorithms), fn (Builder $query) => $query
+                ->whereIn('algorithm', $algorithms)
             )
             ->orderBy('vertices')
             ->orderBy('edges')

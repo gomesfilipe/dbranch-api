@@ -14,7 +14,7 @@ interface RunRepositoryInterface
 
     public function createMany(array $data): bool;
 
-    public function results(InstanceType $instanceType, Metric $metric): Collection;
+    public function results(InstanceType $instanceType, Metric $metric, array $params = []): Collection;
 
     public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB): Collection;
 

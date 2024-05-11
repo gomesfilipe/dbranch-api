@@ -18,4 +18,12 @@ enum Algorithm: string
     {
         return array_column(self::cases(), 'value');
     }
+
+    public static function referenceAlgorithmsValues(): array
+    {
+        return [
+            self::EXACT->value,
+            self::MORENO_ET_AL->value,
+        ];
+    }
 }

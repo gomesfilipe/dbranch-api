@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Enums\Algorithm;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use Illuminate\Contracts\Validation\ValidationRule;
@@ -20,6 +21,8 @@ class RunResultsRequest extends FormRequest
         return [
             'instance_type' => ['required', Rule::enum(InstanceType::class)],
             'metric' => ['required', Rule::enum(Metric::class)],
+            'algorithms' => ['sometimes', 'nullable', 'array'],
+            'algorithms.*' => ['sometimes', 'nullable', Rule::notIn(Algorithm::referenceAlgorithmsValues())],
         ];
     }
 }

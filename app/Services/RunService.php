@@ -30,8 +30,10 @@ class RunService
                 {
                     $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup)
                     {
+                        $algorithm = Algorithm::from($item['algorithm'])->name;
+
                         return array_merge($carry, [
-                            $item['algorithm'] => floatval($item['value']),
+                            $algorithm => floatval($item['value']),
                         ]);
                     }, []);
 
@@ -61,7 +63,7 @@ class RunService
                     'edges',
                 ];
 
-                $optimalKey = 'Exact';
+                $optimalKey = Algorithm::EXACT->name;
                 $optimalValue = $item[$optimalKey];
 
                 return collect($item)->map(function (int|float $value, string $key) use ($excludeColumns, $optimalValue)
@@ -81,9 +83,12 @@ class RunService
         return match ($key) {
             'vertices' => 0,
             'edges' => 1,
-            'Exact' => 2,
-            'Moreno Et Al' => 3,
-            default => 4,
+            Algorithm::EXACT->name => 2,
+            Algorithm::MORENO_ET_AL->name => 3,
+            Algorithm::BEP_ANDERSON->name => 4,
+            Algorithm::BEP->name => 5,
+            Algorithm::PR_BEP->name => 6,
+            default => 7,
         };
     }
 

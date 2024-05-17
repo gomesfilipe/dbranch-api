@@ -14,6 +14,10 @@ enum Algorithm: string
 
     case PR_BEP = 'PageRank Branch Expanding Prim';
 
+    case R_BEP = 'Randomized Branch Expanding Prim';
+
+    case R_PR_BEP = 'Randomized PageRank Branch Expanding Prim';
+
     public static function values(): array
     {
         return array_column(self::cases(), 'value');

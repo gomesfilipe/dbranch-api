@@ -10,10 +10,12 @@ use App\Http\Requests\RunCompareRequest;
 use App\Http\Requests\RunGapResultsRequest;
 use App\Http\Requests\RunResultsRequest;
 use App\Http\Requests\RunStoreRequest;
+use App\Jobs\StoreRunsJob;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use App\Services\RunService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
+use Illuminate\Support\Collection;
 
 class RunController extends Controller
 {
@@ -26,7 +28,11 @@ class RunController extends Controller
     public function store(RunStoreRequest $request): Response
     {
         $data = $request->validated();
-        $this->runRepository->createMany($data);
+
+        $slice = 5000;
+
+        collect($data)->chunk($slice)
+            ->each(fn (Collection $slicedData) => StoreRunsJob::dispatch($slicedData->toArray()));
 
         return response()->noContent();
     }

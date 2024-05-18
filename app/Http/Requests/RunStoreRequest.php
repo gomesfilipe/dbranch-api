@@ -22,7 +22,7 @@ class RunStoreRequest extends FormRequest
             '*.instance' => ['required', 'string'],
             '*.value' => ['required', 'integer', 'min:0'],
             '*.algorithm' => ['required', Rule::enum(Algorithm::class)],
-            '*.time' => ['required', 'numeric'],
+            '*.time' => ['sometimes', 'nullable', 'numeric'],
         ];
     }
 }

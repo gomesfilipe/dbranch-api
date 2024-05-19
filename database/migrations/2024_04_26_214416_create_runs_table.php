@@ -9,10 +9,6 @@ use App\Repositories\Interfaces\RunRepositoryInterface;
 
 return new class extends Migration
 {
-    private array $results = [
-        'results/anderson_bep_results.txt' =>  Algorithm::BEP_ANDERSON
-    ];
-
     /**
      * Run the migrations.
      */
@@ -29,13 +25,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $runRepository = app()->make(RunRepositoryInterface::class);
-
-        foreach ($this->results as $filename => $algorithm) {
-            $result = RunResultsParser::parseAndersonResults($filename, $algorithm);
-
-            $runRepository->createMany($result);
-        }
+        $this->seedResults();
     }
 
     /**
@@ -44,5 +34,23 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('runs');
+    }
+
+    private function seedResults(): void
+    {
+        $parsers = [
+            'results/anderson_bep_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
+            'results/anderson_r_bep_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
+            'results/filipe_bep_results.json' => fn (string $filename) => RunResultsParser::parseJsonResults($filename),
+            'results/filipe_pr_bep_results.json' => fn (string $filename) => RunResultsParser::parseJsonResults($filename),
+        ];
+
+        $runRepository = app()->make(RunRepositoryInterface::class);
+
+        foreach ($parsers as $filename => $parser) {
+            $results = $parser($filename);
+
+            $runRepository->createMany($results);
+        }
     }
 };

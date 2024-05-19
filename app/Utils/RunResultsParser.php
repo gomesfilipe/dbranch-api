@@ -6,8 +6,17 @@ use App\Enums\Algorithm;
 
 class RunResultsParser
 {
+    /**
+     * @throws \Exception
+     */
     public static function parseAndersonResults(string $filename, Algorithm $algorithm): array
     {
+        $fileExtension = pathinfo($filename, PATHINFO_EXTENSION);
+
+        if ($fileExtension !== 'txt') {
+            throw new \Exception('The file extension must be txt.');
+        }
+
         $file = fopen($filename, 'r');
         $size = filesize($filename);
 
@@ -27,5 +36,29 @@ class RunResultsParser
                 'time' =>  str_replace(',', '.', $time),
             ];
         })->toArray();
+    }
+
+    /**
+     * @throws \Exception
+     */
+    public static function parseJsonResults(string $filename): array
+    {
+        $fileExtension = pathinfo($filename, PATHINFO_EXTENSION);
+
+        if ($fileExtension !== 'json') {
+            throw new \Exception('The file extension must be json.');
+        }
+
+        $file = fopen($filename, 'r');
+        $size = filesize($filename);
+
+        $content = json_decode(
+            trim(fread($file, $size))
+        );
+
+        return collect($content)
+            ->map(fn (\stdClass $item) => (array) $item)
+            ->toArray();
+
     }
 }

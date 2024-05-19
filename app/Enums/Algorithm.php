@@ -12,6 +12,8 @@ enum Algorithm: string
 
     case BEP_ANDERSON = 'BEP Anderson';
 
+    case R_BEP_ANDERSON = 'R-BEP Anderson';
+
     case PR_BEP = 'PageRank Branch Expanding Prim';
 
     case R_BEP = 'Randomized Branch Expanding Prim';

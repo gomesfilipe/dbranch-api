@@ -86,9 +86,10 @@ class RunService
             Algorithm::EXACT->name => 2,
             Algorithm::MORENO_ET_AL->name => 3,
             Algorithm::BEP_ANDERSON->name => 4,
-            Algorithm::BEP->name => 5,
-            Algorithm::PR_BEP->name => 6,
-            default => 7,
+            Algorithm::R_BEP_ANDERSON->name => 5,
+            Algorithm::BEP->name => 6,
+            Algorithm::PR_BEP->name => 7,
+            default => 8,
         };
     }
 

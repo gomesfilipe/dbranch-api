@@ -1,0 +1,4202 @@
+[
+    {
+        "vertices": 20,
+        "edges": 57,
+        "instance": "Spd_RF2_20_57_371",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004291534423828125
+    },
+    {
+        "vertices": 200,
+        "edges": 312,
+        "instance": "Spd_RF2_200_312_3979",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02626514434814453
+    },
+    {
+        "vertices": 40,
+        "edges": 71,
+        "instance": "Spd_RF2_40_71_691",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002033233642578125
+    },
+    {
+        "vertices": 120,
+        "edges": 185,
+        "instance": "Spd_RF2_120_185_2347",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009827613830566406
+    },
+    {
+        "vertices": 40,
+        "edges": 60,
+        "instance": "Spd_RF2_40_60_667",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0008029937744140625
+    },
+    {
+        "vertices": 180,
+        "edges": 284,
+        "instance": "Spd_RF2_180_284_3579",
+        "value": 21,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.022786378860473633
+    },
+    {
+        "vertices": 500,
+        "edges": 637,
+        "instance": "Spd_RF2_500_637_5147",
+        "value": 98,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09707045555114746
+    },
+    {
+        "vertices": 350,
+        "edges": 463,
+        "instance": "Spd_RF2_350_463_4563",
+        "value": 63,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06156730651855469
+    },
+    {
+        "vertices": 900,
+        "edges": 1034,
+        "instance": "Spd_RF2_900_1034_5915",
+        "value": 247,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1387171745300293
+    },
+    {
+        "vertices": 100,
+        "edges": 159,
+        "instance": "Spd_RF2_100_159_1947",
+        "value": 10,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007843971252441406
+    },
+    {
+        "vertices": 700,
+        "edges": 821,
+        "instance": "Spd_RF2_700_821_5507",
+        "value": 187,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09482312202453613
+    },
+    {
+        "vertices": 900,
+        "edges": 989,
+        "instance": "Spd_RF2_900_989_5867",
+        "value": 268,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.19201397895812988
+    },
+    {
+        "vertices": 800,
+        "edges": 973,
+        "instance": "Spd_RF2_800_973_5731",
+        "value": 205,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12450718879699707
+    },
+    {
+        "vertices": 1000,
+        "edges": 1143,
+        "instance": "Spd_RF2_1000_1143_6123",
+        "value": 276,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.22467994689941406
+    },
+    {
+        "vertices": 400,
+        "edges": 489,
+        "instance": "Spd_RF2_400_489_4715",
+        "value": 83,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07410717010498047
+    },
+    {
+        "vertices": 600,
+        "edges": 674,
+        "instance": "Spd_RF2_600_674_5283",
+        "value": 172,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08313679695129395
+    },
+    {
+        "vertices": 350,
+        "edges": 435,
+        "instance": "Spd_RF2_350_435_4491",
+        "value": 70,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05649852752685547
+    },
+    {
+        "vertices": 100,
+        "edges": 159,
+        "instance": "Spd_RF2_100_159_1931",
+        "value": 13,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007498979568481445
+    },
+    {
+        "vertices": 900,
+        "edges": 1079,
+        "instance": "Spd_RF2_900_1079_5931",
+        "value": 235,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.22138309478759766
+    },
+    {
+        "vertices": 450,
+        "edges": 548,
+        "instance": "Spd_RF2_450_548_4915",
+        "value": 96,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10779571533203125
+    },
+    {
+        "vertices": 180,
+        "edges": 242,
+        "instance": "Spd_RF2_180_242_3515",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009670495986938477
+    },
+    {
+        "vertices": 20,
+        "edges": 57,
+        "instance": "Spd_RF2_20_57_387",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0005412101745605469
+    },
+    {
+        "vertices": 800,
+        "edges": 1017,
+        "instance": "Spd_RF2_800_1017_5803",
+        "value": 185,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1618492603302002
+    },
+    {
+        "vertices": 160,
+        "edges": 179,
+        "instance": "Spd_RF2_160_179_3019",
+        "value": 40,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0064923763275146484
+    },
+    {
+        "vertices": 180,
+        "edges": 200,
+        "instance": "Spd_RF2_180_200_3419",
+        "value": 48,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007791042327880859
+    },
+    {
+        "vertices": 40,
+        "edges": 50,
+        "instance": "Spd_RF2_40_50_627",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0005867481231689453
+    },
+    {
+        "vertices": 160,
+        "edges": 237,
+        "instance": "Spd_RF2_160_237_3131",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015336275100708008
+    },
+    {
+        "vertices": 60,
+        "edges": 83,
+        "instance": "Spd_RF2_60_83_1075",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0030117034912109375
+    },
+    {
+        "vertices": 200,
+        "edges": 289,
+        "instance": "Spd_RF2_200_289_3947",
+        "value": 31,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0252532958984375
+    },
+    {
+        "vertices": 500,
+        "edges": 637,
+        "instance": "Spd_RF2_500_637_5155",
+        "value": 95,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12395572662353516
+    },
+    {
+        "vertices": 160,
+        "edges": 257,
+        "instance": "Spd_RF2_160_257_3195",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.018011808395385742
+    },
+    {
+        "vertices": 200,
+        "edges": 244,
+        "instance": "Spd_RF2_200_244_3851",
+        "value": 42,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015209674835205078
+    },
+    {
+        "vertices": 250,
+        "edges": 321,
+        "instance": "Spd_RF2_250_321_4107",
+        "value": 47,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.029023170471191406
+    },
+    {
+        "vertices": 60,
+        "edges": 83,
+        "instance": "Spd_RF2_60_83_1059",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002021312713623047
+    },
+    {
+        "vertices": 600,
+        "edges": 712,
+        "instance": "Spd_RF2_600_712_5315",
+        "value": 158,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11177420616149902
+    },
+    {
+        "vertices": 450,
+        "edges": 515,
+        "instance": "Spd_RF2_450_515_4883",
+        "value": 111,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07332921028137207
+    },
+    {
+        "vertices": 80,
+        "edges": 133,
+        "instance": "Spd_RF2_80_133_1547",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004141807556152344
+    },
+    {
+        "vertices": 80,
+        "edges": 106,
+        "instance": "Spd_RF2_80_106_1475",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003080606460571289
+    },
+    {
+        "vertices": 250,
+        "edges": 297,
+        "instance": "Spd_RF2_250_297_4075",
+        "value": 58,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02523207664489746
+    },
+    {
+        "vertices": 900,
+        "edges": 1034,
+        "instance": "Spd_RF2_900_1034_5891",
+        "value": 247,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14017558097839355
+    },
+    {
+        "vertices": 700,
+        "edges": 821,
+        "instance": "Spd_RF2_700_821_5491",
+        "value": 183,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09171223640441895
+    },
+    {
+        "vertices": 350,
+        "edges": 492,
+        "instance": "Spd_RF2_350_492_4595",
+        "value": 48,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05968141555786133
+    },
+    {
+        "vertices": 160,
+        "edges": 237,
+        "instance": "Spd_RF2_160_237_3163",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012478828430175781
+    },
+    {
+        "vertices": 180,
+        "edges": 200,
+        "instance": "Spd_RF2_180_200_3435",
+        "value": 48,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010267496109008789
+    },
+    {
+        "vertices": 900,
+        "edges": 1124,
+        "instance": "Spd_RF2_900_1124_5987",
+        "value": 213,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16821575164794922
+    },
+    {
+        "vertices": 180,
+        "edges": 284,
+        "instance": "Spd_RF2_180_284_3587",
+        "value": 22,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.025768518447875977
+    },
+    {
+        "vertices": 80,
+        "edges": 106,
+        "instance": "Spd_RF2_80_106_1451",
+        "value": 13,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0037736892700195312
+    },
+    {
+        "vertices": 350,
+        "edges": 406,
+        "instance": "Spd_RF2_350_406_4459",
+        "value": 84,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03902912139892578
+    },
+    {
+        "vertices": 180,
+        "edges": 221,
+        "instance": "Spd_RF2_180_221_3467",
+        "value": 36,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011650562286376953
+    },
+    {
+        "vertices": 450,
+        "edges": 581,
+        "instance": "Spd_RF2_450_581_4939",
+        "value": 85,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0831756591796875
+    },
+    {
+        "vertices": 1000,
+        "edges": 1047,
+        "instance": "Spd_RF2_1000_1047_6011",
+        "value": 314,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14154291152954102
+    },
+    {
+        "vertices": 250,
+        "edges": 369,
+        "instance": "Spd_RF2_250_369_4195",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04122161865234375
+    },
+    {
+        "vertices": 1000,
+        "edges": 1095,
+        "instance": "Spd_RF2_1000_1095_6059",
+        "value": 298,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.20726227760314941
+    },
+    {
+        "vertices": 450,
+        "edges": 482,
+        "instance": "Spd_RF2_450_482_4843",
+        "value": 127,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03202342987060547
+    },
+    {
+        "vertices": 300,
+        "edges": 326,
+        "instance": "Spd_RF2_300_326_4219",
+        "value": 82,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.019998550415039062
+    },
+    {
+        "vertices": 100,
+        "edges": 159,
+        "instance": "Spd_RF2_100_159_1963",
+        "value": 13,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007571697235107422
+    },
+    {
+        "vertices": 40,
+        "edges": 60,
+        "instance": "Spd_RF2_40_60_675",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0012946128845214844
+    },
+    {
+        "vertices": 180,
+        "edges": 284,
+        "instance": "Spd_RF2_180_284_3595",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.018642663955688477
+    },
+    {
+        "vertices": 160,
+        "edges": 237,
+        "instance": "Spd_RF2_160_237_3139",
+        "value": 20,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.014853239059448242
+    },
+    {
+        "vertices": 200,
+        "edges": 244,
+        "instance": "Spd_RF2_200_244_3875",
+        "value": 41,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01870870590209961
+    },
+    {
+        "vertices": 450,
+        "edges": 614,
+        "instance": "Spd_RF2_450_614_4979",
+        "value": 81,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1289525032043457
+    },
+    {
+        "vertices": 600,
+        "edges": 787,
+        "instance": "Spd_RF2_600_787_5379",
+        "value": 131,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0915684700012207
+    },
+    {
+        "vertices": 500,
+        "edges": 672,
+        "instance": "Spd_RF2_500_672_5179",
+        "value": 86,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1404860019683838
+    },
+    {
+        "vertices": 250,
+        "edges": 273,
+        "instance": "Spd_RF2_250_273_4043",
+        "value": 67,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009109020233154297
+    },
+    {
+        "vertices": 250,
+        "edges": 321,
+        "instance": "Spd_RF2_250_321_4123",
+        "value": 49,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.020344257354736328
+    },
+    {
+        "vertices": 500,
+        "edges": 534,
+        "instance": "Spd_RF2_500_534_5035",
+        "value": 147,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.042114973068237305
+    },
+    {
+        "vertices": 100,
+        "edges": 129,
+        "instance": "Spd_RF2_100_129_1851",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004711151123046875
+    },
+    {
+        "vertices": 800,
+        "edges": 886,
+        "instance": "Spd_RF2_800_886_5667",
+        "value": 229,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10857701301574707
+    },
+    {
+        "vertices": 600,
+        "edges": 787,
+        "instance": "Spd_RF2_600_787_5403",
+        "value": 135,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06540918350219727
+    },
+    {
+        "vertices": 400,
+        "edges": 429,
+        "instance": "Spd_RF2_400_429_4619",
+        "value": 115,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04159045219421387
+    },
+    {
+        "vertices": 900,
+        "edges": 1034,
+        "instance": "Spd_RF2_900_1034_5907",
+        "value": 245,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.20253729820251465
+    },
+    {
+        "vertices": 140,
+        "edges": 211,
+        "instance": "Spd_RF2_140_211_2739",
+        "value": 20,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.014350652694702148
+    },
+    {
+        "vertices": 120,
+        "edges": 185,
+        "instance": "Spd_RF2_120_185_2363",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007757425308227539
+    },
+    {
+        "vertices": 80,
+        "edges": 133,
+        "instance": "Spd_RF2_80_133_1531",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004217624664306641
+    },
+    {
+        "vertices": 60,
+        "edges": 71,
+        "instance": "Spd_RF2_60_71_1043",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0011181831359863281
+    },
+    {
+        "vertices": 20,
+        "edges": 42,
+        "instance": "Spd_RF2_20_42_315",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00048160552978515625
+    },
+    {
+        "vertices": 80,
+        "edges": 133,
+        "instance": "Spd_RF2_80_133_1539",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0041162967681884766
+    },
+    {
+        "vertices": 180,
+        "edges": 263,
+        "instance": "Spd_RF2_180_263_3531",
+        "value": 22,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02050042152404785
+    },
+    {
+        "vertices": 100,
+        "edges": 174,
+        "instance": "Spd_RF2_100_174_1971",
+        "value": 8,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004365205764770508
+    },
+    {
+        "vertices": 80,
+        "edges": 93,
+        "instance": "Spd_RF2_80_93_1435",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002903461456298828
+    },
+    {
+        "vertices": 450,
+        "edges": 515,
+        "instance": "Spd_RF2_450_515_4859",
+        "value": 114,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07567906379699707
+    },
+    {
+        "vertices": 350,
+        "edges": 406,
+        "instance": "Spd_RF2_350_406_4467",
+        "value": 84,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.038109540939331055
+    },
+    {
+        "vertices": 450,
+        "edges": 548,
+        "instance": "Spd_RF2_450_548_4891",
+        "value": 96,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06540441513061523
+    },
+    {
+        "vertices": 1000,
+        "edges": 1047,
+        "instance": "Spd_RF2_1000_1047_6043",
+        "value": 315,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1338508129119873
+    },
+    {
+        "vertices": 300,
+        "edges": 353,
+        "instance": "Spd_RF2_300_353_4267",
+        "value": 73,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.035283803939819336
+    },
+    {
+        "vertices": 180,
+        "edges": 200,
+        "instance": "Spd_RF2_180_200_3411",
+        "value": 48,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006369590759277344
+    },
+    {
+        "vertices": 400,
+        "edges": 429,
+        "instance": "Spd_RF2_400_429_4611",
+        "value": 113,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.027343273162841797
+    },
+    {
+        "vertices": 250,
+        "edges": 321,
+        "instance": "Spd_RF2_250_321_4099",
+        "value": 47,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.028134584426879883
+    },
+    {
+        "vertices": 450,
+        "edges": 614,
+        "instance": "Spd_RF2_450_614_4971",
+        "value": 80,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12160873413085938
+    },
+    {
+        "vertices": 60,
+        "edges": 71,
+        "instance": "Spd_RF2_60_71_1011",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0021915435791015625
+    },
+    {
+        "vertices": 180,
+        "edges": 263,
+        "instance": "Spd_RF2_180_263_3563",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02027416229248047
+    },
+    {
+        "vertices": 500,
+        "edges": 637,
+        "instance": "Spd_RF2_500_637_5131",
+        "value": 103,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09809327125549316
+    },
+    {
+        "vertices": 180,
+        "edges": 221,
+        "instance": "Spd_RF2_180_221_3475",
+        "value": 38,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01659250259399414
+    },
+    {
+        "vertices": 20,
+        "edges": 42,
+        "instance": "Spd_RF2_20_42_323",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004715919494628906
+    },
+    {
+        "vertices": 1000,
+        "edges": 1191,
+        "instance": "Spd_RF2_1000_1191_6139",
+        "value": 260,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.21877074241638184
+    },
+    {
+        "vertices": 120,
+        "edges": 152,
+        "instance": "Spd_RF2_120_152_2259",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008064746856689453
+    },
+    {
+        "vertices": 250,
+        "edges": 297,
+        "instance": "Spd_RF2_250_297_4051",
+        "value": 56,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.026668310165405273
+    },
+    {
+        "vertices": 700,
+        "edges": 861,
+        "instance": "Spd_RF2_700_861_5563",
+        "value": 167,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10091304779052734
+    },
+    {
+        "vertices": 40,
+        "edges": 81,
+        "instance": "Spd_RF2_40_81_731",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.000789642333984375
+    },
+    {
+        "vertices": 700,
+        "edges": 821,
+        "instance": "Spd_RF2_700_821_5499",
+        "value": 184,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12652325630187988
+    },
+    {
+        "vertices": 900,
+        "edges": 944,
+        "instance": "Spd_RF2_900_944_5835",
+        "value": 285,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1624455451965332
+    },
+    {
+        "vertices": 120,
+        "edges": 136,
+        "instance": "Spd_RF2_120_136_2211",
+        "value": 31,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003947019577026367
+    },
+    {
+        "vertices": 900,
+        "edges": 1124,
+        "instance": "Spd_RF2_900_1124_6003",
+        "value": 215,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.20412397384643555
+    },
+    {
+        "vertices": 500,
+        "edges": 568,
+        "instance": "Spd_RF2_500_568_5083",
+        "value": 124,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.061130523681640625
+    },
+    {
+        "vertices": 350,
+        "edges": 492,
+        "instance": "Spd_RF2_350_492_4571",
+        "value": 55,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06308984756469727
+    },
+    {
+        "vertices": 450,
+        "edges": 614,
+        "instance": "Spd_RF2_450_614_4995",
+        "value": 79,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10177946090698242
+    },
+    {
+        "vertices": 1000,
+        "edges": 1239,
+        "instance": "Spd_RF2_1000_1239_6171",
+        "value": 242,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.2299954891204834
+    },
+    {
+        "vertices": 800,
+        "edges": 843,
+        "instance": "Spd_RF2_800_843_5635",
+        "value": 250,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10546278953552246
+    },
+    {
+        "vertices": 500,
+        "edges": 534,
+        "instance": "Spd_RF2_500_534_5011",
+        "value": 143,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07198214530944824
+    },
+    {
+        "vertices": 180,
+        "edges": 242,
+        "instance": "Spd_RF2_180_242_3491",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.017116069793701172
+    },
+    {
+        "vertices": 600,
+        "edges": 712,
+        "instance": "Spd_RF2_600_712_5323",
+        "value": 156,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10157489776611328
+    },
+    {
+        "vertices": 140,
+        "edges": 229,
+        "instance": "Spd_RF2_140_229_2787",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.016292095184326172
+    },
+    {
+        "vertices": 450,
+        "edges": 515,
+        "instance": "Spd_RF2_450_515_4875",
+        "value": 113,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06831550598144531
+    },
+    {
+        "vertices": 450,
+        "edges": 482,
+        "instance": "Spd_RF2_450_482_4811",
+        "value": 127,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.045763254165649414
+    },
+    {
+        "vertices": 450,
+        "edges": 548,
+        "instance": "Spd_RF2_450_548_4907",
+        "value": 98,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11473727226257324
+    },
+    {
+        "vertices": 40,
+        "edges": 71,
+        "instance": "Spd_RF2_40_71_723",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0013458728790283203
+    },
+    {
+        "vertices": 160,
+        "edges": 257,
+        "instance": "Spd_RF2_160_257_3179",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01112222671508789
+    },
+    {
+        "vertices": 900,
+        "edges": 989,
+        "instance": "Spd_RF2_900_989_5851",
+        "value": 266,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.21067380905151367
+    },
+    {
+        "vertices": 180,
+        "edges": 263,
+        "instance": "Spd_RF2_180_263_3539",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01723480224609375
+    },
+    {
+        "vertices": 800,
+        "edges": 843,
+        "instance": "Spd_RF2_800_843_5611",
+        "value": 249,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1159515380859375
+    },
+    {
+        "vertices": 1000,
+        "edges": 1143,
+        "instance": "Spd_RF2_1000_1143_6091",
+        "value": 281,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.35037755966186523
+    },
+    {
+        "vertices": 700,
+        "edges": 902,
+        "instance": "Spd_RF2_700_902_5595",
+        "value": 158,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11116266250610352
+    },
+    {
+        "vertices": 140,
+        "edges": 193,
+        "instance": "Spd_RF2_140_193_2723",
+        "value": 22,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012967586517333984
+    },
+    {
+        "vertices": 350,
+        "edges": 406,
+        "instance": "Spd_RF2_350_406_4451",
+        "value": 84,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03346109390258789
+    },
+    {
+        "vertices": 350,
+        "edges": 435,
+        "instance": "Spd_RF2_350_435_4507",
+        "value": 71,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06366801261901855
+    },
+    {
+        "vertices": 200,
+        "edges": 222,
+        "instance": "Spd_RF2_200_222_3827",
+        "value": 52,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010572195053100586
+    },
+    {
+        "vertices": 800,
+        "edges": 930,
+        "instance": "Spd_RF2_800_930_5707",
+        "value": 214,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1375117301940918
+    },
+    {
+        "vertices": 1000,
+        "edges": 1047,
+        "instance": "Spd_RF2_1000_1047_6019",
+        "value": 317,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.2270188331604004
+    },
+    {
+        "vertices": 40,
+        "edges": 60,
+        "instance": "Spd_RF2_40_60_659",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0014348030090332031
+    },
+    {
+        "vertices": 20,
+        "edges": 34,
+        "instance": "Spd_RF2_20_34_275",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0009126663208007812
+    },
+    {
+        "vertices": 600,
+        "edges": 787,
+        "instance": "Spd_RF2_600_787_5371",
+        "value": 132,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14007258415222168
+    },
+    {
+        "vertices": 140,
+        "edges": 157,
+        "instance": "Spd_RF2_140_157_2627",
+        "value": 37,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012104034423828125
+    },
+    {
+        "vertices": 40,
+        "edges": 60,
+        "instance": "Spd_RF2_40_60_651",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004209041595458984
+    },
+    {
+        "vertices": 180,
+        "edges": 284,
+        "instance": "Spd_RF2_180_284_3571",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03549933433532715
+    },
+    {
+        "vertices": 80,
+        "edges": 147,
+        "instance": "Spd_RF2_80_147_1595",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0068852901458740234
+    },
+    {
+        "vertices": 500,
+        "edges": 672,
+        "instance": "Spd_RF2_500_672_5187",
+        "value": 83,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.22698616981506348
+    },
+    {
+        "vertices": 400,
+        "edges": 519,
+        "instance": "Spd_RF2_400_519_4755",
+        "value": 78,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11465096473693848
+    },
+    {
+        "vertices": 80,
+        "edges": 106,
+        "instance": "Spd_RF2_80_106_1483",
+        "value": 13,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00390934944152832
+    },
+    {
+        "vertices": 600,
+        "edges": 749,
+        "instance": "Spd_RF2_600_749_5347",
+        "value": 147,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08718323707580566
+    },
+    {
+        "vertices": 300,
+        "edges": 326,
+        "instance": "Spd_RF2_300_326_4243",
+        "value": 82,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01926898956298828
+    },
+    {
+        "vertices": 250,
+        "edges": 297,
+        "instance": "Spd_RF2_250_297_4059",
+        "value": 59,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.029100894927978516
+    },
+    {
+        "vertices": 300,
+        "edges": 434,
+        "instance": "Spd_RF2_300_434_4379",
+        "value": 43,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.039247989654541016
+    },
+    {
+        "vertices": 500,
+        "edges": 603,
+        "instance": "Spd_RF2_500_603_5107",
+        "value": 117,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11806678771972656
+    },
+    {
+        "vertices": 20,
+        "edges": 34,
+        "instance": "Spd_RF2_20_34_259",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004131793975830078
+    },
+    {
+        "vertices": 200,
+        "edges": 312,
+        "instance": "Spd_RF2_200_312_4003",
+        "value": 28,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0285336971282959
+    },
+    {
+        "vertices": 100,
+        "edges": 114,
+        "instance": "Spd_RF2_100_114_1827",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002626180648803711
+    },
+    {
+        "vertices": 120,
+        "edges": 152,
+        "instance": "Spd_RF2_120_152_2283",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003747701644897461
+    },
+    {
+        "vertices": 60,
+        "edges": 119,
+        "instance": "Spd_RF2_60_119_1195",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003091096878051758
+    },
+    {
+        "vertices": 1000,
+        "edges": 1095,
+        "instance": "Spd_RF2_1000_1095_6067",
+        "value": 298,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.3045766353607178
+    },
+    {
+        "vertices": 700,
+        "edges": 902,
+        "instance": "Spd_RF2_700_902_5579",
+        "value": 160,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10720467567443848
+    },
+    {
+        "vertices": 400,
+        "edges": 549,
+        "instance": "Spd_RF2_400_549_4803",
+        "value": 66,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06560301780700684
+    },
+    {
+        "vertices": 500,
+        "edges": 568,
+        "instance": "Spd_RF2_500_568_5067",
+        "value": 128,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08608102798461914
+    },
+    {
+        "vertices": 700,
+        "edges": 740,
+        "instance": "Spd_RF2_700_740_5443",
+        "value": 216,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07236170768737793
+    },
+    {
+        "vertices": 160,
+        "edges": 179,
+        "instance": "Spd_RF2_160_179_3027",
+        "value": 43,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011539220809936523
+    },
+    {
+        "vertices": 100,
+        "edges": 144,
+        "instance": "Spd_RF2_100_144_1915",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006232500076293945
+    },
+    {
+        "vertices": 700,
+        "edges": 861,
+        "instance": "Spd_RF2_700_861_5539",
+        "value": 171,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10681891441345215
+    },
+    {
+        "vertices": 450,
+        "edges": 614,
+        "instance": "Spd_RF2_450_614_4987",
+        "value": 73,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09791398048400879
+    },
+    {
+        "vertices": 200,
+        "edges": 222,
+        "instance": "Spd_RF2_200_222_3843",
+        "value": 54,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010337352752685547
+    },
+    {
+        "vertices": 40,
+        "edges": 92,
+        "instance": "Spd_RF2_40_92_779",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0008401870727539062
+    },
+    {
+        "vertices": 20,
+        "edges": 27,
+        "instance": "Spd_RF2_20_27_211",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004475116729736328
+    },
+    {
+        "vertices": 700,
+        "edges": 740,
+        "instance": "Spd_RF2_700_740_5419",
+        "value": 216,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06896471977233887
+    },
+    {
+        "vertices": 100,
+        "edges": 144,
+        "instance": "Spd_RF2_100_144_1923",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004376888275146484
+    },
+    {
+        "vertices": 700,
+        "edges": 861,
+        "instance": "Spd_RF2_700_861_5547",
+        "value": 170,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1028144359588623
+    },
+    {
+        "vertices": 300,
+        "edges": 380,
+        "instance": "Spd_RF2_300_380_4315",
+        "value": 57,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04572105407714844
+    },
+    {
+        "vertices": 1000,
+        "edges": 1143,
+        "instance": "Spd_RF2_1000_1143_6099",
+        "value": 275,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.18065357208251953
+    },
+    {
+        "vertices": 1000,
+        "edges": 1191,
+        "instance": "Spd_RF2_1000_1191_6155",
+        "value": 260,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.23338055610656738
+    },
+    {
+        "vertices": 180,
+        "edges": 263,
+        "instance": "Spd_RF2_180_263_3555",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01999068260192871
+    },
+    {
+        "vertices": 160,
+        "edges": 198,
+        "instance": "Spd_RF2_160_198_3083",
+        "value": 35,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013437986373901367
+    },
+    {
+        "vertices": 700,
+        "edges": 740,
+        "instance": "Spd_RF2_700_740_5427",
+        "value": 218,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07878899574279785
+    },
+    {
+        "vertices": 120,
+        "edges": 136,
+        "instance": "Spd_RF2_120_136_2227",
+        "value": 30,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004904270172119141
+    },
+    {
+        "vertices": 20,
+        "edges": 42,
+        "instance": "Spd_RF2_20_42_307",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0005528926849365234
+    },
+    {
+        "vertices": 120,
+        "edges": 169,
+        "instance": "Spd_RF2_120_169_2291",
+        "value": 20,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00834965705871582
+    },
+    {
+        "vertices": 120,
+        "edges": 202,
+        "instance": "Spd_RF2_120_202_2395",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009342432022094727
+    },
+    {
+        "vertices": 600,
+        "edges": 749,
+        "instance": "Spd_RF2_600_749_5355",
+        "value": 148,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06960296630859375
+    },
+    {
+        "vertices": 40,
+        "edges": 81,
+        "instance": "Spd_RF2_40_81_739",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0026540756225585938
+    },
+    {
+        "vertices": 300,
+        "edges": 380,
+        "instance": "Spd_RF2_300_380_4299",
+        "value": 58,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03125882148742676
+    },
+    {
+        "vertices": 140,
+        "edges": 229,
+        "instance": "Spd_RF2_140_229_2771",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013705253601074219
+    },
+    {
+        "vertices": 800,
+        "edges": 886,
+        "instance": "Spd_RF2_800_886_5683",
+        "value": 232,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14686298370361328
+    },
+    {
+        "vertices": 900,
+        "edges": 1124,
+        "instance": "Spd_RF2_900_1124_5995",
+        "value": 210,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1175229549407959
+    },
+    {
+        "vertices": 100,
+        "edges": 129,
+        "instance": "Spd_RF2_100_129_1859",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007381916046142578
+    },
+    {
+        "vertices": 100,
+        "edges": 144,
+        "instance": "Spd_RF2_100_144_1907",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004067182540893555
+    },
+    {
+        "vertices": 300,
+        "edges": 326,
+        "instance": "Spd_RF2_300_326_4227",
+        "value": 82,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.018666982650756836
+    },
+    {
+        "vertices": 600,
+        "edges": 674,
+        "instance": "Spd_RF2_600_674_5251",
+        "value": 170,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0783379077911377
+    },
+    {
+        "vertices": 40,
+        "edges": 71,
+        "instance": "Spd_RF2_40_71_707",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002079010009765625
+    },
+    {
+        "vertices": 900,
+        "edges": 944,
+        "instance": "Spd_RF2_900_944_5819",
+        "value": 284,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14763593673706055
+    },
+    {
+        "vertices": 80,
+        "edges": 147,
+        "instance": "Spd_RF2_80_147_1571",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0053060054779052734
+    },
+    {
+        "vertices": 20,
+        "edges": 49,
+        "instance": "Spd_RF2_20_49_355",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003783702850341797
+    },
+    {
+        "vertices": 300,
+        "edges": 380,
+        "instance": "Spd_RF2_300_380_4323",
+        "value": 61,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03458571434020996
+    },
+    {
+        "vertices": 300,
+        "edges": 434,
+        "instance": "Spd_RF2_300_434_4387",
+        "value": 45,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04823732376098633
+    },
+    {
+        "vertices": 800,
+        "edges": 843,
+        "instance": "Spd_RF2_800_843_5619",
+        "value": 248,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11228728294372559
+    },
+    {
+        "vertices": 60,
+        "edges": 107,
+        "instance": "Spd_RF2_60_107_1131",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002883434295654297
+    },
+    {
+        "vertices": 900,
+        "edges": 989,
+        "instance": "Spd_RF2_900_989_5883",
+        "value": 262,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14495849609375
+    },
+    {
+        "vertices": 600,
+        "edges": 674,
+        "instance": "Spd_RF2_600_674_5267",
+        "value": 172,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1000523567199707
+    },
+    {
+        "vertices": 200,
+        "edges": 267,
+        "instance": "Spd_RF2_200_267_3891",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.030883312225341797
+    },
+    {
+        "vertices": 20,
+        "edges": 49,
+        "instance": "Spd_RF2_20_49_363",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00045180320739746094
+    },
+    {
+        "vertices": 400,
+        "edges": 489,
+        "instance": "Spd_RF2_400_489_4723",
+        "value": 86,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0775446891784668
+    },
+    {
+        "vertices": 400,
+        "edges": 549,
+        "instance": "Spd_RF2_400_549_4779",
+        "value": 63,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07997679710388184
+    },
+    {
+        "vertices": 300,
+        "edges": 434,
+        "instance": "Spd_RF2_300_434_4371",
+        "value": 43,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0500178337097168
+    },
+    {
+        "vertices": 600,
+        "edges": 712,
+        "instance": "Spd_RF2_600_712_5299",
+        "value": 160,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08896660804748535
+    },
+    {
+        "vertices": 350,
+        "edges": 463,
+        "instance": "Spd_RF2_350_463_4539",
+        "value": 67,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07129287719726562
+    },
+    {
+        "vertices": 1000,
+        "edges": 1095,
+        "instance": "Spd_RF2_1000_1095_6075",
+        "value": 296,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.22189688682556152
+    },
+    {
+        "vertices": 350,
+        "edges": 406,
+        "instance": "Spd_RF2_350_406_4475",
+        "value": 83,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.046387672424316406
+    },
+    {
+        "vertices": 160,
+        "edges": 218,
+        "instance": "Spd_RF2_160_218_3091",
+        "value": 26,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012570381164550781
+    },
+    {
+        "vertices": 180,
+        "edges": 221,
+        "instance": "Spd_RF2_180_221_3451",
+        "value": 37,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.014555692672729492
+    },
+    {
+        "vertices": 20,
+        "edges": 27,
+        "instance": "Spd_RF2_20_27_243",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00021409988403320312
+    },
+    {
+        "vertices": 60,
+        "edges": 107,
+        "instance": "Spd_RF2_60_107_1147",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0028121471405029297
+    },
+    {
+        "vertices": 80,
+        "edges": 93,
+        "instance": "Spd_RF2_80_93_1411",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0029282569885253906
+    },
+    {
+        "vertices": 450,
+        "edges": 482,
+        "instance": "Spd_RF2_450_482_4835",
+        "value": 128,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04735565185546875
+    },
+    {
+        "vertices": 300,
+        "edges": 353,
+        "instance": "Spd_RF2_300_353_4251",
+        "value": 69,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.019300460815429688
+    },
+    {
+        "vertices": 300,
+        "edges": 326,
+        "instance": "Spd_RF2_300_326_4235",
+        "value": 82,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01849079132080078
+    },
+    {
+        "vertices": 900,
+        "edges": 1079,
+        "instance": "Spd_RF2_900_1079_5955",
+        "value": 231,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.19794607162475586
+    },
+    {
+        "vertices": 80,
+        "edges": 120,
+        "instance": "Spd_RF2_80_120_1523",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0042726993560791016
+    },
+    {
+        "vertices": 140,
+        "edges": 211,
+        "instance": "Spd_RF2_140_211_2763",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013118743896484375
+    },
+    {
+        "vertices": 60,
+        "edges": 83,
+        "instance": "Spd_RF2_60_83_1083",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0026013851165771484
+    },
+    {
+        "vertices": 40,
+        "edges": 50,
+        "instance": "Spd_RF2_40_50_643",
+        "value": 8,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0014696121215820312
+    },
+    {
+        "vertices": 600,
+        "edges": 787,
+        "instance": "Spd_RF2_600_787_5395",
+        "value": 134,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07094955444335938
+    },
+    {
+        "vertices": 140,
+        "edges": 211,
+        "instance": "Spd_RF2_140_211_2755",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007917642593383789
+    },
+    {
+        "vertices": 600,
+        "edges": 637,
+        "instance": "Spd_RF2_600_637_5219",
+        "value": 186,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07095193862915039
+    },
+    {
+        "vertices": 300,
+        "edges": 407,
+        "instance": "Spd_RF2_300_407_4347",
+        "value": 52,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0460963249206543
+    },
+    {
+        "vertices": 140,
+        "edges": 229,
+        "instance": "Spd_RF2_140_229_2795",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011762380599975586
+    },
+    {
+        "vertices": 250,
+        "edges": 297,
+        "instance": "Spd_RF2_250_297_4067",
+        "value": 53,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02433943748474121
+    },
+    {
+        "vertices": 120,
+        "edges": 169,
+        "instance": "Spd_RF2_120_169_2315",
+        "value": 20,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010658979415893555
+    },
+    {
+        "vertices": 120,
+        "edges": 152,
+        "instance": "Spd_RF2_120_152_2267",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006414890289306641
+    },
+    {
+        "vertices": 200,
+        "edges": 267,
+        "instance": "Spd_RF2_200_267_3899",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0204622745513916
+    },
+    {
+        "vertices": 300,
+        "edges": 353,
+        "instance": "Spd_RF2_300_353_4259",
+        "value": 71,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03042149543762207
+    },
+    {
+        "vertices": 60,
+        "edges": 119,
+        "instance": "Spd_RF2_60_119_1171",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002164602279663086
+    },
+    {
+        "vertices": 80,
+        "edges": 120,
+        "instance": "Spd_RF2_80_120_1515",
+        "value": 11,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004277944564819336
+    },
+    {
+        "vertices": 60,
+        "edges": 83,
+        "instance": "Spd_RF2_60_83_1067",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0017962455749511719
+    },
+    {
+        "vertices": 40,
+        "edges": 60,
+        "instance": "Spd_RF2_40_60_683",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0020020008087158203
+    },
+    {
+        "vertices": 120,
+        "edges": 136,
+        "instance": "Spd_RF2_120_136_2243",
+        "value": 32,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007485389709472656
+    },
+    {
+        "vertices": 400,
+        "edges": 549,
+        "instance": "Spd_RF2_400_549_4795",
+        "value": 64,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09097623825073242
+    },
+    {
+        "vertices": 450,
+        "edges": 515,
+        "instance": "Spd_RF2_450_515_4867",
+        "value": 112,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07122015953063965
+    },
+    {
+        "vertices": 250,
+        "edges": 345,
+        "instance": "Spd_RF2_250_345_4131",
+        "value": 37,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.025704145431518555
+    },
+    {
+        "vertices": 200,
+        "edges": 289,
+        "instance": "Spd_RF2_200_289_3963",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02294778823852539
+    },
+    {
+        "vertices": 140,
+        "edges": 229,
+        "instance": "Spd_RF2_140_229_2779",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01648092269897461
+    },
+    {
+        "vertices": 140,
+        "edges": 193,
+        "instance": "Spd_RF2_140_193_2715",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012094736099243164
+    },
+    {
+        "vertices": 1000,
+        "edges": 1191,
+        "instance": "Spd_RF2_1000_1191_6131",
+        "value": 262,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.297757625579834
+    },
+    {
+        "vertices": 60,
+        "edges": 71,
+        "instance": "Spd_RF2_60_71_1019",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0010483264923095703
+    },
+    {
+        "vertices": 80,
+        "edges": 147,
+        "instance": "Spd_RF2_80_147_1603",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005334138870239258
+    },
+    {
+        "vertices": 60,
+        "edges": 95,
+        "instance": "Spd_RF2_60_95_1115",
+        "value": 8,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0016813278198242188
+    },
+    {
+        "vertices": 80,
+        "edges": 93,
+        "instance": "Spd_RF2_80_93_1419",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00279998779296875
+    },
+    {
+        "vertices": 120,
+        "edges": 152,
+        "instance": "Spd_RF2_120_152_2275",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00820779800415039
+    },
+    {
+        "vertices": 40,
+        "edges": 81,
+        "instance": "Spd_RF2_40_81_747",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0020248889923095703
+    },
+    {
+        "vertices": 400,
+        "edges": 459,
+        "instance": "Spd_RF2_400_459_4659",
+        "value": 95,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05002140998840332
+    },
+    {
+        "vertices": 180,
+        "edges": 242,
+        "instance": "Spd_RF2_180_242_3507",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.016548633575439453
+    },
+    {
+        "vertices": 160,
+        "edges": 179,
+        "instance": "Spd_RF2_160_179_3035",
+        "value": 40,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006499052047729492
+    },
+    {
+        "vertices": 500,
+        "edges": 568,
+        "instance": "Spd_RF2_500_568_5051",
+        "value": 125,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07883453369140625
+    },
+    {
+        "vertices": 700,
+        "edges": 740,
+        "instance": "Spd_RF2_700_740_5435",
+        "value": 216,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08720731735229492
+    },
+    {
+        "vertices": 80,
+        "edges": 120,
+        "instance": "Spd_RF2_80_120_1507",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003209829330444336
+    },
+    {
+        "vertices": 200,
+        "edges": 289,
+        "instance": "Spd_RF2_200_289_3931",
+        "value": 26,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.022371292114257812
+    },
+    {
+        "vertices": 350,
+        "edges": 378,
+        "instance": "Spd_RF2_350_378_4411",
+        "value": 98,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03203415870666504
+    },
+    {
+        "vertices": 20,
+        "edges": 42,
+        "instance": "Spd_RF2_20_42_291",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0005114078521728516
+    },
+    {
+        "vertices": 20,
+        "edges": 27,
+        "instance": "Spd_RF2_20_27_235",
+        "value": 3,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00024271011352539062
+    },
+    {
+        "vertices": 80,
+        "edges": 106,
+        "instance": "Spd_RF2_80_106_1467",
+        "value": 15,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004831790924072266
+    },
+    {
+        "vertices": 120,
+        "edges": 169,
+        "instance": "Spd_RF2_120_169_2307",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010522603988647461
+    },
+    {
+        "vertices": 180,
+        "edges": 221,
+        "instance": "Spd_RF2_180_221_3483",
+        "value": 41,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010043621063232422
+    },
+    {
+        "vertices": 800,
+        "edges": 973,
+        "instance": "Spd_RF2_800_973_5763",
+        "value": 202,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16140389442443848
+    },
+    {
+        "vertices": 100,
+        "edges": 174,
+        "instance": "Spd_RF2_100_174_1979",
+        "value": 8,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006491184234619141
+    },
+    {
+        "vertices": 400,
+        "edges": 429,
+        "instance": "Spd_RF2_400_429_4643",
+        "value": 115,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.026389598846435547
+    },
+    {
+        "vertices": 700,
+        "edges": 821,
+        "instance": "Spd_RF2_700_821_5523",
+        "value": 189,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14937043190002441
+    },
+    {
+        "vertices": 120,
+        "edges": 136,
+        "instance": "Spd_RF2_120_136_2235",
+        "value": 31,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004608631134033203
+    },
+    {
+        "vertices": 450,
+        "edges": 548,
+        "instance": "Spd_RF2_450_548_4923",
+        "value": 99,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0828850269317627
+    },
+    {
+        "vertices": 400,
+        "edges": 459,
+        "instance": "Spd_RF2_400_459_4667",
+        "value": 99,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07361721992492676
+    },
+    {
+        "vertices": 250,
+        "edges": 369,
+        "instance": "Spd_RF2_250_369_4171",
+        "value": 33,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.027264118194580078
+    },
+    {
+        "vertices": 160,
+        "edges": 237,
+        "instance": "Spd_RF2_160_237_3155",
+        "value": 21,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015556573867797852
+    },
+    {
+        "vertices": 400,
+        "edges": 459,
+        "instance": "Spd_RF2_400_459_4683",
+        "value": 99,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06811046600341797
+    },
+    {
+        "vertices": 600,
+        "edges": 637,
+        "instance": "Spd_RF2_600_637_5227",
+        "value": 186,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07803177833557129
+    },
+    {
+        "vertices": 20,
+        "edges": 27,
+        "instance": "Spd_RF2_20_27_219",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00039124488830566406
+    },
+    {
+        "vertices": 20,
+        "edges": 49,
+        "instance": "Spd_RF2_20_49_339",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00037550926208496094
+    },
+    {
+        "vertices": 180,
+        "edges": 263,
+        "instance": "Spd_RF2_180_263_3547",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.014231681823730469
+    },
+    {
+        "vertices": 450,
+        "edges": 548,
+        "instance": "Spd_RF2_450_548_4899",
+        "value": 94,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07133603096008301
+    },
+    {
+        "vertices": 800,
+        "edges": 843,
+        "instance": "Spd_RF2_800_843_5627",
+        "value": 250,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11366796493530273
+    },
+    {
+        "vertices": 900,
+        "edges": 944,
+        "instance": "Spd_RF2_900_944_5811",
+        "value": 283,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.20415878295898438
+    },
+    {
+        "vertices": 700,
+        "edges": 740,
+        "instance": "Spd_RF2_700_740_5411",
+        "value": 218,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08787250518798828
+    },
+    {
+        "vertices": 450,
+        "edges": 581,
+        "instance": "Spd_RF2_450_581_4931",
+        "value": 85,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08119320869445801
+    },
+    {
+        "vertices": 400,
+        "edges": 549,
+        "instance": "Spd_RF2_400_549_4787",
+        "value": 65,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07076621055603027
+    },
+    {
+        "vertices": 60,
+        "edges": 95,
+        "instance": "Spd_RF2_60_95_1099",
+        "value": 8,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0030319690704345703
+    },
+    {
+        "vertices": 800,
+        "edges": 886,
+        "instance": "Spd_RF2_800_886_5659",
+        "value": 233,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13815665245056152
+    },
+    {
+        "vertices": 450,
+        "edges": 581,
+        "instance": "Spd_RF2_450_581_4955",
+        "value": 87,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11237311363220215
+    },
+    {
+        "vertices": 20,
+        "edges": 34,
+        "instance": "Spd_RF2_20_34_283",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003418922424316406
+    },
+    {
+        "vertices": 120,
+        "edges": 202,
+        "instance": "Spd_RF2_120_202_2379",
+        "value": 15,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011219978332519531
+    },
+    {
+        "vertices": 20,
+        "edges": 49,
+        "instance": "Spd_RF2_20_49_347",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00045800209045410156
+    },
+    {
+        "vertices": 700,
+        "edges": 780,
+        "instance": "Spd_RF2_700_780_5451",
+        "value": 203,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10676002502441406
+    },
+    {
+        "vertices": 600,
+        "edges": 749,
+        "instance": "Spd_RF2_600_749_5363",
+        "value": 143,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08276605606079102
+    },
+    {
+        "vertices": 60,
+        "edges": 95,
+        "instance": "Spd_RF2_60_95_1123",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002092599868774414
+    },
+    {
+        "vertices": 200,
+        "edges": 267,
+        "instance": "Spd_RF2_200_267_3907",
+        "value": 33,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012126922607421875
+    },
+    {
+        "vertices": 160,
+        "edges": 257,
+        "instance": "Spd_RF2_160_257_3203",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011603355407714844
+    },
+    {
+        "vertices": 20,
+        "edges": 34,
+        "instance": "Spd_RF2_20_34_251",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003962516784667969
+    },
+    {
+        "vertices": 900,
+        "edges": 1079,
+        "instance": "Spd_RF2_900_1079_5947",
+        "value": 233,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.21290326118469238
+    },
+    {
+        "vertices": 350,
+        "edges": 378,
+        "instance": "Spd_RF2_350_378_4435",
+        "value": 95,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02106189727783203
+    },
+    {
+        "vertices": 500,
+        "edges": 603,
+        "instance": "Spd_RF2_500_603_5091",
+        "value": 116,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10369372367858887
+    },
+    {
+        "vertices": 80,
+        "edges": 120,
+        "instance": "Spd_RF2_80_120_1491",
+        "value": 10,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003444194793701172
+    },
+    {
+        "vertices": 350,
+        "edges": 378,
+        "instance": "Spd_RF2_350_378_4427",
+        "value": 97,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.029234886169433594
+    },
+    {
+        "vertices": 180,
+        "edges": 200,
+        "instance": "Spd_RF2_180_200_3443",
+        "value": 45,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010988473892211914
+    },
+    {
+        "vertices": 140,
+        "edges": 157,
+        "instance": "Spd_RF2_140_157_2635",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005797147750854492
+    },
+    {
+        "vertices": 700,
+        "edges": 902,
+        "instance": "Spd_RF2_700_902_5603",
+        "value": 163,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12854623794555664
+    },
+    {
+        "vertices": 900,
+        "edges": 1079,
+        "instance": "Spd_RF2_900_1079_5939",
+        "value": 233,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.2230973243713379
+    },
+    {
+        "vertices": 800,
+        "edges": 886,
+        "instance": "Spd_RF2_800_886_5651",
+        "value": 233,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12946772575378418
+    },
+    {
+        "vertices": 800,
+        "edges": 973,
+        "instance": "Spd_RF2_800_973_5739",
+        "value": 195,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.15370750427246094
+    },
+    {
+        "vertices": 40,
+        "edges": 50,
+        "instance": "Spd_RF2_40_50_619",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0006208419799804688
+    },
+    {
+        "vertices": 300,
+        "edges": 326,
+        "instance": "Spd_RF2_300_326_4211",
+        "value": 83,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.020443439483642578
+    },
+    {
+        "vertices": 1000,
+        "edges": 1047,
+        "instance": "Spd_RF2_1000_1047_6035",
+        "value": 315,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16510987281799316
+    },
+    {
+        "vertices": 500,
+        "edges": 534,
+        "instance": "Spd_RF2_500_534_5043",
+        "value": 142,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.054595232009887695
+    },
+    {
+        "vertices": 200,
+        "edges": 312,
+        "instance": "Spd_RF2_200_312_3995",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.022228240966796875
+    },
+    {
+        "vertices": 300,
+        "edges": 407,
+        "instance": "Spd_RF2_300_407_4339",
+        "value": 54,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04486966133117676
+    },
+    {
+        "vertices": 120,
+        "edges": 202,
+        "instance": "Spd_RF2_120_202_2403",
+        "value": 15,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009804725646972656
+    },
+    {
+        "vertices": 600,
+        "edges": 712,
+        "instance": "Spd_RF2_600_712_5307",
+        "value": 155,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08161330223083496
+    },
+    {
+        "vertices": 250,
+        "edges": 369,
+        "instance": "Spd_RF2_250_369_4203",
+        "value": 33,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03508424758911133
+    },
+    {
+        "vertices": 250,
+        "edges": 345,
+        "instance": "Spd_RF2_250_345_4155",
+        "value": 38,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03529858589172363
+    },
+    {
+        "vertices": 1000,
+        "edges": 1095,
+        "instance": "Spd_RF2_1000_1095_6083",
+        "value": 297,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.19487857818603516
+    },
+    {
+        "vertices": 80,
+        "edges": 106,
+        "instance": "Spd_RF2_80_106_1459",
+        "value": 13,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002331256866455078
+    },
+    {
+        "vertices": 180,
+        "edges": 242,
+        "instance": "Spd_RF2_180_242_3499",
+        "value": 31,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0188901424407959
+    },
+    {
+        "vertices": 40,
+        "edges": 81,
+        "instance": "Spd_RF2_40_81_763",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0009539127349853516
+    },
+    {
+        "vertices": 60,
+        "edges": 71,
+        "instance": "Spd_RF2_60_71_1035",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0014789104461669922
+    },
+    {
+        "vertices": 180,
+        "edges": 200,
+        "instance": "Spd_RF2_180_200_3427",
+        "value": 47,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008484363555908203
+    },
+    {
+        "vertices": 120,
+        "edges": 185,
+        "instance": "Spd_RF2_120_185_2355",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008262395858764648
+    },
+    {
+        "vertices": 300,
+        "edges": 380,
+        "instance": "Spd_RF2_300_380_4307",
+        "value": 59,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0420076847076416
+    },
+    {
+        "vertices": 450,
+        "edges": 581,
+        "instance": "Spd_RF2_450_581_4963",
+        "value": 83,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07835531234741211
+    },
+    {
+        "vertices": 80,
+        "edges": 147,
+        "instance": "Spd_RF2_80_147_1587",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004061222076416016
+    },
+    {
+        "vertices": 350,
+        "edges": 378,
+        "instance": "Spd_RF2_350_378_4443",
+        "value": 96,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.030820369720458984
+    },
+    {
+        "vertices": 120,
+        "edges": 169,
+        "instance": "Spd_RF2_120_169_2299",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006953001022338867
+    },
+    {
+        "vertices": 350,
+        "edges": 378,
+        "instance": "Spd_RF2_350_378_4419",
+        "value": 95,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.026604175567626953
+    },
+    {
+        "vertices": 80,
+        "edges": 120,
+        "instance": "Spd_RF2_80_120_1499",
+        "value": 10,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004669666290283203
+    },
+    {
+        "vertices": 140,
+        "edges": 175,
+        "instance": "Spd_RF2_140_175_2667",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008414983749389648
+    },
+    {
+        "vertices": 800,
+        "edges": 930,
+        "instance": "Spd_RF2_800_930_5691",
+        "value": 215,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13341617584228516
+    },
+    {
+        "vertices": 250,
+        "edges": 273,
+        "instance": "Spd_RF2_250_273_4035",
+        "value": 67,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015086889266967773
+    },
+    {
+        "vertices": 100,
+        "edges": 174,
+        "instance": "Spd_RF2_100_174_1995",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007986307144165039
+    },
+    {
+        "vertices": 140,
+        "edges": 175,
+        "instance": "Spd_RF2_140_175_2659",
+        "value": 28,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0076482295989990234
+    },
+    {
+        "vertices": 100,
+        "edges": 129,
+        "instance": "Spd_RF2_100_129_1875",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005336284637451172
+    },
+    {
+        "vertices": 60,
+        "edges": 107,
+        "instance": "Spd_RF2_60_107_1155",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0025980472564697266
+    },
+    {
+        "vertices": 160,
+        "edges": 257,
+        "instance": "Spd_RF2_160_257_3171",
+        "value": 22,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.016560077667236328
+    },
+    {
+        "vertices": 20,
+        "edges": 42,
+        "instance": "Spd_RF2_20_42_299",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.000400543212890625
+    },
+    {
+        "vertices": 250,
+        "edges": 369,
+        "instance": "Spd_RF2_250_369_4179",
+        "value": 32,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04471564292907715
+    },
+    {
+        "vertices": 600,
+        "edges": 674,
+        "instance": "Spd_RF2_600_674_5275",
+        "value": 170,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06013989448547363
+    },
+    {
+        "vertices": 600,
+        "edges": 637,
+        "instance": "Spd_RF2_600_637_5211",
+        "value": 186,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0710744857788086
+    },
+    {
+        "vertices": 100,
+        "edges": 114,
+        "instance": "Spd_RF2_100_114_1835",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005140781402587891
+    },
+    {
+        "vertices": 450,
+        "edges": 614,
+        "instance": "Spd_RF2_450_614_5003",
+        "value": 81,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1302635669708252
+    },
+    {
+        "vertices": 160,
+        "edges": 179,
+        "instance": "Spd_RF2_160_179_3043",
+        "value": 40,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006854534149169922
+    },
+    {
+        "vertices": 800,
+        "edges": 930,
+        "instance": "Spd_RF2_800_930_5715",
+        "value": 219,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13694143295288086
+    },
+    {
+        "vertices": 300,
+        "edges": 353,
+        "instance": "Spd_RF2_300_353_4275",
+        "value": 72,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03534865379333496
+    },
+    {
+        "vertices": 800,
+        "edges": 886,
+        "instance": "Spd_RF2_800_886_5675",
+        "value": 232,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10133981704711914
+    },
+    {
+        "vertices": 500,
+        "edges": 637,
+        "instance": "Spd_RF2_500_637_5139",
+        "value": 100,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11260724067687988
+    },
+    {
+        "vertices": 180,
+        "edges": 284,
+        "instance": "Spd_RF2_180_284_3603",
+        "value": 26,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.018712520599365234
+    },
+    {
+        "vertices": 500,
+        "edges": 672,
+        "instance": "Spd_RF2_500_672_5171",
+        "value": 90,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1431887149810791
+    },
+    {
+        "vertices": 700,
+        "edges": 821,
+        "instance": "Spd_RF2_700_821_5515",
+        "value": 185,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12546348571777344
+    },
+    {
+        "vertices": 40,
+        "edges": 92,
+        "instance": "Spd_RF2_40_92_795",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0008289813995361328
+    },
+    {
+        "vertices": 400,
+        "edges": 429,
+        "instance": "Spd_RF2_400_429_4627",
+        "value": 113,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.025933504104614258
+    },
+    {
+        "vertices": 100,
+        "edges": 114,
+        "instance": "Spd_RF2_100_114_1819",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002210378646850586
+    },
+    {
+        "vertices": 700,
+        "edges": 861,
+        "instance": "Spd_RF2_700_861_5531",
+        "value": 172,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12607526779174805
+    },
+    {
+        "vertices": 200,
+        "edges": 222,
+        "instance": "Spd_RF2_200_222_3835",
+        "value": 53,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010777950286865234
+    },
+    {
+        "vertices": 1000,
+        "edges": 1143,
+        "instance": "Spd_RF2_1000_1143_6115",
+        "value": 280,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.22635102272033691
+    },
+    {
+        "vertices": 200,
+        "edges": 289,
+        "instance": "Spd_RF2_200_289_3939",
+        "value": 30,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02543926239013672
+    },
+    {
+        "vertices": 60,
+        "edges": 83,
+        "instance": "Spd_RF2_60_83_1051",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0028209686279296875
+    },
+    {
+        "vertices": 100,
+        "edges": 174,
+        "instance": "Spd_RF2_100_174_2003",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005815267562866211
+    },
+    {
+        "vertices": 250,
+        "edges": 345,
+        "instance": "Spd_RF2_250_345_4147",
+        "value": 41,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.032973527908325195
+    },
+    {
+        "vertices": 1000,
+        "edges": 1191,
+        "instance": "Spd_RF2_1000_1191_6163",
+        "value": 260,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.26837587356567383
+    },
+    {
+        "vertices": 300,
+        "edges": 407,
+        "instance": "Spd_RF2_300_407_4363",
+        "value": 51,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04672741889953613
+    },
+    {
+        "vertices": 900,
+        "edges": 1034,
+        "instance": "Spd_RF2_900_1034_5899",
+        "value": 248,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.19617938995361328
+    },
+    {
+        "vertices": 200,
+        "edges": 244,
+        "instance": "Spd_RF2_200_244_3883",
+        "value": 40,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.022034406661987305
+    },
+    {
+        "vertices": 350,
+        "edges": 435,
+        "instance": "Spd_RF2_350_435_4515",
+        "value": 73,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.046385765075683594
+    },
+    {
+        "vertices": 160,
+        "edges": 218,
+        "instance": "Spd_RF2_160_218_3115",
+        "value": 28,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012463808059692383
+    },
+    {
+        "vertices": 400,
+        "edges": 519,
+        "instance": "Spd_RF2_400_519_4747",
+        "value": 79,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09401535987854004
+    },
+    {
+        "vertices": 100,
+        "edges": 144,
+        "instance": "Spd_RF2_100_144_1899",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.027341604232788086
+    },
+    {
+        "vertices": 450,
+        "edges": 581,
+        "instance": "Spd_RF2_450_581_4947",
+        "value": 85,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10693478584289551
+    },
+    {
+        "vertices": 160,
+        "edges": 198,
+        "instance": "Spd_RF2_160_198_3067",
+        "value": 33,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008235931396484375
+    },
+    {
+        "vertices": 500,
+        "edges": 534,
+        "instance": "Spd_RF2_500_534_5027",
+        "value": 143,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.042998313903808594
+    },
+    {
+        "vertices": 100,
+        "edges": 129,
+        "instance": "Spd_RF2_100_129_1867",
+        "value": 17,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004775285720825195
+    },
+    {
+        "vertices": 800,
+        "edges": 930,
+        "instance": "Spd_RF2_800_930_5723",
+        "value": 214,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14775919914245605
+    },
+    {
+        "vertices": 700,
+        "edges": 902,
+        "instance": "Spd_RF2_700_902_5587",
+        "value": 164,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12778139114379883
+    },
+    {
+        "vertices": 140,
+        "edges": 157,
+        "instance": "Spd_RF2_140_157_2611",
+        "value": 35,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0046155452728271484
+    },
+    {
+        "vertices": 450,
+        "edges": 515,
+        "instance": "Spd_RF2_450_515_4851",
+        "value": 110,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06811285018920898
+    },
+    {
+        "vertices": 1000,
+        "edges": 1191,
+        "instance": "Spd_RF2_1000_1191_6147",
+        "value": 258,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.230604887008667
+    },
+    {
+        "vertices": 350,
+        "edges": 435,
+        "instance": "Spd_RF2_350_435_4523",
+        "value": 73,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06910991668701172
+    },
+    {
+        "vertices": 900,
+        "edges": 989,
+        "instance": "Spd_RF2_900_989_5859",
+        "value": 265,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1971879005432129
+    },
+    {
+        "vertices": 900,
+        "edges": 1034,
+        "instance": "Spd_RF2_900_1034_5923",
+        "value": 246,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16078686714172363
+    },
+    {
+        "vertices": 20,
+        "edges": 57,
+        "instance": "Spd_RF2_20_57_403",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004076957702636719
+    },
+    {
+        "vertices": 800,
+        "edges": 1017,
+        "instance": "Spd_RF2_800_1017_5787",
+        "value": 186,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1563889980316162
+    },
+    {
+        "vertices": 80,
+        "edges": 147,
+        "instance": "Spd_RF2_80_147_1579",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004091739654541016
+    },
+    {
+        "vertices": 300,
+        "edges": 434,
+        "instance": "Spd_RF2_300_434_4395",
+        "value": 46,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05809617042541504
+    },
+    {
+        "vertices": 80,
+        "edges": 93,
+        "instance": "Spd_RF2_80_93_1443",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003699064254760742
+    },
+    {
+        "vertices": 60,
+        "edges": 119,
+        "instance": "Spd_RF2_60_119_1179",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0033111572265625
+    },
+    {
+        "vertices": 140,
+        "edges": 175,
+        "instance": "Spd_RF2_140_175_2651",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009434223175048828
+    },
+    {
+        "vertices": 20,
+        "edges": 49,
+        "instance": "Spd_RF2_20_49_331",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003762245178222656
+    },
+    {
+        "vertices": 700,
+        "edges": 902,
+        "instance": "Spd_RF2_700_902_5571",
+        "value": 166,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.10218214988708496
+    },
+    {
+        "vertices": 250,
+        "edges": 273,
+        "instance": "Spd_RF2_250_273_4019",
+        "value": 67,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.016930341720581055
+    },
+    {
+        "vertices": 180,
+        "edges": 221,
+        "instance": "Spd_RF2_180_221_3459",
+        "value": 37,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015455007553100586
+    },
+    {
+        "vertices": 200,
+        "edges": 312,
+        "instance": "Spd_RF2_200_312_3987",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015822887420654297
+    },
+    {
+        "vertices": 600,
+        "edges": 749,
+        "instance": "Spd_RF2_600_749_5331",
+        "value": 145,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11256551742553711
+    },
+    {
+        "vertices": 900,
+        "edges": 944,
+        "instance": "Spd_RF2_900_944_5843",
+        "value": 283,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.17043638229370117
+    },
+    {
+        "vertices": 900,
+        "edges": 1124,
+        "instance": "Spd_RF2_900_1124_5979",
+        "value": 221,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.182417631149292
+    },
+    {
+        "vertices": 400,
+        "edges": 549,
+        "instance": "Spd_RF2_400_549_4771",
+        "value": 65,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07832217216491699
+    },
+    {
+        "vertices": 800,
+        "edges": 1017,
+        "instance": "Spd_RF2_800_1017_5779",
+        "value": 183,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1772456169128418
+    },
+    {
+        "vertices": 200,
+        "edges": 267,
+        "instance": "Spd_RF2_200_267_3915",
+        "value": 35,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02023005485534668
+    },
+    {
+        "vertices": 600,
+        "edges": 712,
+        "instance": "Spd_RF2_600_712_5291",
+        "value": 158,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12144613265991211
+    },
+    {
+        "vertices": 60,
+        "edges": 119,
+        "instance": "Spd_RF2_60_119_1187",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0018658638000488281
+    },
+    {
+        "vertices": 60,
+        "edges": 95,
+        "instance": "Spd_RF2_60_95_1107",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0024394989013671875
+    },
+    {
+        "vertices": 20,
+        "edges": 57,
+        "instance": "Spd_RF2_20_57_395",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0006020069122314453
+    },
+    {
+        "vertices": 250,
+        "edges": 273,
+        "instance": "Spd_RF2_250_273_4027",
+        "value": 66,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012513160705566406
+    },
+    {
+        "vertices": 700,
+        "edges": 780,
+        "instance": "Spd_RF2_700_780_5483",
+        "value": 204,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11137127876281738
+    },
+    {
+        "vertices": 500,
+        "edges": 672,
+        "instance": "Spd_RF2_500_672_5195",
+        "value": 88,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.14298510551452637
+    },
+    {
+        "vertices": 600,
+        "edges": 637,
+        "instance": "Spd_RF2_600_637_5243",
+        "value": 185,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06503963470458984
+    },
+    {
+        "vertices": 350,
+        "edges": 463,
+        "instance": "Spd_RF2_350_463_4531",
+        "value": 68,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05587172508239746
+    },
+    {
+        "vertices": 120,
+        "edges": 185,
+        "instance": "Spd_RF2_120_185_2339",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008966445922851562
+    },
+    {
+        "vertices": 140,
+        "edges": 229,
+        "instance": "Spd_RF2_140_229_2803",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0162656307220459
+    },
+    {
+        "vertices": 80,
+        "edges": 133,
+        "instance": "Spd_RF2_80_133_1555",
+        "value": 7,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003856658935546875
+    },
+    {
+        "vertices": 100,
+        "edges": 174,
+        "instance": "Spd_RF2_100_174_1987",
+        "value": 10,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007465839385986328
+    },
+    {
+        "vertices": 200,
+        "edges": 222,
+        "instance": "Spd_RF2_200_222_3811",
+        "value": 51,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006746530532836914
+    },
+    {
+        "vertices": 200,
+        "edges": 267,
+        "instance": "Spd_RF2_200_267_3923",
+        "value": 35,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.017192840576171875
+    },
+    {
+        "vertices": 500,
+        "edges": 637,
+        "instance": "Spd_RF2_500_637_5163",
+        "value": 92,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09466218948364258
+    },
+    {
+        "vertices": 200,
+        "edges": 244,
+        "instance": "Spd_RF2_200_244_3859",
+        "value": 44,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012668132781982422
+    },
+    {
+        "vertices": 1000,
+        "edges": 1143,
+        "instance": "Spd_RF2_1000_1143_6107",
+        "value": 279,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.26492977142333984
+    },
+    {
+        "vertices": 60,
+        "edges": 107,
+        "instance": "Spd_RF2_60_107_1163",
+        "value": 5,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.002604246139526367
+    },
+    {
+        "vertices": 40,
+        "edges": 50,
+        "instance": "Spd_RF2_40_50_635",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0012094974517822266
+    },
+    {
+        "vertices": 200,
+        "edges": 222,
+        "instance": "Spd_RF2_200_222_3819",
+        "value": 51,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00924229621887207
+    },
+    {
+        "vertices": 400,
+        "edges": 459,
+        "instance": "Spd_RF2_400_459_4675",
+        "value": 100,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06094074249267578
+    },
+    {
+        "vertices": 120,
+        "edges": 202,
+        "instance": "Spd_RF2_120_202_2387",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008343696594238281
+    },
+    {
+        "vertices": 900,
+        "edges": 944,
+        "instance": "Spd_RF2_900_944_5827",
+        "value": 283,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16194844245910645
+    },
+    {
+        "vertices": 200,
+        "edges": 244,
+        "instance": "Spd_RF2_200_244_3867",
+        "value": 42,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015653610229492188
+    },
+    {
+        "vertices": 250,
+        "edges": 273,
+        "instance": "Spd_RF2_250_273_4011",
+        "value": 68,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013788223266601562
+    },
+    {
+        "vertices": 350,
+        "edges": 492,
+        "instance": "Spd_RF2_350_492_4603",
+        "value": 55,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07095646858215332
+    },
+    {
+        "vertices": 140,
+        "edges": 175,
+        "instance": "Spd_RF2_140_175_2675",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007139444351196289
+    },
+    {
+        "vertices": 40,
+        "edges": 92,
+        "instance": "Spd_RF2_40_92_803",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0011403560638427734
+    },
+    {
+        "vertices": 600,
+        "edges": 637,
+        "instance": "Spd_RF2_600_637_5235",
+        "value": 186,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.047875404357910156
+    },
+    {
+        "vertices": 500,
+        "edges": 568,
+        "instance": "Spd_RF2_500_568_5075",
+        "value": 125,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0632319450378418
+    },
+    {
+        "vertices": 160,
+        "edges": 198,
+        "instance": "Spd_RF2_160_198_3075",
+        "value": 33,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011896133422851562
+    },
+    {
+        "vertices": 40,
+        "edges": 92,
+        "instance": "Spd_RF2_40_92_771",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0010862350463867188
+    },
+    {
+        "vertices": 1000,
+        "edges": 1095,
+        "instance": "Spd_RF2_1000_1095_6051",
+        "value": 295,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.23988723754882812
+    },
+    {
+        "vertices": 1000,
+        "edges": 1239,
+        "instance": "Spd_RF2_1000_1239_6179",
+        "value": 246,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.3026447296142578
+    },
+    {
+        "vertices": 900,
+        "edges": 989,
+        "instance": "Spd_RF2_900_989_5875",
+        "value": 265,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.21628642082214355
+    },
+    {
+        "vertices": 160,
+        "edges": 198,
+        "instance": "Spd_RF2_160_198_3051",
+        "value": 35,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013396978378295898
+    },
+    {
+        "vertices": 400,
+        "edges": 489,
+        "instance": "Spd_RF2_400_489_4707",
+        "value": 86,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08377456665039062
+    },
+    {
+        "vertices": 500,
+        "edges": 603,
+        "instance": "Spd_RF2_500_603_5115",
+        "value": 114,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13068747520446777
+    },
+    {
+        "vertices": 250,
+        "edges": 321,
+        "instance": "Spd_RF2_250_321_4115",
+        "value": 45,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.025902986526489258
+    },
+    {
+        "vertices": 160,
+        "edges": 257,
+        "instance": "Spd_RF2_160_257_3187",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0305788516998291
+    },
+    {
+        "vertices": 100,
+        "edges": 159,
+        "instance": "Spd_RF2_100_159_1955",
+        "value": 10,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005856513977050781
+    },
+    {
+        "vertices": 700,
+        "edges": 861,
+        "instance": "Spd_RF2_700_861_5555",
+        "value": 172,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12211060523986816
+    },
+    {
+        "vertices": 300,
+        "edges": 407,
+        "instance": "Spd_RF2_300_407_4331",
+        "value": 55,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04624462127685547
+    },
+    {
+        "vertices": 700,
+        "edges": 780,
+        "instance": "Spd_RF2_700_780_5467",
+        "value": 203,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09541916847229004
+    },
+    {
+        "vertices": 160,
+        "edges": 179,
+        "instance": "Spd_RF2_160_179_3011",
+        "value": 40,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.005434513092041016
+    },
+    {
+        "vertices": 1000,
+        "edges": 1239,
+        "instance": "Spd_RF2_1000_1239_6187",
+        "value": 241,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.24685120582580566
+    },
+    {
+        "vertices": 60,
+        "edges": 107,
+        "instance": "Spd_RF2_60_107_1139",
+        "value": 6,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0034308433532714844
+    },
+    {
+        "vertices": 120,
+        "edges": 185,
+        "instance": "Spd_RF2_120_185_2331",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.008899450302124023
+    },
+    {
+        "vertices": 140,
+        "edges": 157,
+        "instance": "Spd_RF2_140_157_2619",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.004004478454589844
+    },
+    {
+        "vertices": 140,
+        "edges": 157,
+        "instance": "Spd_RF2_140_157_2643",
+        "value": 34,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0062940120697021484
+    },
+    {
+        "vertices": 1000,
+        "edges": 1239,
+        "instance": "Spd_RF2_1000_1239_6195",
+        "value": 248,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.23082685470581055
+    },
+    {
+        "vertices": 500,
+        "edges": 672,
+        "instance": "Spd_RF2_500_672_5203",
+        "value": 88,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1216895580291748
+    },
+    {
+        "vertices": 600,
+        "edges": 787,
+        "instance": "Spd_RF2_600_787_5387",
+        "value": 134,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09050536155700684
+    },
+    {
+        "vertices": 350,
+        "edges": 435,
+        "instance": "Spd_RF2_350_435_4499",
+        "value": 71,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06718635559082031
+    },
+    {
+        "vertices": 20,
+        "edges": 34,
+        "instance": "Spd_RF2_20_34_267",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003790855407714844
+    },
+    {
+        "vertices": 140,
+        "edges": 193,
+        "instance": "Spd_RF2_140_193_2707",
+        "value": 23,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012489080429077148
+    },
+    {
+        "vertices": 140,
+        "edges": 211,
+        "instance": "Spd_RF2_140_211_2731",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.009693145751953125
+    },
+    {
+        "vertices": 800,
+        "edges": 973,
+        "instance": "Spd_RF2_800_973_5755",
+        "value": 199,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.1398155689239502
+    },
+    {
+        "vertices": 100,
+        "edges": 114,
+        "instance": "Spd_RF2_100_114_1843",
+        "value": 25,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.006274223327636719
+    },
+    {
+        "vertices": 400,
+        "edges": 489,
+        "instance": "Spd_RF2_400_489_4699",
+        "value": 87,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07125711441040039
+    },
+    {
+        "vertices": 60,
+        "edges": 95,
+        "instance": "Spd_RF2_60_95_1091",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00341033935546875
+    },
+    {
+        "vertices": 60,
+        "edges": 119,
+        "instance": "Spd_RF2_60_119_1203",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0023751258850097656
+    },
+    {
+        "vertices": 80,
+        "edges": 133,
+        "instance": "Spd_RF2_80_133_1563",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0027899742126464844
+    },
+    {
+        "vertices": 350,
+        "edges": 463,
+        "instance": "Spd_RF2_350_463_4547",
+        "value": 68,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09528374671936035
+    },
+    {
+        "vertices": 800,
+        "edges": 843,
+        "instance": "Spd_RF2_800_843_5643",
+        "value": 248,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11776351928710938
+    },
+    {
+        "vertices": 300,
+        "edges": 380,
+        "instance": "Spd_RF2_300_380_4291",
+        "value": 61,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.035309791564941406
+    },
+    {
+        "vertices": 900,
+        "edges": 1079,
+        "instance": "Spd_RF2_900_1079_5963",
+        "value": 231,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.20568084716796875
+    },
+    {
+        "vertices": 40,
+        "edges": 81,
+        "instance": "Spd_RF2_40_81_755",
+        "value": 1,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0011730194091796875
+    },
+    {
+        "vertices": 350,
+        "edges": 492,
+        "instance": "Spd_RF2_350_492_4587",
+        "value": 53,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.12070608139038086
+    },
+    {
+        "vertices": 60,
+        "edges": 71,
+        "instance": "Spd_RF2_60_71_1027",
+        "value": 14,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003519296646118164
+    },
+    {
+        "vertices": 700,
+        "edges": 780,
+        "instance": "Spd_RF2_700_780_5459",
+        "value": 203,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.17532801628112793
+    },
+    {
+        "vertices": 600,
+        "edges": 674,
+        "instance": "Spd_RF2_600_674_5259",
+        "value": 171,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09024930000305176
+    },
+    {
+        "vertices": 100,
+        "edges": 114,
+        "instance": "Spd_RF2_100_114_1811",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0035698413848876953
+    },
+    {
+        "vertices": 400,
+        "edges": 519,
+        "instance": "Spd_RF2_400_519_4731",
+        "value": 78,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08257389068603516
+    },
+    {
+        "vertices": 40,
+        "edges": 50,
+        "instance": "Spd_RF2_40_50_611",
+        "value": 9,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0008876323699951172
+    },
+    {
+        "vertices": 300,
+        "edges": 407,
+        "instance": "Spd_RF2_300_407_4355",
+        "value": 48,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03706622123718262
+    },
+    {
+        "vertices": 400,
+        "edges": 519,
+        "instance": "Spd_RF2_400_519_4739",
+        "value": 74,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08207535743713379
+    },
+    {
+        "vertices": 500,
+        "edges": 603,
+        "instance": "Spd_RF2_500_603_5099",
+        "value": 111,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09079337120056152
+    },
+    {
+        "vertices": 40,
+        "edges": 71,
+        "instance": "Spd_RF2_40_71_699",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0013127326965332031
+    },
+    {
+        "vertices": 350,
+        "edges": 463,
+        "instance": "Spd_RF2_350_463_4555",
+        "value": 64,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07346057891845703
+    },
+    {
+        "vertices": 400,
+        "edges": 429,
+        "instance": "Spd_RF2_400_429_4635",
+        "value": 111,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.04132795333862305
+    },
+    {
+        "vertices": 100,
+        "edges": 144,
+        "instance": "Spd_RF2_100_144_1891",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007426023483276367
+    },
+    {
+        "vertices": 350,
+        "edges": 406,
+        "instance": "Spd_RF2_350_406_4483",
+        "value": 85,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06250381469726562
+    },
+    {
+        "vertices": 600,
+        "edges": 749,
+        "instance": "Spd_RF2_600_749_5339",
+        "value": 143,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06356024742126465
+    },
+    {
+        "vertices": 140,
+        "edges": 193,
+        "instance": "Spd_RF2_140_193_2691",
+        "value": 21,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007903575897216797
+    },
+    {
+        "vertices": 250,
+        "edges": 345,
+        "instance": "Spd_RF2_250_345_4139",
+        "value": 43,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.032586097717285156
+    },
+    {
+        "vertices": 400,
+        "edges": 489,
+        "instance": "Spd_RF2_400_489_4691",
+        "value": 82,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.07439160346984863
+    },
+    {
+        "vertices": 900,
+        "edges": 1124,
+        "instance": "Spd_RF2_900_1124_5971",
+        "value": 217,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16878795623779297
+    },
+    {
+        "vertices": 160,
+        "edges": 237,
+        "instance": "Spd_RF2_160_237_3147",
+        "value": 21,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.018077850341796875
+    },
+    {
+        "vertices": 180,
+        "edges": 242,
+        "instance": "Spd_RF2_180_242_3523",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01990199089050293
+    },
+    {
+        "vertices": 100,
+        "edges": 159,
+        "instance": "Spd_RF2_100_159_1939",
+        "value": 11,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00728154182434082
+    },
+    {
+        "vertices": 140,
+        "edges": 193,
+        "instance": "Spd_RF2_140_193_2699",
+        "value": 20,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.014454126358032227
+    },
+    {
+        "vertices": 250,
+        "edges": 297,
+        "instance": "Spd_RF2_250_297_4083",
+        "value": 55,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06515073776245117
+    },
+    {
+        "vertices": 800,
+        "edges": 1017,
+        "instance": "Spd_RF2_800_1017_5771",
+        "value": 184,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.15309476852416992
+    },
+    {
+        "vertices": 1000,
+        "edges": 1239,
+        "instance": "Spd_RF2_1000_1239_6203",
+        "value": 246,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.290543794631958
+    },
+    {
+        "vertices": 450,
+        "edges": 482,
+        "instance": "Spd_RF2_450_482_4819",
+        "value": 127,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.03771090507507324
+    },
+    {
+        "vertices": 500,
+        "edges": 603,
+        "instance": "Spd_RF2_500_603_5123",
+        "value": 109,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.11076116561889648
+    },
+    {
+        "vertices": 500,
+        "edges": 568,
+        "instance": "Spd_RF2_500_568_5059",
+        "value": 124,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.08124375343322754
+    },
+    {
+        "vertices": 250,
+        "edges": 369,
+        "instance": "Spd_RF2_250_369_4187",
+        "value": 30,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.023704051971435547
+    },
+    {
+        "vertices": 300,
+        "edges": 434,
+        "instance": "Spd_RF2_300_434_4403",
+        "value": 46,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.044909000396728516
+    },
+    {
+        "vertices": 700,
+        "edges": 780,
+        "instance": "Spd_RF2_700_780_5475",
+        "value": 200,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.09695005416870117
+    },
+    {
+        "vertices": 160,
+        "edges": 198,
+        "instance": "Spd_RF2_160_198_3059",
+        "value": 31,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.011829137802124023
+    },
+    {
+        "vertices": 800,
+        "edges": 1017,
+        "instance": "Spd_RF2_800_1017_5795",
+        "value": 189,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13988876342773438
+    },
+    {
+        "vertices": 120,
+        "edges": 136,
+        "instance": "Spd_RF2_120_136_2219",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003383159637451172
+    },
+    {
+        "vertices": 140,
+        "edges": 175,
+        "instance": "Spd_RF2_140_175_2683",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0072290897369384766
+    },
+    {
+        "vertices": 160,
+        "edges": 218,
+        "instance": "Spd_RF2_160_218_3107",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.013207435607910156
+    },
+    {
+        "vertices": 20,
+        "edges": 57,
+        "instance": "Spd_RF2_20_57_379",
+        "value": 0,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0004947185516357422
+    },
+    {
+        "vertices": 250,
+        "edges": 345,
+        "instance": "Spd_RF2_250_345_4163",
+        "value": 41,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.022483348846435547
+    },
+    {
+        "vertices": 140,
+        "edges": 211,
+        "instance": "Spd_RF2_140_211_2747",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.01090693473815918
+    },
+    {
+        "vertices": 40,
+        "edges": 92,
+        "instance": "Spd_RF2_40_92_787",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0012543201446533203
+    },
+    {
+        "vertices": 300,
+        "edges": 353,
+        "instance": "Spd_RF2_300_353_4283",
+        "value": 70,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.030764102935791016
+    },
+    {
+        "vertices": 450,
+        "edges": 482,
+        "instance": "Spd_RF2_450_482_4827",
+        "value": 130,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05128121376037598
+    },
+    {
+        "vertices": 500,
+        "edges": 534,
+        "instance": "Spd_RF2_500_534_5019",
+        "value": 145,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.05875563621520996
+    },
+    {
+        "vertices": 800,
+        "edges": 973,
+        "instance": "Spd_RF2_800_973_5747",
+        "value": 203,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.149794340133667
+    },
+    {
+        "vertices": 120,
+        "edges": 169,
+        "instance": "Spd_RF2_120_169_2323",
+        "value": 19,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0067174434661865234
+    },
+    {
+        "vertices": 20,
+        "edges": 27,
+        "instance": "Spd_RF2_20_27_227",
+        "value": 2,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0003094673156738281
+    },
+    {
+        "vertices": 120,
+        "edges": 152,
+        "instance": "Spd_RF2_120_152_2251",
+        "value": 24,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.007626533508300781
+    },
+    {
+        "vertices": 40,
+        "edges": 71,
+        "instance": "Spd_RF2_40_71_715",
+        "value": 4,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0014083385467529297
+    },
+    {
+        "vertices": 350,
+        "edges": 492,
+        "instance": "Spd_RF2_350_492_4579",
+        "value": 58,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.06824779510498047
+    },
+    {
+        "vertices": 80,
+        "edges": 93,
+        "instance": "Spd_RF2_80_93_1427",
+        "value": 18,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.00168609619140625
+    },
+    {
+        "vertices": 1000,
+        "edges": 1047,
+        "instance": "Spd_RF2_1000_1047_6027",
+        "value": 316,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.16217446327209473
+    },
+    {
+        "vertices": 120,
+        "edges": 202,
+        "instance": "Spd_RF2_120_202_2371",
+        "value": 12,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.012925148010253906
+    },
+    {
+        "vertices": 200,
+        "edges": 289,
+        "instance": "Spd_RF2_200_289_3955",
+        "value": 32,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.028287649154663086
+    },
+    {
+        "vertices": 200,
+        "edges": 312,
+        "instance": "Spd_RF2_200_312_3971",
+        "value": 27,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02916431427001953
+    },
+    {
+        "vertices": 400,
+        "edges": 459,
+        "instance": "Spd_RF2_400_459_4651",
+        "value": 99,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.051123857498168945
+    },
+    {
+        "vertices": 160,
+        "edges": 218,
+        "instance": "Spd_RF2_160_218_3123",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.015256643295288086
+    },
+    {
+        "vertices": 400,
+        "edges": 519,
+        "instance": "Spd_RF2_400_519_4763",
+        "value": 76,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.0664517879486084
+    },
+    {
+        "vertices": 800,
+        "edges": 930,
+        "instance": "Spd_RF2_800_930_5699",
+        "value": 212,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.13870644569396973
+    },
+    {
+        "vertices": 160,
+        "edges": 218,
+        "instance": "Spd_RF2_160_218_3099",
+        "value": 29,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.010721206665039062
+    },
+    {
+        "vertices": 100,
+        "edges": 129,
+        "instance": "Spd_RF2_100_129_1883",
+        "value": 16,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.003100872039794922
+    },
+    {
+        "vertices": 250,
+        "edges": 321,
+        "instance": "Spd_RF2_250_321_4091",
+        "value": 49,
+        "algorithm": "PageRank Branch Expanding Prim",
+        "time": 0.02847886085510254
+    }
+]

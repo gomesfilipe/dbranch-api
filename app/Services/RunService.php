@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Enums\Algorithm;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
+use App\Jobs\StoreRunsJob;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use Illuminate\Support\Collection;
@@ -16,6 +17,14 @@ class RunService
     )
     {
         //
+    }
+
+    public function createManyAsync(array $data): void
+    {
+        $slice = 5000;
+
+        collect($data)->chunk($slice)
+            ->each(fn (Collection $slicedData) => StoreRunsJob::dispatch($slicedData->toArray()));
     }
 
     public function results(InstanceType $instanceType, Metric $metric, array $params = []): array

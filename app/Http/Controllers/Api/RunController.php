@@ -28,11 +28,7 @@ class RunController extends Controller
     public function store(RunStoreRequest $request): Response
     {
         $data = $request->validated();
-
-        $slice = 5000;
-
-        collect($data)->chunk($slice)
-            ->each(fn (Collection $slicedData) => StoreRunsJob::dispatch($slicedData->toArray()));
+        $this->runService->createManyAsync($data);
 
         return response()->noContent();
     }

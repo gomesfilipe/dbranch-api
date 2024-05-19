@@ -5,7 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use App\Enums\Algorithm;
-use App\Repositories\Interfaces\RunRepositoryInterface;
+use App\Services\RunService;
 
 return new class extends Migration
 {
@@ -43,14 +43,15 @@ return new class extends Migration
             'results/anderson_r_bep_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
             'results/filipe_bep_results.json' => fn (string $filename) => RunResultsParser::parseJsonResults($filename),
             'results/filipe_pr_bep_results.json' => fn (string $filename) => RunResultsParser::parseJsonResults($filename),
+            'results/filipe_r_bep_results.json' => fn (string $filename) => RunResultsParser::parseJsonResults($filename),
         ];
 
-        $runRepository = app()->make(RunRepositoryInterface::class);
+        $runService = app()->make(RunService::class);
 
         foreach ($parsers as $filename => $parser) {
             $results = $parser($filename);
 
-            $runRepository->createMany($results);
+            $runService->createManyAsync($results);
         }
     }
 };

@@ -17,19 +17,38 @@ class RunRepository implements RunRepositoryInterface
 {
     public function create(array $attributes): Run
     {
+        $run = $this->fillDefaultValues($attributes);
+
         /** @var Run */
         return Run::query()
-            ->create($attributes);
+            ->create($run);
     }
 
     public function createMany(array $data): bool
     {
         foreach ($data as &$run) {
-            $run['created_at'] = $run['updated_at'] = now()->toDateTimeString();
+            $run = $this->fillDefaultValues($run);
         }
 
         return Run::query()
             ->insert($data);
+    }
+
+    private function fillDefaultValues(array $runAttributes): array
+    {
+        $algorithm = $runAttributes['algorithm'];
+
+        $algorithm = is_string($runAttributes['algorithm'])
+            ? Algorithm::from($algorithm)
+            : $algorithm;
+
+        $defaultValues = [
+            'created_at' => now()->toDateTimeString(),
+            'updated_at' => now()->toDateTimeString(),
+            'centrality' => $algorithm->centrality(),
+        ];
+
+        return array_merge($runAttributes, $defaultValues);
     }
 
     public function results(InstanceType $instanceType, Metric $metric, array $params = []): Collection
@@ -60,6 +79,7 @@ class RunRepository implements RunRepositoryInterface
                         DB::raw("$sqlMetric(value) as value"),
                     ])
                     ->where('vertices', $operator, $delimiter)
+                    ->whereNotIn('algorithm', Algorithm::disregardRuns())
                     ->groupBy([
                         'instance',
                         'vertices',

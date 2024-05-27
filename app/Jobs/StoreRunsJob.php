@@ -14,6 +14,8 @@ class StoreRunsJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
+    public int $tries = 1;
+
     /**
      * Create a new job instance.
      */

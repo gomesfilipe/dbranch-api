@@ -32,4 +32,40 @@ enum Algorithm: string
             self::MORENO_ET_AL->value,
         ];
     }
+
+    public static function algorithmsBasedOnDegreeCentrality(): array
+    {
+        return [
+            self::BEP,
+            self::MORENO_ET_AL,
+            self::R_BEP_ANDERSON,
+            self::R_BEP,
+            self::BEP_ANDERSON,
+            self::EXACT,
+        ];
+    }
+
+    public static function algorithmsBasedOnPageRankCentrality(): array
+    {
+        return [
+            self::PR_BEP,
+            self::R_PR_BEP,
+        ];
+    }
+
+    public function centrality(): ?Centrality
+    {
+        return match (true) {
+            in_array($this, self::algorithmsBasedOnDegreeCentrality()) => Centrality::DEGREE,
+            in_array($this, self::algorithmsBasedOnPageRankCentrality()) => Centrality::PAGERANK,
+            default => null,
+        };
+    }
+
+    public static function disregardRuns(): array
+    {
+        return [
+            self::R_BEP_ANDERSON,
+        ];
+    }
 }

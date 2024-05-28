@@ -22,5 +22,6 @@ class Run extends Model
     protected $casts = [
         'algorithm' => Algorithm::class,
         'centrality' => Centrality::class,
+        'branch_vertices' => 'array',
     ];
 }

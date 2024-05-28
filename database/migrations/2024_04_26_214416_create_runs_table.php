@@ -24,6 +24,7 @@ return new class extends Migration
             $table->enum('algorithm', Algorithm::values());
             $table->decimal('time', 10, 6)->nullable();
             $table->enum('centrality', Centrality::values())->nullable();
+            $table->jsonb('branch_vertices')->nullable();
             $table->unsignedInteger('d')->default(2);
             $table->timestamps();
         });

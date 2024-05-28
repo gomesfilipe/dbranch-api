@@ -28,6 +28,7 @@ class RunController extends Controller
     public function store(RunStoreRequest $request): Response
     {
         $data = $request->validated();
+//        dd($data);
         $this->runService->createManyAsync($data);
 
         return response()->noContent();

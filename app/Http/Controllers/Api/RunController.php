@@ -16,6 +16,7 @@ use App\Services\RunService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Collection;
+use Illuminate\Validation\ValidationException;
 
 class RunController extends Controller
 {
@@ -25,10 +26,10 @@ class RunController extends Controller
     ) {
         //
     }
+
     public function store(RunStoreRequest $request): Response
     {
         $data = $request->validated();
-//        dd($data);
         $this->runService->createManyAsync($data);
 
         return response()->noContent();

@@ -66,6 +66,9 @@ enum Algorithm: string
     {
         return [
             self::R_BEP_ANDERSON,
+            self::R_BEP,
+            self::R_PR_BEP,
+            self::EXACT,
         ];
     }
 }

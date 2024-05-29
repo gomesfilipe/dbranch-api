@@ -45,12 +45,13 @@ return new class extends Migration
         $parseJsonResultsCallback = fn (string $filename) => RunResultsParser::parseJsonResults($filename);
 
         $parsers = [
-            'results/anderson_bep_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
-            'results/anderson_r_bep_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
-            'results/filipe_bep_results.json' => $parseJsonResultsCallback,
-            'results/filipe_pr_bep_results.json' => $parseJsonResultsCallback,
-            'results/filipe_r_bep_results.json' => $parseJsonResultsCallback,
-            'results/filipe_pr_r_bep_results.json' => $parseJsonResultsCallback,
+            'results/anderson_BEP_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
+            'results/anderson_R_BEP_smallest_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
+            'results/filipe_BEP_results.json' => $parseJsonResultsCallback,
+            'results/filipe_PR_BEP_results.json' => $parseJsonResultsCallback,
+            'results/filipe_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
+            'results/filipe_PR_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
+            'results/exact_results.json' => $parseJsonResultsCallback,
         ];
 
         $runService = app()->make(RunService::class);

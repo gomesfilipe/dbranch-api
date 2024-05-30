@@ -19,4 +19,6 @@ interface RunRepositoryInterface
     public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB): Collection;
 
     public function compareValues(Algorithm $algorithmA, Algorithm $algorithmB): Collection;
+
+    public function verticesClassificationAccuracy(InstanceType $instanceType, array $params = []): Collection;
 }

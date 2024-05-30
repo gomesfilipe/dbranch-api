@@ -21,7 +21,11 @@ class RunGapResultsRequest extends FormRequest
         return [
             'instance_type' => ['required', Rule::enum(InstanceType::class)],
             'algorithms' => ['sometimes', 'nullable', 'array'],
-            'algorithms.*' => ['sometimes', 'nullable', Rule::notIn(Algorithm::referenceAlgorithmsValues())],
+            'algorithms.*' => [
+                'sometimes',
+                'nullable',
+                Rule::enum(Algorithm::class),
+                Rule::notIn(Algorithm::referenceAlgorithmsValues())],
         ];
     }
 }

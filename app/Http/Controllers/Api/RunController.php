@@ -6,17 +6,15 @@ use App\Enums\Algorithm;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\RunAccuracyRequest;
 use App\Http\Requests\RunCompareRequest;
 use App\Http\Requests\RunGapResultsRequest;
 use App\Http\Requests\RunResultsRequest;
 use App\Http\Requests\RunStoreRequest;
-use App\Jobs\StoreRunsJob;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use App\Services\RunService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
-use Illuminate\Support\Collection;
-use Illuminate\Validation\ValidationException;
 
 class RunController extends Controller
 {
@@ -83,6 +81,19 @@ class RunController extends Controller
 
         return response()->json(
             $this->runRepository->compareValues($algorithmA, $algorithmB)
+        );
+    }
+
+    public function verticesClassificationAccuracy(RunAccuracyRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $instanceType = InstanceType::from($data['instance_type']);
+
+        unset($data['instance_type']);
+
+        return response()->json(
+            $this->runService->verticesClassificationAccuracy($instanceType, $data)
         );
     }
 }

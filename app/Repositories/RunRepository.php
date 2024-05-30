@@ -8,7 +8,7 @@ use App\Enums\Metric;
 use App\Models\Optimal;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
-use Illuminate\Contracts\Database\Eloquent\Builder;
+use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\JoinClause;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection;
@@ -62,43 +62,47 @@ class RunRepository implements RunRepositoryInterface
         $optimalColumns = $metric->optimalColumns();
         $sqlMetric = $metric->sqlMetric();
 
-        return Run::query()
-            ->select([
-                'vertices',
-                'algorithm',
-                DB::raw('ROUND(AVG(edges), 2)::numeric as edges'),
-                DB::raw('ROUND(AVG(value), 2)::numeric as value'),
-            ])
+        return DB::query()
             ->from(
                 Run::query()
                     ->select([
-                        'instance',
                         'vertices',
-                        'edges',
                         'algorithm',
-                        DB::raw("$sqlMetric(value) as value"),
+                        DB::raw('ROUND(AVG(edges), 2)::numeric as edges'),
+                        DB::raw('ROUND(AVG(value), 2)::numeric as value'),
                     ])
-                    ->where('vertices', $operator, $delimiter)
-                    ->whereNotIn('algorithm', Algorithm::disregardRuns())
-                    ->groupBy([
-                        'instance',
-                        'vertices',
-                        'edges',
-                        'algorithm',
-                    ]),
-                'tbl',
-            )
-            ->groupBy($groupBy)
-            ->union(
-                Optimal::query()
-                    ->select($optimalColumns)
-                    ->where('vertices', $operator, $delimiter)
+                    ->from(
+                        Run::query()
+                            ->select([
+                                'instance',
+                                'vertices',
+                                'edges',
+                                'algorithm',
+                                DB::raw("$sqlMetric(value) as value"),
+                            ])
+                            ->where('vertices', $operator, $delimiter)
+                            ->whereNotIn('algorithm', Algorithm::disregardRuns())
+                            ->groupBy([
+                                'instance',
+                                'vertices',
+                                'edges',
+                                'algorithm',
+                            ]),
+                        'tbl',
+                    )
+                    ->groupBy($groupBy)
+                    ->union(
+                        Optimal::query()
+                            ->select($optimalColumns)
+                            ->where('vertices', $operator, $delimiter)
+                    )
+                    ->orderBy('vertices')
+                    ->orderBy('edges'),
+                'tbl2'
             )
             ->when(! is_null($algorithms), fn (Builder $query) => $query
                 ->whereIn('algorithm', $algorithms)
             )
-            ->orderBy('vertices')
-            ->orderBy('edges')
             ->get();
     }
 
@@ -182,6 +186,69 @@ class RunRepository implements RunRepositoryInterface
                 'tbl'
             )
             ->orderByRaw($orderByRaw)
+            ->get();
+    }
+
+    public function verticesClassificationAccuracy(InstanceType $instanceType, array $params = []): Collection
+    {
+        $algorithms = $params['algorithms'] ?? null;
+
+        $groupBy = $instanceType->groupBy();
+        $operator = $instanceType->operator();
+        $delimiter = InstanceType::delimiter();
+
+        return DB::query()
+            ->select([
+                'vertices',
+                'algorithm',
+                DB::raw('ROUND(AVG(edges), 2)::numeric as edges'),
+                DB::raw('ROUND(AVG(accuracy), 4) as accuracy_avg'),
+            ])
+            ->from(
+                DB::table('runs as s')
+                    ->select([
+                        't.vertices',
+                        't.edges',
+                        't.algorithm',
+                        DB::raw('
+                            (
+                                select round(1 - count(*) / s.vertices::decimal, 4)
+                                from (
+                                    (
+                                        (select * from jsonb_array_elements(s.branch_vertices) as s_branch_vertices)
+                                        UNION
+                                        (select * from jsonb_array_elements(t.branch_vertices) as t_branch_vertices)
+                                    )
+                                    EXCEPT
+                                    (
+                                        (select * from jsonb_array_elements(s.branch_vertices) as s_branch_vertices)
+                                        INTERSECT
+                                        (select * from jsonb_array_elements(t.branch_vertices) as t_branch_vertices)
+                                    )
+                                ) as not_in_insersection_branch_vertices
+                            ) as accuracy
+                        '),
+                    ])
+                    ->join('runs as t', fn (JoinClause $join) => $join
+                        ->on('s.instance', '=', 't.instance')
+                    )
+                    ->whereNotNull([
+                        's.branch_vertices',
+                        't.branch_vertices',
+                    ])
+                    ->whereColumn('s.algorithm', '<>', 't.algorithm')
+                    ->whereColumn('s.d', '=', 't.d')
+                    ->where('s.algorithm', '=', Algorithm::EXACT)
+                    ->where('s.vertices', $operator, $delimiter)
+                ,
+                'tbl',
+            )
+            ->when(! is_null($algorithms), fn (Builder $query) => $query
+                ->whereIn('algorithm', $algorithms)
+            )
+            ->groupBy($groupBy)
+            ->orderBy('vertices')
+            ->orderBy('edges')
             ->get();
     }
 }

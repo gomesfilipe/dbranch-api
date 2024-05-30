@@ -8,6 +8,7 @@ use App\Enums\Metric;
 use App\Jobs\StoreRunsJob;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
 class RunService
@@ -19,30 +20,32 @@ class RunService
         //
     }
 
-    public function createManyAsync(array $data): void
+    public function createManyAsync(array $data, int $slice = 5000): void
     {
-        $slice = 5000;
-
         collect($data)->chunk($slice)
             ->each(fn (Collection $slicedData) => StoreRunsJob::dispatch($slicedData->toArray()));
     }
 
-    public function results(InstanceType $instanceType, Metric $metric, array $params = []): array
+    // Os elementos de $results devem possuir os seguintes campos: 'vertices', 'edges', 'algorithm' e $resultField.
+    public function generateAlgorithmsColumns(Collection $results, string $resultField): array
     {
-        return $this->runRepository
-            ->results($instanceType, $metric, $params)
-            ->map(fn (Run $item) => $item->toArray())
+        // Itens são instâncias de Model ou stdClass.
+        return $results
+            ->map(fn ($item) => $item instanceof Model
+                ? $item->toArray()
+                : (array) $item
+            )
             ->groupBy(['vertices', 'edges'])
-            ->map(function (Collection $verticeItem, int $verticeGroup)
+            ->map(function (Collection $verticeItem, int $verticeGroup) use ($resultField)
             {
-                return $verticeItem->map(function (Collection $edgeItem, string $edgeGroup) use ($verticeGroup)
+                return $verticeItem->map(function (Collection $edgeItem, string $edgeGroup) use ($verticeGroup, $resultField)
                 {
-                    $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup)
+                    $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup, $resultField)
                     {
                         $algorithm = Algorithm::from($item['algorithm'])->name;
 
                         return array_merge($carry, [
-                            $algorithm => floatval($item['value']),
+                            $algorithm => floatval($item[$resultField]),
                         ]);
                     }, []);
 
@@ -51,13 +54,21 @@ class RunService
                         'edges' => floatval($edgeGroup),
                         ...$values,
                     ])
-                    ->sortBy(fn (int|float $value, string $key) => $this->sortKeysCallback($key))
-                    ->toArray();
+                        ->sortBy(fn (int|float $value, string $key) => $this->sortKeysCallback($key))
+                        ->toArray();
                 })
-                ->toArray();
+                    ->toArray();
             })
             ->flatten(1)
             ->toArray();
+    }
+
+    public function results(InstanceType $instanceType, Metric $metric, array $params = []): array
+    {
+        return $this->generateAlgorithmsColumns(
+            $this->runRepository->results($instanceType, $metric, $params),
+            'value',
+        );
     }
 
     public function gapResults(InstanceType $instanceType, array $params = []): array
@@ -121,5 +132,13 @@ class RunService
                 return $item;
             })
             ->toArray();
+    }
+
+    public function verticesClassificationAccuracy(InstanceType $instanceType, array $params = []): array
+    {
+        return $this->generateAlgorithmsColumns(
+            $this->runRepository->verticesClassificationAccuracy($instanceType, $params),
+            'accuracy_avg'
+        );
     }
 }

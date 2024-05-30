@@ -33,6 +33,16 @@ enum Algorithm: string
         ];
     }
 
+    public static function hasBranchVerticesSaved(): array
+    {
+        return [
+            self::BEP,
+            self::PR_BEP,
+            self::R_BEP,
+            self::R_PR_BEP,
+        ];
+    }
+
     public static function algorithmsBasedOnDegreeCentrality(): array
     {
         return [

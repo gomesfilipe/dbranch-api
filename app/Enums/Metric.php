@@ -2,16 +2,15 @@
 
 namespace App\Enums;
 
+use App\Traits\EnumTrait;
+
 enum Metric: string
 {
+    use EnumTrait;
+
     case MIN = 'min';
 
     case MEAN = 'mean';
-
-    public static function values(): array
-    {
-        return array_column(self::cases(), 'value');
-    }
 
     public function optimalColumns(): array
     {

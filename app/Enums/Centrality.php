@@ -2,15 +2,13 @@
 
 namespace App\Enums;
 
+use App\Traits\EnumTrait;
+
 enum Centrality: string
 {
+    use EnumTrait;
+
     case DEGREE = 'Degree';
 
     case PAGERANK = 'PageRank';
-
-
-    public static function values(): array
-    {
-        return array_column(self::cases(), 'value');
-    }
 }

@@ -2,16 +2,15 @@
 
 namespace App\Enums;
 
+use App\Traits\EnumTrait;
+
 enum InstanceType: string
 {
+    use EnumTrait;
+
     case MEDIUM = 'Medium Instance';
 
     case LARGE = 'Large Instance';
-
-    public static function values(): array
-    {
-        return array_column(self::cases(), 'value');
-    }
 
     public function groupBy(): array
     {

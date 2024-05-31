@@ -2,8 +2,12 @@
 
 namespace App\Enums;
 
+use App\Traits\EnumTrait;
+
 enum Algorithm: string
 {
+    use EnumTrait;
+
     case BEP = 'Branch Expanding Prim';
 
     case MORENO_ET_AL = 'Moreno Et Al';

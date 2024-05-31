@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Schema;
 use App\Enums\Algorithm;
 use App\Enums\Centrality;
 use App\Services\RunService;
+use App\Enums\InstanceGroup;
 
 return new class extends Migration
 {
@@ -19,6 +20,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedInteger('vertices');
             $table->unsignedInteger('edges');
+//            $table->enum('instance_group', InstanceGroup::values())->nullable(); // TODO REMOVER NULLABLE DEPOIS
             $table->string('instance');
             $table->decimal('value', unsigned: true);
             $table->enum('algorithm', Algorithm::values());

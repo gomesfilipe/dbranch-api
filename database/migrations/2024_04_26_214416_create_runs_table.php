@@ -20,7 +20,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedInteger('vertices');
             $table->unsignedInteger('edges');
-//            $table->enum('instance_group', InstanceGroup::values())->nullable(); // TODO REMOVER NULLABLE DEPOIS
+            $table->enum('instance_group', InstanceGroup::values());
             $table->string('instance');
             $table->decimal('value', unsigned: true);
             $table->enum('algorithm', Algorithm::values());
@@ -45,21 +45,22 @@ return new class extends Migration
     private function seedResults(): void
     {
         $parseJsonResultsCallback = fn (string $filename) => RunResultsParser::parseJsonResults($filename);
+        $path = 'results/spd_rf2';
 
         $parsers = [
-            'results/anderson_BEP_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
-            'results/anderson_R_BEP_smallest_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
-            'results/filipe_BEP_results.json' => $parseJsonResultsCallback,
-            'results/filipe_PR_BEP_results.json' => $parseJsonResultsCallback,
-            'results/filipe_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
-            'results/filipe_PR_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
-            'results/exact_results.json' => $parseJsonResultsCallback,
+            'anderson_BEP_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
+            'anderson_R_BEP_smallest_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
+            'filipe_BEP_results.json' => $parseJsonResultsCallback,
+            'filipe_PR_BEP_results.json' => $parseJsonResultsCallback,
+            'filipe_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
+            'filipe_PR_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
+            'exact_results.json' => $parseJsonResultsCallback,
         ];
 
         $runService = app()->make(RunService::class);
 
         foreach ($parsers as $filename => $parser) {
-            $results = $parser($filename);
+            $results = $parser(path_join($path, $filename));
             $runService->createManyAsync($results);
         }
     }

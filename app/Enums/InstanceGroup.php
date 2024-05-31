@@ -13,4 +13,18 @@ enum InstanceGroup: string
     case LEIGHTON = 'Leighton';
 
     case LIKE_MERABET = 'Like Merabet';
+
+    public function groupBy(?InstanceType $instanceType = null): array
+    {
+        $default = [
+            'vertices',
+            'edges',
+            'algorithm',
+        ];
+
+        return match ($this) {
+            self::SPD_RF2 => $instanceType?->groupBy(),
+            default => null,
+        } ?? $default;
+    }
 }

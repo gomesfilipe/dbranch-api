@@ -3,10 +3,10 @@
 namespace App\Services;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Jobs\StoreRunsJob;
-use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -63,10 +63,10 @@ class RunService
             ->toArray();
     }
 
-    public function results(InstanceType $instanceType, Metric $metric, array $params = []): array
+    public function results(InstanceType $instanceType, Metric $metric, InstanceGroup $instanceGroup, array $params = []): array
     {
         return $this->generateAlgorithmsColumns(
-            $this->runRepository->results($instanceType, $metric, $params),
+            $this->runRepository->results($instanceType, $metric, $instanceGroup, $params),
             'value',
         );
     }
@@ -122,9 +122,9 @@ class RunService
             : round(100.0 * ($value - $ref) / $ref, 1);
     }
 
-    public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB): array
+    public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB, array $params = []): array
     {
-        return $this->runRepository->compareDiffs($algorithmA, $algorithmB)
+        return $this->runRepository->compareDiffs($algorithmA, $algorithmB, $params)
             ->map(function (\stdClass $item)
             {
                 $item = (array) $item;
@@ -134,10 +134,10 @@ class RunService
             ->toArray();
     }
 
-    public function verticesClassificationAccuracy(InstanceType $instanceType, array $params = []): array
+    public function verticesClassificationAccuracy(InstanceType $instanceType, InstanceGroup $instanceGroup, array $params = []): array
     {
         return $this->generateAlgorithmsColumns(
-            $this->runRepository->verticesClassificationAccuracy($instanceType, $params),
+            $this->runRepository->verticesClassificationAccuracy($instanceType, $instanceGroup, $params),
             'accuracy_avg'
         );
     }

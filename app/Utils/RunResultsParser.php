@@ -3,6 +3,7 @@
 namespace App\Utils;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 
 class RunResultsParser
 {
@@ -30,6 +31,7 @@ class RunResultsParser
             return [
                 'vertices' => explode('_', $instance)[2],
                 'edges' => explode('_', $instance)[3],
+                'instance_group' => InstanceGroup::SPD_RF2,
                 'instance' => basename($instance, '.txt'),
                 'value' => $value,
                 'algorithm' => $algorithm,

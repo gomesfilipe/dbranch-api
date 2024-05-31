@@ -3,6 +3,7 @@
 namespace App\Repositories;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Models\Optimal;
@@ -51,11 +52,11 @@ class RunRepository implements RunRepositoryInterface
         return array_merge($runAttributes, $defaultValues);
     }
 
-    public function results(InstanceType $instanceType, Metric $metric, array $params = []): Collection
+    public function results(InstanceType $instanceType, Metric $metric, InstanceGroup $instanceGroup, array $params = []): Collection
     {
         $algorithms = $params['algorithms'] ?? null;
 
-        $groupBy = $instanceType->groupBy();
+        $groupBy = $instanceGroup->groupBy($instanceType);
         $operator = $instanceType->operator();
         $delimiter = InstanceType::delimiter();
 
@@ -82,6 +83,7 @@ class RunRepository implements RunRepositoryInterface
                             ])
                             ->where('vertices', $operator, $delimiter)
                             ->whereNotIn('algorithm', Algorithm::disregardRuns())
+                            ->where('instance_group', '=', $instanceGroup)
                             ->groupBy([
                                 'instance',
                                 'vertices',
@@ -95,6 +97,7 @@ class RunRepository implements RunRepositoryInterface
                         Optimal::query()
                             ->select($optimalColumns)
                             ->where('vertices', $operator, $delimiter)
+                            ->where('instance_group', '=', $instanceGroup)
                     )
                     ->orderBy('vertices')
                     ->orderBy('edges'),
@@ -106,8 +109,10 @@ class RunRepository implements RunRepositoryInterface
             ->get();
     }
 
-    public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB): Collection
+    public function compareDiffs(Algorithm $algorithmA, Algorithm $algorithmB, array $params = []): Collection
     {
+        $instanceGroup = $params['instance_group'] ?? null;
+
         $delimiter = InstanceType::delimiter();
 
         return DB::table('runs as s')
@@ -129,16 +134,22 @@ class RunRepository implements RunRepositoryInterface
             ")
             ->join('runs as t', fn (JoinClause $join) => $join
                 ->on('s.instance', '=', 't.instance')
+                ->on('s.instance_group', '=', 't.instance_group')
             )
             ->where('s.algorithm', '=', $algorithmA)
             ->where('t.algorithm', '=', $algorithmB)
+            ->when(! is_null($instanceGroup), fn (Builder $query) => $query
+                ->where('s.instance_group', '=', $instanceGroup)
+            )
             ->groupByRaw('ABS(s.value - t.value)')
             ->orderBy('diff')
             ->get();
     }
 
-    public function compareValues(Algorithm $algorithmA, Algorithm $algorithmB): Collection
+    public function compareValues(Algorithm $algorithmA, Algorithm $algorithmB, array $params = []): Collection
     {
+        $instanceGroup = $params['instance_group'] ?? null;
+
         $medium = InstanceType::MEDIUM->value;
         $large = InstanceType::LARGE->value;
         $delimiter = InstanceType::delimiter();
@@ -189,11 +200,12 @@ class RunRepository implements RunRepositoryInterface
             ->get();
     }
 
-    public function verticesClassificationAccuracy(InstanceType $instanceType, array $params = []): Collection
+    public function verticesClassificationAccuracy(InstanceType $instanceType, InstanceGroup $instanceGroup, array $params = []): Collection
     {
         $algorithms = $params['algorithms'] ?? null;
 
-        $groupBy = $instanceType->groupBy();
+        $groupBy = $instanceGroup->groupBy($instanceType);
+
         $operator = $instanceType->operator();
         $delimiter = InstanceType::delimiter();
 
@@ -231,6 +243,7 @@ class RunRepository implements RunRepositoryInterface
                     ])
                     ->join('runs as t', fn (JoinClause $join) => $join
                         ->on('s.instance', '=', 't.instance')
+                        ->on('s.instance_group', '=', 't.instance_group')
                     )
                     ->whereNotNull([
                         's.branch_vertices',
@@ -238,6 +251,7 @@ class RunRepository implements RunRepositoryInterface
                     ])
                     ->whereColumn('s.algorithm', '<>', 't.algorithm')
                     ->whereColumn('s.d', '=', 't.d')
+                    ->where('s.instance_group', '=', $instanceGroup)
                     ->where('s.algorithm', '=', Algorithm::EXACT)
                     ->where('s.vertices', $operator, $delimiter)
                 ,

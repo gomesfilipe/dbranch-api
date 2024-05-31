@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Http\Controllers\Controller;
@@ -39,11 +40,12 @@ class RunController extends Controller
 
         $instanceType = InstanceType::from($data['instance_type']);
         $metric = Metric::from($data['metric']);
+        $instanceGroup = InstanceGroup::from($data['instance_group']);
 
-        unset($data['instance_type'], $data['metric']);
+        unset($data['instance_type'], $data['metric'], $data['instance_group']);
 
         return response()->json(
-            $this->runService->results($instanceType, $metric, $data)
+            $this->runService->results($instanceType, $metric, $instanceGroup, $data)
         );
     }
 
@@ -67,8 +69,10 @@ class RunController extends Controller
         $algorithmA = Algorithm::from($data['algorithm_a']);
         $algorithmB = Algorithm::from($data['algorithm_b']);
 
+        unset($data['algorithm_a'], $data['algorithm_b']);
+
         return response()->json(
-            $this->runService->compareDiffs($algorithmA, $algorithmB)
+            $this->runService->compareDiffs($algorithmA, $algorithmB, $data)
         );
     }
 
@@ -79,8 +83,10 @@ class RunController extends Controller
         $algorithmA = Algorithm::from($data['algorithm_a']);
         $algorithmB = Algorithm::from($data['algorithm_b']);
 
+        unset($data['algorithm_a'], $data['algorithm_b']);
+
         return response()->json(
-            $this->runRepository->compareValues($algorithmA, $algorithmB)
+            $this->runRepository->compareValues($algorithmA, $algorithmB, $data)
         );
     }
 
@@ -89,11 +95,12 @@ class RunController extends Controller
         $data = $request->validated();
 
         $instanceType = InstanceType::from($data['instance_type']);
+        $instanceGroup = InstanceGroup::from($data['instance_group']);
 
-        unset($data['instance_type']);
+        unset($data['instance_type'], $data['instance_group']);
 
         return response()->json(
-            $this->runService->verticesClassificationAccuracy($instanceType, $data)
+            $this->runService->verticesClassificationAccuracy($instanceType, $instanceGroup, $data)
         );
     }
 }

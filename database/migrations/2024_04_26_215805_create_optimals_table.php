@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\InstanceGroup;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -18,6 +19,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedInteger('vertices');
             $table->decimal('edges', unsigned: true);
+            $table->enum('instance_group', InstanceGroup::values());
             $table->enum('algorithm', Algorithm::values());
             $table->decimal('min', unsigned: true);
             $table->decimal('mean', unsigned: true);

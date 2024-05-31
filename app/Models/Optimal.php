@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -247,7 +248,7 @@ class Optimal extends Model
             self::generateOptimalAttributes(1000, 1239, 242.6, 245.52, Algorithm::R_PR_BEP),
         ];
     }
-    private static function generateOptimalAttributes(int $vertices, float $edges, float $min, float $mean, Algorithm $algorithm): array
+    private static function generateOptimalAttributes(int $vertices, float $edges, float $min, float $mean, Algorithm $algorithm, InstanceGroup $instanceGroup = InstanceGroup::SPD_RF2): array
     {
         return [
             'vertices' => $vertices,
@@ -255,6 +256,7 @@ class Optimal extends Model
             'min' => $min,
             'mean' => $mean,
             'algorithm' => $algorithm,
+            'instance_group' => $instanceGroup,
         ];
     }
 }

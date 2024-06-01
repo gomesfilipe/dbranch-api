@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Foundation\Http\FormRequest;
@@ -20,6 +21,7 @@ class RunGapResultsRequest extends FormRequest
     {
         return [
             'instance_type' => ['required', Rule::enum(InstanceType::class)],
+            'instance_group' => ['required', Rule::enum(InstanceGroup::class)],
             'algorithms' => ['sometimes', 'nullable', 'array'],
             'algorithms.*' => [
                 'sometimes',

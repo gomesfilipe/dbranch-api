@@ -71,10 +71,10 @@ class RunService
         );
     }
 
-    public function gapResults(InstanceType $instanceType, array $params = []): array
+    public function gapResults(InstanceType $instanceType, InstanceGroup $instanceGroup, array $params = []): array
     {
         $metric = Metric::MIN;
-        $results = $this->results($instanceType, $metric, $params);
+        $results = $this->results($instanceType, $metric, $instanceGroup, $params);
 
         return collect($results)->map(function (array $item)
         {

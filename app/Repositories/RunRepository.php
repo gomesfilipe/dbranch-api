@@ -185,9 +185,13 @@ class RunRepository implements RunRepositoryInterface
                 ")
                 ->join('runs as t', fn (JoinClause $join) => $join
                     ->on('s.instance', '=', 't.instance')
+                    ->on('s.instance_group', '=', 't.instance_group')
                 )
                 ->where('s.algorithm', '=', $algorithmA)
                 ->where('t.algorithm', '=', $algorithmB)
+                ->when(! is_null($instanceGroup), fn (Builder $query) => $query
+                    ->where('s.instance_group', '=', $instanceGroup)
+                )
                 ->groupByRaw("
                     CASE
                         WHEN s.vertices < $delimiter THEN '$medium'

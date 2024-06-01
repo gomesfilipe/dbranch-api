@@ -54,11 +54,12 @@ class RunController extends Controller
         $data = $request->validated();
 
         $instanceType = InstanceType::from($data['instance_type']);
+        $instanceGroup = InstanceGroup::from($data['instance_group']);
 
-        unset($data['instance_type']);
+        unset($data['instance_type'], $data['instance_group']);
 
         return response()->json(
-            $this->runService->gapResults($instanceType, $data)
+            $this->runService->gapResults($instanceType, $instanceGroup, $data)
         );
     }
 

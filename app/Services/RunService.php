@@ -117,6 +117,10 @@ class RunService
 
     private function gap(float $ref, float $value): ?float
     {
+        if ($ref === $value) {
+            return 0.0;
+        }
+
         return $ref === 0.0
             ? null
             : round(100.0 * ($value - $ref) / $ref, 1);

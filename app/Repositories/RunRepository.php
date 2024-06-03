@@ -98,6 +98,7 @@ class RunRepository implements RunRepositoryInterface
                             ->select($optimalColumns)
                             ->where('vertices', $operator, $delimiter)
                             ->where('instance_group', '=', $instanceGroup)
+                            ->whereNot('algorithm', '=', Algorithm::EXACT)
                     )
                     ->orderBy('vertices')
                     ->orderBy('edges'),
@@ -213,6 +214,8 @@ class RunRepository implements RunRepositoryInterface
         $operator = $instanceType->operator();
         $delimiter = InstanceType::delimiter();
 
+        $minResultIds = $this->getMinimumResultIdsByInstance();
+
         return DB::query()
             ->select([
                 'vertices',
@@ -254,6 +257,8 @@ class RunRepository implements RunRepositoryInterface
                         't.branch_vertices',
                     ])
                     ->whereColumn('s.algorithm', '<>', 't.algorithm')
+                    ->whereIn('s.id', $minResultIds)
+                    ->whereIn('t.id', $minResultIds)
                     ->whereColumn('s.d', '=', 't.d')
                     ->where('s.instance_group', '=', $instanceGroup)
                     ->where('s.algorithm', '=', Algorithm::EXACT)
@@ -268,6 +273,41 @@ class RunRepository implements RunRepositoryInterface
             ->orderBy('vertices')
             ->orderBy('edges')
             ->get();
+    }
+
+    public function getMinimumResultIdsByInstance(): array
+    {
+        return Run::query()
+            ->select('runs.*')
+            ->joinSub(
+                DB::table('runs')
+                    ->select([
+                        'instance',
+                        'algorithm',
+                        'instance_group',
+                        'd',
+                        DB::raw('MIN(value) as value')
+                    ])
+                    ->groupBy([
+                        'instance',
+                        'algorithm',
+                        'instance_group',
+                        'd',
+                    ]),
+                'min_runs',
+                fn (JoinClause $join) => $join
+                    ->on('min_runs.value', '=', 'runs.value')
+                    ->on('min_runs.instance', '=', 'runs.instance')
+                    ->on('min_runs.algorithm', '=', 'runs.algorithm')
+                    ->on('min_runs.instance_group', '=', 'runs.instance_group')
+                    ->on('min_runs.d', '=', 'runs.d')
+            )
+            ->get()
+            ->groupBy(fn (Run $item) => "{$item->instance}_{$item->algorithm->value}_{$item->instance_group->value}_{$item->d}")
+            ->map(fn (Collection $group) => $group->first())
+            ->flatten()
+            ->pluck('id')
+            ->toArray();
     }
 }
 

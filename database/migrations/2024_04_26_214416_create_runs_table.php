@@ -31,7 +31,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $this->seedResults();
+        $this->seedResults(useSmallestRandom: false);
     }
 
     /**
@@ -42,26 +42,17 @@ return new class extends Migration
         Schema::dropIfExists('runs');
     }
 
-    private function seedResults(): void
+    private function seedResults(bool $useSmallestRandom = true): void
     {
-        $parseJsonResultsCallback = fn (string $filename) => RunResultsParser::parseJsonResults($filename);
-        $path = 'results/spd_rf2';
-
-        $parsers = [
-            'anderson_BEP_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::BEP_ANDERSON),
-            'anderson_R_BEP_smallest_results.txt' => fn (string $filename) => RunResultsParser::parseAndersonResults($filename, Algorithm::R_BEP_ANDERSON),
-            'filipe_BEP_results.json' => $parseJsonResultsCallback,
-            'filipe_PR_BEP_results.json' => $parseJsonResultsCallback,
-            'filipe_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
-            'filipe_PR_R_BEP_smallest_results.json' => $parseJsonResultsCallback,
-            'exact_results.json' => $parseJsonResultsCallback,
-        ];
-
         $runService = app()->make(RunService::class);
 
-        foreach ($parsers as $filename => $parser) {
-            $results = $parser(path_join($path, $filename));
-            $runService->createManyAsync($results);
+        foreach (InstanceGroup::cases() as $instanceGroup) {
+            $filenames = $instanceGroup->resultsFiles($useSmallestRandom);
+
+            foreach ($filenames as $filename) {
+                $results = RunResultsParser::parseJsonResults($filename);
+                $runService->createManyAsync($results);
+            }
         }
     }
 };

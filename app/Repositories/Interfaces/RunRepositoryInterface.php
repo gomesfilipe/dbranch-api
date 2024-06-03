@@ -22,4 +22,6 @@ interface RunRepositoryInterface
     public function compareValues(Algorithm $algorithmA, Algorithm $algorithmB, array $params = []): Collection;
 
     public function verticesClassificationAccuracy(InstanceType $instanceType, InstanceGroup $instanceGroup, array $params = []): Collection;
+
+    public function getMinimumResultIdsByInstance(): array;
 }

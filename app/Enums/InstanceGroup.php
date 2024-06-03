@@ -27,4 +27,27 @@ enum InstanceGroup: string
             default => null,
         } ?? $default;
     }
+
+    public function basePath(): string
+    {
+        return str_replace(' ', '_', mb_strtolower($this->name));
+    }
+
+    public function resultsPath(): string
+    {
+        return path_join('results', $this->basePath());
+    }
+
+    public function resultsFiles(bool $useSmallestRandom = true): array
+    {
+        $files = glob($this->resultsPath() . '/*.json');
+
+        $randomDir = $useSmallestRandom
+            ? 'smallest_random'
+            : 'all_random';
+
+        $randomFiles = glob(path_join($this->resultsPath(), "$randomDir/*"));
+
+        return array_merge($files, $randomFiles);
+    }
 }

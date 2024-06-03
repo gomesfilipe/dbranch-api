@@ -1,0 +1,4727 @@
+[
+  {
+    "vertices": 1000,
+    "edges": 1047,
+    "instance": "Spd_RF2_1000_1047_6011",
+    "value": 314,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1047,
+    "instance": "Spd_RF2_1000_1047_6019",
+    "value": 316,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1047,
+    "instance": "Spd_RF2_1000_1047_6027",
+    "value": 315,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1047,
+    "instance": "Spd_RF2_1000_1047_6035",
+    "value": 317,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1047,
+    "instance": "Spd_RF2_1000_1047_6043",
+    "value": 315,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1095,
+    "instance": "Spd_RF2_1000_1095_6051",
+    "value": 296,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1095,
+    "instance": "Spd_RF2_1000_1095_6059",
+    "value": 296,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1095,
+    "instance": "Spd_RF2_1000_1095_6067",
+    "value": 296,
+    "algorithm": "BEP Anderson",
+    "time": 0.008,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1095,
+    "instance": "Spd_RF2_1000_1095_6075",
+    "value": 295,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1095,
+    "instance": "Spd_RF2_1000_1095_6083",
+    "value": 295,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1143,
+    "instance": "Spd_RF2_1000_1143_6091",
+    "value": 278,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1143,
+    "instance": "Spd_RF2_1000_1143_6099",
+    "value": 278,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1143,
+    "instance": "Spd_RF2_1000_1143_6107",
+    "value": 278,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1143,
+    "instance": "Spd_RF2_1000_1143_6115",
+    "value": 280,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1143,
+    "instance": "Spd_RF2_1000_1143_6123",
+    "value": 275,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1191,
+    "instance": "Spd_RF2_1000_1191_6131",
+    "value": 258,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1191,
+    "instance": "Spd_RF2_1000_1191_6139",
+    "value": 258,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1191,
+    "instance": "Spd_RF2_1000_1191_6147",
+    "value": 259,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1191,
+    "instance": "Spd_RF2_1000_1191_6155",
+    "value": 260,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1191,
+    "instance": "Spd_RF2_1000_1191_6163",
+    "value": 262,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1239,
+    "instance": "Spd_RF2_1000_1239_6171",
+    "value": 242,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1239,
+    "instance": "Spd_RF2_1000_1239_6179",
+    "value": 245,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1239,
+    "instance": "Spd_RF2_1000_1239_6187",
+    "value": 241,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1239,
+    "instance": "Spd_RF2_1000_1239_6195",
+    "value": 247,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 1000,
+    "edges": 1239,
+    "instance": "Spd_RF2_1000_1239_6203",
+    "value": 245,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 114,
+    "instance": "Spd_RF2_100_114_1811",
+    "value": 27,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 114,
+    "instance": "Spd_RF2_100_114_1819",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 114,
+    "instance": "Spd_RF2_100_114_1827",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 114,
+    "instance": "Spd_RF2_100_114_1835",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 114,
+    "instance": "Spd_RF2_100_114_1843",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 129,
+    "instance": "Spd_RF2_100_129_1851",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 129,
+    "instance": "Spd_RF2_100_129_1859",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 129,
+    "instance": "Spd_RF2_100_129_1867",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 129,
+    "instance": "Spd_RF2_100_129_1875",
+    "value": 17,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 129,
+    "instance": "Spd_RF2_100_129_1883",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 144,
+    "instance": "Spd_RF2_100_144_1891",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 144,
+    "instance": "Spd_RF2_100_144_1899",
+    "value": 13,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 144,
+    "instance": "Spd_RF2_100_144_1907",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 144,
+    "instance": "Spd_RF2_100_144_1915",
+    "value": 11,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 144,
+    "instance": "Spd_RF2_100_144_1923",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 159,
+    "instance": "Spd_RF2_100_159_1931",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 159,
+    "instance": "Spd_RF2_100_159_1939",
+    "value": 11,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 159,
+    "instance": "Spd_RF2_100_159_1947",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 159,
+    "instance": "Spd_RF2_100_159_1955",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 159,
+    "instance": "Spd_RF2_100_159_1963",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 174,
+    "instance": "Spd_RF2_100_174_1971",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 174,
+    "instance": "Spd_RF2_100_174_1979",
+    "value": 10,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 174,
+    "instance": "Spd_RF2_100_174_1987",
+    "value": 10,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 174,
+    "instance": "Spd_RF2_100_174_1995",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 100,
+    "edges": 174,
+    "instance": "Spd_RF2_100_174_2003",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 136,
+    "instance": "Spd_RF2_120_136_2211",
+    "value": 31,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 136,
+    "instance": "Spd_RF2_120_136_2219",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 136,
+    "instance": "Spd_RF2_120_136_2227",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 136,
+    "instance": "Spd_RF2_120_136_2235",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 136,
+    "instance": "Spd_RF2_120_136_2243",
+    "value": 31,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 152,
+    "instance": "Spd_RF2_120_152_2251",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 152,
+    "instance": "Spd_RF2_120_152_2259",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 152,
+    "instance": "Spd_RF2_120_152_2267",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 152,
+    "instance": "Spd_RF2_120_152_2275",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 152,
+    "instance": "Spd_RF2_120_152_2283",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 169,
+    "instance": "Spd_RF2_120_169_2291",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 169,
+    "instance": "Spd_RF2_120_169_2299",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 169,
+    "instance": "Spd_RF2_120_169_2307",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 169,
+    "instance": "Spd_RF2_120_169_2315",
+    "value": 20,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 169,
+    "instance": "Spd_RF2_120_169_2323",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 185,
+    "instance": "Spd_RF2_120_185_2331",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 185,
+    "instance": "Spd_RF2_120_185_2339",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 185,
+    "instance": "Spd_RF2_120_185_2347",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 185,
+    "instance": "Spd_RF2_120_185_2355",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 185,
+    "instance": "Spd_RF2_120_185_2363",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 202,
+    "instance": "Spd_RF2_120_202_2371",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 202,
+    "instance": "Spd_RF2_120_202_2379",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 202,
+    "instance": "Spd_RF2_120_202_2387",
+    "value": 11,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 202,
+    "instance": "Spd_RF2_120_202_2395",
+    "value": 10,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 120,
+    "edges": 202,
+    "instance": "Spd_RF2_120_202_2403",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 157,
+    "instance": "Spd_RF2_140_157_2611",
+    "value": 35,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 157,
+    "instance": "Spd_RF2_140_157_2619",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 157,
+    "instance": "Spd_RF2_140_157_2627",
+    "value": 35,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 157,
+    "instance": "Spd_RF2_140_157_2635",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 157,
+    "instance": "Spd_RF2_140_157_2643",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 175,
+    "instance": "Spd_RF2_140_175_2651",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 175,
+    "instance": "Spd_RF2_140_175_2659",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 175,
+    "instance": "Spd_RF2_140_175_2667",
+    "value": 27,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 175,
+    "instance": "Spd_RF2_140_175_2675",
+    "value": 27,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 175,
+    "instance": "Spd_RF2_140_175_2683",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 193,
+    "instance": "Spd_RF2_140_193_2691",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 193,
+    "instance": "Spd_RF2_140_193_2699",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 193,
+    "instance": "Spd_RF2_140_193_2707",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 193,
+    "instance": "Spd_RF2_140_193_2715",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 193,
+    "instance": "Spd_RF2_140_193_2723",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 211,
+    "instance": "Spd_RF2_140_211_2731",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 211,
+    "instance": "Spd_RF2_140_211_2739",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 211,
+    "instance": "Spd_RF2_140_211_2747",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 211,
+    "instance": "Spd_RF2_140_211_2755",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 211,
+    "instance": "Spd_RF2_140_211_2763",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 229,
+    "instance": "Spd_RF2_140_229_2771",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 229,
+    "instance": "Spd_RF2_140_229_2779",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 229,
+    "instance": "Spd_RF2_140_229_2787",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 229,
+    "instance": "Spd_RF2_140_229_2795",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 140,
+    "edges": 229,
+    "instance": "Spd_RF2_140_229_2803",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 179,
+    "instance": "Spd_RF2_160_179_3011",
+    "value": 40,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 179,
+    "instance": "Spd_RF2_160_179_3019",
+    "value": 41,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 179,
+    "instance": "Spd_RF2_160_179_3027",
+    "value": 43,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 179,
+    "instance": "Spd_RF2_160_179_3035",
+    "value": 41,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 179,
+    "instance": "Spd_RF2_160_179_3043",
+    "value": 40,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 198,
+    "instance": "Spd_RF2_160_198_3051",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 198,
+    "instance": "Spd_RF2_160_198_3059",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 198,
+    "instance": "Spd_RF2_160_198_3067",
+    "value": 33,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 198,
+    "instance": "Spd_RF2_160_198_3075",
+    "value": 32,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 198,
+    "instance": "Spd_RF2_160_198_3083",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 218,
+    "instance": "Spd_RF2_160_218_3091",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 218,
+    "instance": "Spd_RF2_160_218_3099",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 218,
+    "instance": "Spd_RF2_160_218_3107",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 218,
+    "instance": "Spd_RF2_160_218_3115",
+    "value": 27,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 218,
+    "instance": "Spd_RF2_160_218_3123",
+    "value": 28,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 237,
+    "instance": "Spd_RF2_160_237_3131",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 237,
+    "instance": "Spd_RF2_160_237_3139",
+    "value": 20,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 237,
+    "instance": "Spd_RF2_160_237_3147",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 237,
+    "instance": "Spd_RF2_160_237_3155",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 237,
+    "instance": "Spd_RF2_160_237_3163",
+    "value": 21,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 257,
+    "instance": "Spd_RF2_160_257_3171",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 257,
+    "instance": "Spd_RF2_160_257_3179",
+    "value": 17,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 257,
+    "instance": "Spd_RF2_160_257_3187",
+    "value": 20,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 257,
+    "instance": "Spd_RF2_160_257_3195",
+    "value": 19,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 160,
+    "edges": 257,
+    "instance": "Spd_RF2_160_257_3203",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 200,
+    "instance": "Spd_RF2_180_200_3411",
+    "value": 48,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 200,
+    "instance": "Spd_RF2_180_200_3419",
+    "value": 48,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 200,
+    "instance": "Spd_RF2_180_200_3427",
+    "value": 47,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 200,
+    "instance": "Spd_RF2_180_200_3435",
+    "value": 47,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 200,
+    "instance": "Spd_RF2_180_200_3443",
+    "value": 45,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 221,
+    "instance": "Spd_RF2_180_221_3451",
+    "value": 37,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 221,
+    "instance": "Spd_RF2_180_221_3459",
+    "value": 38,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 221,
+    "instance": "Spd_RF2_180_221_3467",
+    "value": 36,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 221,
+    "instance": "Spd_RF2_180_221_3475",
+    "value": 37,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 221,
+    "instance": "Spd_RF2_180_221_3483",
+    "value": 41,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 242,
+    "instance": "Spd_RF2_180_242_3491",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 242,
+    "instance": "Spd_RF2_180_242_3499",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 242,
+    "instance": "Spd_RF2_180_242_3507",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 242,
+    "instance": "Spd_RF2_180_242_3515",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 242,
+    "instance": "Spd_RF2_180_242_3523",
+    "value": 28,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 263,
+    "instance": "Spd_RF2_180_263_3531",
+    "value": 22,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 263,
+    "instance": "Spd_RF2_180_263_3539",
+    "value": 26,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 263,
+    "instance": "Spd_RF2_180_263_3547",
+    "value": 26,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 263,
+    "instance": "Spd_RF2_180_263_3555",
+    "value": 26,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 263,
+    "instance": "Spd_RF2_180_263_3563",
+    "value": 28,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 284,
+    "instance": "Spd_RF2_180_284_3571",
+    "value": 22,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 284,
+    "instance": "Spd_RF2_180_284_3579",
+    "value": 20,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 284,
+    "instance": "Spd_RF2_180_284_3587",
+    "value": 22,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 284,
+    "instance": "Spd_RF2_180_284_3595",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 180,
+    "edges": 284,
+    "instance": "Spd_RF2_180_284_3603",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 222,
+    "instance": "Spd_RF2_200_222_3811",
+    "value": 51,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 222,
+    "instance": "Spd_RF2_200_222_3819",
+    "value": 52,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 222,
+    "instance": "Spd_RF2_200_222_3827",
+    "value": 52,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 222,
+    "instance": "Spd_RF2_200_222_3835",
+    "value": 52,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 222,
+    "instance": "Spd_RF2_200_222_3843",
+    "value": 53,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 244,
+    "instance": "Spd_RF2_200_244_3851",
+    "value": 41,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 244,
+    "instance": "Spd_RF2_200_244_3859",
+    "value": 44,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 244,
+    "instance": "Spd_RF2_200_244_3867",
+    "value": 42,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 244,
+    "instance": "Spd_RF2_200_244_3875",
+    "value": 41,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 244,
+    "instance": "Spd_RF2_200_244_3883",
+    "value": 40,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 267,
+    "instance": "Spd_RF2_200_267_3891",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 267,
+    "instance": "Spd_RF2_200_267_3899",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 267,
+    "instance": "Spd_RF2_200_267_3907",
+    "value": 31,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 267,
+    "instance": "Spd_RF2_200_267_3915",
+    "value": 33,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 267,
+    "instance": "Spd_RF2_200_267_3923",
+    "value": 33,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 289,
+    "instance": "Spd_RF2_200_289_3931",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 289,
+    "instance": "Spd_RF2_200_289_3939",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 289,
+    "instance": "Spd_RF2_200_289_3947",
+    "value": 28,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 289,
+    "instance": "Spd_RF2_200_289_3955",
+    "value": 30,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 289,
+    "instance": "Spd_RF2_200_289_3963",
+    "value": 29,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 312,
+    "instance": "Spd_RF2_200_312_3971",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 312,
+    "instance": "Spd_RF2_200_312_3979",
+    "value": 23,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 312,
+    "instance": "Spd_RF2_200_312_3987",
+    "value": 25,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 312,
+    "instance": "Spd_RF2_200_312_3995",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 200,
+    "edges": 312,
+    "instance": "Spd_RF2_200_312_4003",
+    "value": 24,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 27,
+    "instance": "Spd_RF2_20_27_211",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 27,
+    "instance": "Spd_RF2_20_27_219",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 27,
+    "instance": "Spd_RF2_20_27_227",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 27,
+    "instance": "Spd_RF2_20_27_235",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 27,
+    "instance": "Spd_RF2_20_27_243",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 34,
+    "instance": "Spd_RF2_20_34_251",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 34,
+    "instance": "Spd_RF2_20_34_259",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 34,
+    "instance": "Spd_RF2_20_34_267",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 34,
+    "instance": "Spd_RF2_20_34_275",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 34,
+    "instance": "Spd_RF2_20_34_283",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 42,
+    "instance": "Spd_RF2_20_42_291",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 42,
+    "instance": "Spd_RF2_20_42_299",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 42,
+    "instance": "Spd_RF2_20_42_307",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 42,
+    "instance": "Spd_RF2_20_42_315",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 42,
+    "instance": "Spd_RF2_20_42_323",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 49,
+    "instance": "Spd_RF2_20_49_331",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 49,
+    "instance": "Spd_RF2_20_49_339",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 49,
+    "instance": "Spd_RF2_20_49_347",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 49,
+    "instance": "Spd_RF2_20_49_355",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 49,
+    "instance": "Spd_RF2_20_49_363",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 57,
+    "instance": "Spd_RF2_20_57_371",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 57,
+    "instance": "Spd_RF2_20_57_379",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 57,
+    "instance": "Spd_RF2_20_57_387",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 57,
+    "instance": "Spd_RF2_20_57_395",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 20,
+    "edges": 57,
+    "instance": "Spd_RF2_20_57_403",
+    "value": 0,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 273,
+    "instance": "Spd_RF2_250_273_4011",
+    "value": 68,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 273,
+    "instance": "Spd_RF2_250_273_4019",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 273,
+    "instance": "Spd_RF2_250_273_4027",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 273,
+    "instance": "Spd_RF2_250_273_4035",
+    "value": 68,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 273,
+    "instance": "Spd_RF2_250_273_4043",
+    "value": 68,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 297,
+    "instance": "Spd_RF2_250_297_4051",
+    "value": 54,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 297,
+    "instance": "Spd_RF2_250_297_4059",
+    "value": 60,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 297,
+    "instance": "Spd_RF2_250_297_4067",
+    "value": 54,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 297,
+    "instance": "Spd_RF2_250_297_4075",
+    "value": 58,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 297,
+    "instance": "Spd_RF2_250_297_4083",
+    "value": 56,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 321,
+    "instance": "Spd_RF2_250_321_4091",
+    "value": 48,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 321,
+    "instance": "Spd_RF2_250_321_4099",
+    "value": 45,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 321,
+    "instance": "Spd_RF2_250_321_4107",
+    "value": 47,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 321,
+    "instance": "Spd_RF2_250_321_4115",
+    "value": 46,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 321,
+    "instance": "Spd_RF2_250_321_4123",
+    "value": 47,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 345,
+    "instance": "Spd_RF2_250_345_4131",
+    "value": 35,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 345,
+    "instance": "Spd_RF2_250_345_4139",
+    "value": 42,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 345,
+    "instance": "Spd_RF2_250_345_4147",
+    "value": 42,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 345,
+    "instance": "Spd_RF2_250_345_4155",
+    "value": 36,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 345,
+    "instance": "Spd_RF2_250_345_4163",
+    "value": 42,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 369,
+    "instance": "Spd_RF2_250_369_4171",
+    "value": 31,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 369,
+    "instance": "Spd_RF2_250_369_4179",
+    "value": 33,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 369,
+    "instance": "Spd_RF2_250_369_4187",
+    "value": 31,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 369,
+    "instance": "Spd_RF2_250_369_4195",
+    "value": 33,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 250,
+    "edges": 369,
+    "instance": "Spd_RF2_250_369_4203",
+    "value": 34,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 326,
+    "instance": "Spd_RF2_300_326_4211",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 326,
+    "instance": "Spd_RF2_300_326_4219",
+    "value": 81,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 326,
+    "instance": "Spd_RF2_300_326_4227",
+    "value": 82,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 326,
+    "instance": "Spd_RF2_300_326_4235",
+    "value": 82,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 326,
+    "instance": "Spd_RF2_300_326_4243",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 353,
+    "instance": "Spd_RF2_300_353_4251",
+    "value": 68,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 353,
+    "instance": "Spd_RF2_300_353_4259",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 353,
+    "instance": "Spd_RF2_300_353_4267",
+    "value": 72,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 353,
+    "instance": "Spd_RF2_300_353_4275",
+    "value": 73,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 353,
+    "instance": "Spd_RF2_300_353_4283",
+    "value": 70,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 380,
+    "instance": "Spd_RF2_300_380_4291",
+    "value": 61,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 380,
+    "instance": "Spd_RF2_300_380_4299",
+    "value": 58,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 380,
+    "instance": "Spd_RF2_300_380_4307",
+    "value": 58,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 380,
+    "instance": "Spd_RF2_300_380_4315",
+    "value": 56,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 380,
+    "instance": "Spd_RF2_300_380_4323",
+    "value": 62,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 407,
+    "instance": "Spd_RF2_300_407_4331",
+    "value": 53,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 407,
+    "instance": "Spd_RF2_300_407_4339",
+    "value": 53,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 407,
+    "instance": "Spd_RF2_300_407_4347",
+    "value": 54,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 407,
+    "instance": "Spd_RF2_300_407_4355",
+    "value": 49,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 407,
+    "instance": "Spd_RF2_300_407_4363",
+    "value": 52,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 434,
+    "instance": "Spd_RF2_300_434_4371",
+    "value": 44,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 434,
+    "instance": "Spd_RF2_300_434_4379",
+    "value": 42,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 434,
+    "instance": "Spd_RF2_300_434_4387",
+    "value": 45,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 434,
+    "instance": "Spd_RF2_300_434_4395",
+    "value": 47,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 300,
+    "edges": 434,
+    "instance": "Spd_RF2_300_434_4403",
+    "value": 45,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 378,
+    "instance": "Spd_RF2_350_378_4411",
+    "value": 97,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 378,
+    "instance": "Spd_RF2_350_378_4419",
+    "value": 95,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 378,
+    "instance": "Spd_RF2_350_378_4427",
+    "value": 97,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 378,
+    "instance": "Spd_RF2_350_378_4435",
+    "value": 95,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 378,
+    "instance": "Spd_RF2_350_378_4443",
+    "value": 96,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 406,
+    "instance": "Spd_RF2_350_406_4451",
+    "value": 82,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 406,
+    "instance": "Spd_RF2_350_406_4459",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 406,
+    "instance": "Spd_RF2_350_406_4467",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 406,
+    "instance": "Spd_RF2_350_406_4475",
+    "value": 82,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 406,
+    "instance": "Spd_RF2_350_406_4483",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 435,
+    "instance": "Spd_RF2_350_435_4491",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 435,
+    "instance": "Spd_RF2_350_435_4499",
+    "value": 70,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 435,
+    "instance": "Spd_RF2_350_435_4507",
+    "value": 72,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 435,
+    "instance": "Spd_RF2_350_435_4515",
+    "value": 72,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 435,
+    "instance": "Spd_RF2_350_435_4523",
+    "value": 72,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 463,
+    "instance": "Spd_RF2_350_463_4531",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 463,
+    "instance": "Spd_RF2_350_463_4539",
+    "value": 62,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 463,
+    "instance": "Spd_RF2_350_463_4547",
+    "value": 64,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 463,
+    "instance": "Spd_RF2_350_463_4555",
+    "value": 65,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 463,
+    "instance": "Spd_RF2_350_463_4563",
+    "value": 61,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 492,
+    "instance": "Spd_RF2_350_492_4571",
+    "value": 53,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 492,
+    "instance": "Spd_RF2_350_492_4579",
+    "value": 60,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 492,
+    "instance": "Spd_RF2_350_492_4587",
+    "value": 53,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 492,
+    "instance": "Spd_RF2_350_492_4595",
+    "value": 48,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 350,
+    "edges": 492,
+    "instance": "Spd_RF2_350_492_4603",
+    "value": 57,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 429,
+    "instance": "Spd_RF2_400_429_4611",
+    "value": 113,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 429,
+    "instance": "Spd_RF2_400_429_4619",
+    "value": 114,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 429,
+    "instance": "Spd_RF2_400_429_4627",
+    "value": 113,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 429,
+    "instance": "Spd_RF2_400_429_4635",
+    "value": 112,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 429,
+    "instance": "Spd_RF2_400_429_4643",
+    "value": 115,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 459,
+    "instance": "Spd_RF2_400_459_4651",
+    "value": 101,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 459,
+    "instance": "Spd_RF2_400_459_4659",
+    "value": 96,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 459,
+    "instance": "Spd_RF2_400_459_4667",
+    "value": 99,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 459,
+    "instance": "Spd_RF2_400_459_4675",
+    "value": 99,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 459,
+    "instance": "Spd_RF2_400_459_4683",
+    "value": 97,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 489,
+    "instance": "Spd_RF2_400_489_4691",
+    "value": 80,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 489,
+    "instance": "Spd_RF2_400_489_4699",
+    "value": 86,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 489,
+    "instance": "Spd_RF2_400_489_4707",
+    "value": 87,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 489,
+    "instance": "Spd_RF2_400_489_4715",
+    "value": 84,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 489,
+    "instance": "Spd_RF2_400_489_4723",
+    "value": 88,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 519,
+    "instance": "Spd_RF2_400_519_4731",
+    "value": 76,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 519,
+    "instance": "Spd_RF2_400_519_4739",
+    "value": 71,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 519,
+    "instance": "Spd_RF2_400_519_4747",
+    "value": 77,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 519,
+    "instance": "Spd_RF2_400_519_4755",
+    "value": 78,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 519,
+    "instance": "Spd_RF2_400_519_4763",
+    "value": 74,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 549,
+    "instance": "Spd_RF2_400_549_4771",
+    "value": 67,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 549,
+    "instance": "Spd_RF2_400_549_4779",
+    "value": 60,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 549,
+    "instance": "Spd_RF2_400_549_4787",
+    "value": 64,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 549,
+    "instance": "Spd_RF2_400_549_4795",
+    "value": 63,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 400,
+    "edges": 549,
+    "instance": "Spd_RF2_400_549_4803",
+    "value": 66,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 50,
+    "instance": "Spd_RF2_40_50_611",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 50,
+    "instance": "Spd_RF2_40_50_619",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 50,
+    "instance": "Spd_RF2_40_50_627",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 50,
+    "instance": "Spd_RF2_40_50_635",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 50,
+    "instance": "Spd_RF2_40_50_643",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 60,
+    "instance": "Spd_RF2_40_60_651",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 60,
+    "instance": "Spd_RF2_40_60_659",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 60,
+    "instance": "Spd_RF2_40_60_667",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 60,
+    "instance": "Spd_RF2_40_60_675",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 60,
+    "instance": "Spd_RF2_40_60_683",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 71,
+    "instance": "Spd_RF2_40_71_691",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 71,
+    "instance": "Spd_RF2_40_71_699",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 71,
+    "instance": "Spd_RF2_40_71_707",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 71,
+    "instance": "Spd_RF2_40_71_715",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 71,
+    "instance": "Spd_RF2_40_71_723",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 81,
+    "instance": "Spd_RF2_40_81_731",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 81,
+    "instance": "Spd_RF2_40_81_739",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 81,
+    "instance": "Spd_RF2_40_81_747",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 81,
+    "instance": "Spd_RF2_40_81_755",
+    "value": 3,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 81,
+    "instance": "Spd_RF2_40_81_763",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 92,
+    "instance": "Spd_RF2_40_92_771",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 92,
+    "instance": "Spd_RF2_40_92_779",
+    "value": 1,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 92,
+    "instance": "Spd_RF2_40_92_787",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 92,
+    "instance": "Spd_RF2_40_92_795",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 40,
+    "edges": 92,
+    "instance": "Spd_RF2_40_92_803",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 482,
+    "instance": "Spd_RF2_450_482_4811",
+    "value": 127,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 482,
+    "instance": "Spd_RF2_450_482_4819",
+    "value": 127,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 482,
+    "instance": "Spd_RF2_450_482_4827",
+    "value": 129,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 482,
+    "instance": "Spd_RF2_450_482_4835",
+    "value": 128,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 482,
+    "instance": "Spd_RF2_450_482_4843",
+    "value": 127,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 515,
+    "instance": "Spd_RF2_450_515_4851",
+    "value": 112,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 515,
+    "instance": "Spd_RF2_450_515_4859",
+    "value": 113,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 515,
+    "instance": "Spd_RF2_450_515_4867",
+    "value": 109,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 515,
+    "instance": "Spd_RF2_450_515_4875",
+    "value": 112,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 515,
+    "instance": "Spd_RF2_450_515_4883",
+    "value": 111,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 548,
+    "instance": "Spd_RF2_450_548_4891",
+    "value": 97,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 548,
+    "instance": "Spd_RF2_450_548_4899",
+    "value": 92,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 548,
+    "instance": "Spd_RF2_450_548_4907",
+    "value": 96,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 548,
+    "instance": "Spd_RF2_450_548_4915",
+    "value": 93,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 548,
+    "instance": "Spd_RF2_450_548_4923",
+    "value": 99,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 581,
+    "instance": "Spd_RF2_450_581_4931",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 581,
+    "instance": "Spd_RF2_450_581_4939",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 581,
+    "instance": "Spd_RF2_450_581_4947",
+    "value": 85,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 581,
+    "instance": "Spd_RF2_450_581_4955",
+    "value": 85,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 581,
+    "instance": "Spd_RF2_450_581_4963",
+    "value": 83,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 614,
+    "instance": "Spd_RF2_450_614_4971",
+    "value": 73,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 614,
+    "instance": "Spd_RF2_450_614_4979",
+    "value": 81,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 614,
+    "instance": "Spd_RF2_450_614_4987",
+    "value": 73,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 614,
+    "instance": "Spd_RF2_450_614_4995",
+    "value": 76,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 450,
+    "edges": 614,
+    "instance": "Spd_RF2_450_614_5003",
+    "value": 76,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 534,
+    "instance": "Spd_RF2_500_534_5011",
+    "value": 142,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 534,
+    "instance": "Spd_RF2_500_534_5019",
+    "value": 145,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 534,
+    "instance": "Spd_RF2_500_534_5027",
+    "value": 144,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 534,
+    "instance": "Spd_RF2_500_534_5035",
+    "value": 147,
+    "algorithm": "BEP Anderson",
+    "time": 0.009,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 534,
+    "instance": "Spd_RF2_500_534_5043",
+    "value": 142,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 568,
+    "instance": "Spd_RF2_500_568_5051",
+    "value": 126,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 568,
+    "instance": "Spd_RF2_500_568_5059",
+    "value": 125,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 568,
+    "instance": "Spd_RF2_500_568_5067",
+    "value": 127,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 568,
+    "instance": "Spd_RF2_500_568_5075",
+    "value": 125,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 568,
+    "instance": "Spd_RF2_500_568_5083",
+    "value": 124,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 603,
+    "instance": "Spd_RF2_500_603_5091",
+    "value": 113,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 603,
+    "instance": "Spd_RF2_500_603_5099",
+    "value": 111,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 603,
+    "instance": "Spd_RF2_500_603_5107",
+    "value": 116,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 603,
+    "instance": "Spd_RF2_500_603_5115",
+    "value": 110,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 603,
+    "instance": "Spd_RF2_500_603_5123",
+    "value": 108,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 637,
+    "instance": "Spd_RF2_500_637_5131",
+    "value": 103,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 637,
+    "instance": "Spd_RF2_500_637_5139",
+    "value": 100,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 637,
+    "instance": "Spd_RF2_500_637_5147",
+    "value": 96,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 637,
+    "instance": "Spd_RF2_500_637_5155",
+    "value": 96,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 637,
+    "instance": "Spd_RF2_500_637_5163",
+    "value": 92,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 672,
+    "instance": "Spd_RF2_500_672_5171",
+    "value": 87,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 672,
+    "instance": "Spd_RF2_500_672_5179",
+    "value": 87,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 672,
+    "instance": "Spd_RF2_500_672_5187",
+    "value": 79,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 672,
+    "instance": "Spd_RF2_500_672_5195",
+    "value": 87,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 500,
+    "edges": 672,
+    "instance": "Spd_RF2_500_672_5203",
+    "value": 85,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 637,
+    "instance": "Spd_RF2_600_637_5211",
+    "value": 184,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 637,
+    "instance": "Spd_RF2_600_637_5219",
+    "value": 186,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 637,
+    "instance": "Spd_RF2_600_637_5227",
+    "value": 188,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 637,
+    "instance": "Spd_RF2_600_637_5235",
+    "value": 185,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 637,
+    "instance": "Spd_RF2_600_637_5243",
+    "value": 184,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 674,
+    "instance": "Spd_RF2_600_674_5251",
+    "value": 169,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 674,
+    "instance": "Spd_RF2_600_674_5259",
+    "value": 172,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 674,
+    "instance": "Spd_RF2_600_674_5267",
+    "value": 172,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 674,
+    "instance": "Spd_RF2_600_674_5275",
+    "value": 171,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 674,
+    "instance": "Spd_RF2_600_674_5283",
+    "value": 173,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 712,
+    "instance": "Spd_RF2_600_712_5291",
+    "value": 154,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 712,
+    "instance": "Spd_RF2_600_712_5299",
+    "value": 158,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 712,
+    "instance": "Spd_RF2_600_712_5307",
+    "value": 156,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 712,
+    "instance": "Spd_RF2_600_712_5315",
+    "value": 158,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 712,
+    "instance": "Spd_RF2_600_712_5323",
+    "value": 155,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 749,
+    "instance": "Spd_RF2_600_749_5331",
+    "value": 143,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 749,
+    "instance": "Spd_RF2_600_749_5339",
+    "value": 145,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 749,
+    "instance": "Spd_RF2_600_749_5347",
+    "value": 149,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 749,
+    "instance": "Spd_RF2_600_749_5355",
+    "value": 147,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 749,
+    "instance": "Spd_RF2_600_749_5363",
+    "value": 144,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 787,
+    "instance": "Spd_RF2_600_787_5371",
+    "value": 135,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 787,
+    "instance": "Spd_RF2_600_787_5379",
+    "value": 131,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 787,
+    "instance": "Spd_RF2_600_787_5387",
+    "value": 135,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 787,
+    "instance": "Spd_RF2_600_787_5395",
+    "value": 134,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 600,
+    "edges": 787,
+    "instance": "Spd_RF2_600_787_5403",
+    "value": 134,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 107,
+    "instance": "Spd_RF2_60_107_1131",
+    "value": 6,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 107,
+    "instance": "Spd_RF2_60_107_1139",
+    "value": 6,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 107,
+    "instance": "Spd_RF2_60_107_1147",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 107,
+    "instance": "Spd_RF2_60_107_1155",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 107,
+    "instance": "Spd_RF2_60_107_1163",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 119,
+    "instance": "Spd_RF2_60_119_1171",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 119,
+    "instance": "Spd_RF2_60_119_1179",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 119,
+    "instance": "Spd_RF2_60_119_1187",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 119,
+    "instance": "Spd_RF2_60_119_1195",
+    "value": 2,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 119,
+    "instance": "Spd_RF2_60_119_1203",
+    "value": 4,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 71,
+    "instance": "Spd_RF2_60_71_1011",
+    "value": 11,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 71,
+    "instance": "Spd_RF2_60_71_1019",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 71,
+    "instance": "Spd_RF2_60_71_1027",
+    "value": 14,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 71,
+    "instance": "Spd_RF2_60_71_1035",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 71,
+    "instance": "Spd_RF2_60_71_1043",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 83,
+    "instance": "Spd_RF2_60_83_1051",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 83,
+    "instance": "Spd_RF2_60_83_1059",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 83,
+    "instance": "Spd_RF2_60_83_1067",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 83,
+    "instance": "Spd_RF2_60_83_1075",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 83,
+    "instance": "Spd_RF2_60_83_1083",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 95,
+    "instance": "Spd_RF2_60_95_1091",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 95,
+    "instance": "Spd_RF2_60_95_1099",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 95,
+    "instance": "Spd_RF2_60_95_1107",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 95,
+    "instance": "Spd_RF2_60_95_1115",
+    "value": 8,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 60,
+    "edges": 95,
+    "instance": "Spd_RF2_60_95_1123",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 740,
+    "instance": "Spd_RF2_700_740_5411",
+    "value": 218,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 740,
+    "instance": "Spd_RF2_700_740_5419",
+    "value": 216,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 740,
+    "instance": "Spd_RF2_700_740_5427",
+    "value": 218,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 740,
+    "instance": "Spd_RF2_700_740_5435",
+    "value": 216,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 740,
+    "instance": "Spd_RF2_700_740_5443",
+    "value": 217,
+    "algorithm": "BEP Anderson",
+    "time": 0.002,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 780,
+    "instance": "Spd_RF2_700_780_5451",
+    "value": 204,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 780,
+    "instance": "Spd_RF2_700_780_5459",
+    "value": 204,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 780,
+    "instance": "Spd_RF2_700_780_5467",
+    "value": 203,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 780,
+    "instance": "Spd_RF2_700_780_5475",
+    "value": 199,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 780,
+    "instance": "Spd_RF2_700_780_5483",
+    "value": 203,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 821,
+    "instance": "Spd_RF2_700_821_5491",
+    "value": 185,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 821,
+    "instance": "Spd_RF2_700_821_5499",
+    "value": 181,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 821,
+    "instance": "Spd_RF2_700_821_5507",
+    "value": 188,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 821,
+    "instance": "Spd_RF2_700_821_5515",
+    "value": 186,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 821,
+    "instance": "Spd_RF2_700_821_5523",
+    "value": 188,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 861,
+    "instance": "Spd_RF2_700_861_5531",
+    "value": 173,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 861,
+    "instance": "Spd_RF2_700_861_5539",
+    "value": 173,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 861,
+    "instance": "Spd_RF2_700_861_5547",
+    "value": 171,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 861,
+    "instance": "Spd_RF2_700_861_5555",
+    "value": 172,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 861,
+    "instance": "Spd_RF2_700_861_5563",
+    "value": 168,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 902,
+    "instance": "Spd_RF2_700_902_5571",
+    "value": 164,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 902,
+    "instance": "Spd_RF2_700_902_5579",
+    "value": 159,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 902,
+    "instance": "Spd_RF2_700_902_5587",
+    "value": 166,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 902,
+    "instance": "Spd_RF2_700_902_5595",
+    "value": 158,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 700,
+    "edges": 902,
+    "instance": "Spd_RF2_700_902_5603",
+    "value": 162,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 1017,
+    "instance": "Spd_RF2_800_1017_5771",
+    "value": 185,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 1017,
+    "instance": "Spd_RF2_800_1017_5779",
+    "value": 181,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 1017,
+    "instance": "Spd_RF2_800_1017_5787",
+    "value": 186,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 1017,
+    "instance": "Spd_RF2_800_1017_5795",
+    "value": 186,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 1017,
+    "instance": "Spd_RF2_800_1017_5803",
+    "value": 186,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 843,
+    "instance": "Spd_RF2_800_843_5611",
+    "value": 249,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 843,
+    "instance": "Spd_RF2_800_843_5619",
+    "value": 246,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 843,
+    "instance": "Spd_RF2_800_843_5627",
+    "value": 249,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 843,
+    "instance": "Spd_RF2_800_843_5635",
+    "value": 250,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 843,
+    "instance": "Spd_RF2_800_843_5643",
+    "value": 248,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 886,
+    "instance": "Spd_RF2_800_886_5651",
+    "value": 234,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 886,
+    "instance": "Spd_RF2_800_886_5659",
+    "value": 233,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 886,
+    "instance": "Spd_RF2_800_886_5667",
+    "value": 230,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 886,
+    "instance": "Spd_RF2_800_886_5675",
+    "value": 232,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 886,
+    "instance": "Spd_RF2_800_886_5683",
+    "value": 231,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 930,
+    "instance": "Spd_RF2_800_930_5691",
+    "value": 216,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 930,
+    "instance": "Spd_RF2_800_930_5699",
+    "value": 213,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 930,
+    "instance": "Spd_RF2_800_930_5707",
+    "value": 215,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 930,
+    "instance": "Spd_RF2_800_930_5715",
+    "value": 218,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 930,
+    "instance": "Spd_RF2_800_930_5723",
+    "value": 214,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 973,
+    "instance": "Spd_RF2_800_973_5731",
+    "value": 205,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 973,
+    "instance": "Spd_RF2_800_973_5739",
+    "value": 194,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 973,
+    "instance": "Spd_RF2_800_973_5747",
+    "value": 204,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 973,
+    "instance": "Spd_RF2_800_973_5755",
+    "value": 202,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 800,
+    "edges": 973,
+    "instance": "Spd_RF2_800_973_5763",
+    "value": 203,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 106,
+    "instance": "Spd_RF2_80_106_1451",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 106,
+    "instance": "Spd_RF2_80_106_1459",
+    "value": 13,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 106,
+    "instance": "Spd_RF2_80_106_1467",
+    "value": 15,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 106,
+    "instance": "Spd_RF2_80_106_1475",
+    "value": 13,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 106,
+    "instance": "Spd_RF2_80_106_1483",
+    "value": 13,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 120,
+    "instance": "Spd_RF2_80_120_1491",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 120,
+    "instance": "Spd_RF2_80_120_1499",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 120,
+    "instance": "Spd_RF2_80_120_1507",
+    "value": 10,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 120,
+    "instance": "Spd_RF2_80_120_1515",
+    "value": 12,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 120,
+    "instance": "Spd_RF2_80_120_1523",
+    "value": 11,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 133,
+    "instance": "Spd_RF2_80_133_1531",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 133,
+    "instance": "Spd_RF2_80_133_1539",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 133,
+    "instance": "Spd_RF2_80_133_1547",
+    "value": 7,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 133,
+    "instance": "Spd_RF2_80_133_1555",
+    "value": 6,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 133,
+    "instance": "Spd_RF2_80_133_1563",
+    "value": 9,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 147,
+    "instance": "Spd_RF2_80_147_1571",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 147,
+    "instance": "Spd_RF2_80_147_1579",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 147,
+    "instance": "Spd_RF2_80_147_1587",
+    "value": 6,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 147,
+    "instance": "Spd_RF2_80_147_1595",
+    "value": 6,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 147,
+    "instance": "Spd_RF2_80_147_1603",
+    "value": 5,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 93,
+    "instance": "Spd_RF2_80_93_1411",
+    "value": 17,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 93,
+    "instance": "Spd_RF2_80_93_1419",
+    "value": 17,
+    "algorithm": "BEP Anderson",
+    "time": 0.001,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 93,
+    "instance": "Spd_RF2_80_93_1427",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 93,
+    "instance": "Spd_RF2_80_93_1435",
+    "value": 16,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 80,
+    "edges": 93,
+    "instance": "Spd_RF2_80_93_1443",
+    "value": 18,
+    "algorithm": "BEP Anderson",
+    "time": 0.0,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1034,
+    "instance": "Spd_RF2_900_1034_5891",
+    "value": 246,
+    "algorithm": "BEP Anderson",
+    "time": 0.003,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1034,
+    "instance": "Spd_RF2_900_1034_5899",
+    "value": 247,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1034,
+    "instance": "Spd_RF2_900_1034_5907",
+    "value": 246,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1034,
+    "instance": "Spd_RF2_900_1034_5915",
+    "value": 249,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1034,
+    "instance": "Spd_RF2_900_1034_5923",
+    "value": 247,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1079,
+    "instance": "Spd_RF2_900_1079_5931",
+    "value": 231,
+    "algorithm": "BEP Anderson",
+    "time": 0.008,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1079,
+    "instance": "Spd_RF2_900_1079_5939",
+    "value": 234,
+    "algorithm": "BEP Anderson",
+    "time": 0.007,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1079,
+    "instance": "Spd_RF2_900_1079_5947",
+    "value": 235,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1079,
+    "instance": "Spd_RF2_900_1079_5955",
+    "value": 231,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1079,
+    "instance": "Spd_RF2_900_1079_5963",
+    "value": 231,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1124,
+    "instance": "Spd_RF2_900_1124_5971",
+    "value": 220,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1124,
+    "instance": "Spd_RF2_900_1124_5979",
+    "value": 217,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1124,
+    "instance": "Spd_RF2_900_1124_5987",
+    "value": 213,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1124,
+    "instance": "Spd_RF2_900_1124_5995",
+    "value": 212,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 1124,
+    "instance": "Spd_RF2_900_1124_6003",
+    "value": 212,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 944,
+    "instance": "Spd_RF2_900_944_5811",
+    "value": 282,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 944,
+    "instance": "Spd_RF2_900_944_5819",
+    "value": 284,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 944,
+    "instance": "Spd_RF2_900_944_5827",
+    "value": 282,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 944,
+    "instance": "Spd_RF2_900_944_5835",
+    "value": 284,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 944,
+    "instance": "Spd_RF2_900_944_5843",
+    "value": 282,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 989,
+    "instance": "Spd_RF2_900_989_5851",
+    "value": 264,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 989,
+    "instance": "Spd_RF2_900_989_5859",
+    "value": 266,
+    "algorithm": "BEP Anderson",
+    "time": 0.006,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 989,
+    "instance": "Spd_RF2_900_989_5867",
+    "value": 267,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 989,
+    "instance": "Spd_RF2_900_989_5875",
+    "value": 266,
+    "algorithm": "BEP Anderson",
+    "time": 0.004,
+    "instance_group": "Spd RF2"
+  },
+  {
+    "vertices": 900,
+    "edges": 989,
+    "instance": "Spd_RF2_900_989_5883",
+    "value": 261,
+    "algorithm": "BEP Anderson",
+    "time": 0.005,
+    "instance_group": "Spd RF2"
+  }
+]

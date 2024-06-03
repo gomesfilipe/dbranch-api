@@ -1,0 +1,122 @@
+[
+  {
+    "vertices": 450,
+    "edges": 8169,
+    "instance_group": "Leighton",
+    "instance": "le450_15b",
+    "value": 2,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.08130097389221191,
+    "branch_vertices": "[74, 116]"
+  },
+  {
+    "vertices": 450,
+    "edges": 8260,
+    "instance_group": "Leighton",
+    "instance": "le450_25a",
+    "value": 3,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.11065173149108887,
+    "branch_vertices": "[44, 83, 111]"
+  },
+  {
+    "vertices": 450,
+    "edges": 5714,
+    "instance_group": "Leighton",
+    "instance": "le450_5a",
+    "value": 1,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.0448453426361084,
+    "branch_vertices": "[143]"
+  },
+  {
+    "vertices": 450,
+    "edges": 16750,
+    "instance_group": "Leighton",
+    "instance": "le450_15d",
+    "value": 0,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.06463479995727539,
+    "branch_vertices": "[]"
+  },
+  {
+    "vertices": 450,
+    "edges": 9757,
+    "instance_group": "Leighton",
+    "instance": "le450_5d",
+    "value": 0,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.0450434684753418,
+    "branch_vertices": "[]"
+  },
+  {
+    "vertices": 450,
+    "edges": 16680,
+    "instance_group": "Leighton",
+    "instance": "le450_15c",
+    "value": 0,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.06527137756347656,
+    "branch_vertices": "[]"
+  },
+  {
+    "vertices": 450,
+    "edges": 17425,
+    "instance_group": "Leighton",
+    "instance": "le450_25d",
+    "value": 0,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.15768218040466309,
+    "branch_vertices": "[]"
+  },
+  {
+    "vertices": 450,
+    "edges": 8168,
+    "instance_group": "Leighton",
+    "instance": "le450_15a",
+    "value": 2,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.08025407791137695,
+    "branch_vertices": "[4, 343]"
+  },
+  {
+    "vertices": 450,
+    "edges": 17343,
+    "instance_group": "Leighton",
+    "instance": "le450_25c",
+    "value": 1,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.1227102279663086,
+    "branch_vertices": "[283]"
+  },
+  {
+    "vertices": 450,
+    "edges": 8263,
+    "instance_group": "Leighton",
+    "instance": "le450_25b",
+    "value": 2,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.08159756660461426,
+    "branch_vertices": "[29, 211]"
+  },
+  {
+    "vertices": 450,
+    "edges": 5734,
+    "instance_group": "Leighton",
+    "instance": "le450_5b",
+    "value": 2,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.06611847877502441,
+    "branch_vertices": "[156, 302]"
+  },
+  {
+    "vertices": 450,
+    "edges": 9803,
+    "instance_group": "Leighton",
+    "instance": "le450_5c",
+    "value": 1,
+    "algorithm": "Randomized Branch Expanding Prim",
+    "time": 0.08417415618896484,
+    "branch_vertices": "[139]"
+  }
+]

@@ -6,7 +6,7 @@
     "instance": "le450_15b",
     "value": 1,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.06415820121765137,
+    "time": 0.06442523002624512,
     "branch_vertices": "[4]"
   },
   {
@@ -16,7 +16,7 @@
     "instance": "le450_25a",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.03140401840209961,
+    "time": 0.0313572883605957,
     "branch_vertices": "[]"
   },
   {
@@ -26,7 +26,7 @@
     "instance": "le450_5a",
     "value": 2,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.05722546577453613,
+    "time": 0.0563204288482666,
     "branch_vertices": "[29, 109]"
   },
   {
@@ -36,7 +36,7 @@
     "instance": "le450_15d",
     "value": 1,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.10602951049804688,
+    "time": 0.09786605834960938,
     "branch_vertices": "[8]"
   },
   {
@@ -46,7 +46,7 @@
     "instance": "le450_5d",
     "value": 1,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.08928728103637695,
+    "time": 0.057858943939208984,
     "branch_vertices": "[374]"
   },
   {
@@ -56,7 +56,7 @@
     "instance": "le450_15c",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.05336117744445801,
+    "time": 0.05133414268493652,
     "branch_vertices": "[]"
   },
   {
@@ -66,7 +66,7 @@
     "instance": "le450_25d",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.05579733848571777,
+    "time": 0.052011966705322266,
     "branch_vertices": "[]"
   },
   {
@@ -76,7 +76,7 @@
     "instance": "le450_15a",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.05983090400695801,
+    "time": 0.026273250579833984,
     "branch_vertices": "[]"
   },
   {
@@ -86,7 +86,7 @@
     "instance": "le450_25c",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.05773591995239258,
+    "time": 0.0520787239074707,
     "branch_vertices": "[]"
   },
   {
@@ -96,7 +96,7 @@
     "instance": "le450_25b",
     "value": 0,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.030545711517333984,
+    "time": 0.02676224708557129,
     "branch_vertices": "[]"
   },
   {
@@ -106,7 +106,7 @@
     "instance": "le450_5b",
     "value": 3,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.07830357551574707,
+    "time": 0.06907153129577637,
     "branch_vertices": "[126, 144, 178]"
   },
   {
@@ -116,7 +116,7 @@
     "instance": "le450_5c",
     "value": 1,
     "algorithm": "Branch Expanding Prim",
-    "time": 0.09591484069824219,
+    "time": 0.05806541442871094,
     "branch_vertices": "[48]"
   }
 ]

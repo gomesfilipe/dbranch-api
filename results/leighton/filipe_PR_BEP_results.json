@@ -6,7 +6,7 @@
     "instance": "le450_15b",
     "value": 1,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.06664013862609863,
+    "time": 0.05843520164489746,
     "branch_vertices": "[4]"
   },
   {
@@ -16,7 +16,7 @@
     "instance": "le450_25a",
     "value": 0,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.03222036361694336,
+    "time": 0.02594614028930664,
     "branch_vertices": "[]"
   },
   {
@@ -26,7 +26,7 @@
     "instance": "le450_5a",
     "value": 1,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.03739333152770996,
+    "time": 0.03436470031738281,
     "branch_vertices": "[189]"
   },
   {
@@ -36,7 +36,7 @@
     "instance": "le450_15d",
     "value": 1,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.10649514198303223,
+    "time": 0.10603570938110352,
     "branch_vertices": "[4]"
   },
   {
@@ -46,7 +46,7 @@
     "instance": "le450_5d",
     "value": 2,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.09328937530517578,
+    "time": 0.12268924713134766,
     "branch_vertices": "[3, 194]"
   },
   {
@@ -56,7 +56,7 @@
     "instance": "le450_15c",
     "value": 0,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.05471205711364746,
+    "time": 0.05413961410522461,
     "branch_vertices": "[]"
   },
   {
@@ -66,7 +66,7 @@
     "instance": "le450_25d",
     "value": 0,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.0575103759765625,
+    "time": 0.04998922348022461,
     "branch_vertices": "[]"
   },
   {
@@ -76,7 +76,7 @@
     "instance": "le450_15a",
     "value": 1,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.059978485107421875,
+    "time": 0.05142951011657715,
     "branch_vertices": "[0]"
   },
   {
@@ -86,7 +86,7 @@
     "instance": "le450_25c",
     "value": 0,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.05646562576293945,
+    "time": 0.050057172775268555,
     "branch_vertices": "[]"
   },
   {
@@ -96,7 +96,7 @@
     "instance": "le450_25b",
     "value": 0,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.03024768829345703,
+    "time": 0.027296066284179688,
     "branch_vertices": "[]"
   },
   {
@@ -106,7 +106,7 @@
     "instance": "le450_5b",
     "value": 3,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.07580375671386719,
+    "time": 0.06845402717590332,
     "branch_vertices": "[178, 219, 272]"
   },
   {
@@ -116,7 +116,7 @@
     "instance": "le450_5c",
     "value": 2,
     "algorithm": "PageRank Branch Expanding Prim",
-    "time": 0.09911847114562988,
+    "time": 0.08686232566833496,
     "branch_vertices": "[11, 199]"
   }
 ]

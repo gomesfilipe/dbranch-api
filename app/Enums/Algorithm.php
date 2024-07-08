@@ -8,6 +8,7 @@ enum Algorithm: string
 {
     use EnumTrait;
 
+    // Construtives
     case BEP = 'Branch Expanding Prim';
 
     case MORENO_ET_AL = 'Moreno Et Al';
@@ -23,6 +24,16 @@ enum Algorithm: string
     case R_BEP = 'Randomized Branch Expanding Prim';
 
     case R_PR_BEP = 'Randomized PageRank Branch Expanding Prim';
+
+    // Local Searchs
+    case TVS = 'Treevial Search';
+
+    case B_TVS = 'Boosted Treevial Search';
+
+    // Meta Heuristics
+    case GRASP_R_BEP_TVS = 'Grasp with R-BEP and Treevial Search';
+
+    case GRASP_R_BEP_B_TVS = 'Grasp with R-BEP and Boosted Treevial Search';
 
     public static function values(): array
     {
@@ -67,11 +78,44 @@ enum Algorithm: string
         ];
     }
 
+    public static function deterministicAlgorithms(): array
+    {
+        return [
+            self::EXACT,
+            self::MORENO_ET_AL,
+            self::BEP_ANDERSON,
+            self::BEP,
+            self::PR_BEP,
+            self::TVS,
+            self::B_TVS,
+        ];
+    }
+
+    public static function randomizedAlgorithms(): array
+    {
+        return [
+            self::R_BEP_ANDERSON,
+            self::R_BEP,
+            self::R_PR_BEP,
+            self::GRASP_R_BEP_TVS,
+            self::GRASP_R_BEP_B_TVS,
+        ];
+    }
+
     public function centrality(): ?Centrality
     {
         return match (true) {
             in_array($this, self::algorithmsBasedOnDegreeCentrality()) => Centrality::DEGREE,
             in_array($this, self::algorithmsBasedOnPageRankCentrality()) => Centrality::PAGERANK,
+            default => null,
+        };
+    }
+
+    public function mode(): ?AlgorithmMode
+    {
+        return match (true) {
+            in_array($this, self::deterministicAlgorithms()) => AlgorithmMode::DETERMINISTIC,
+            in_array($this, self::randomizedAlgorithms()) => AlgorithmMode::RANDOM,
             default => null,
         };
     }

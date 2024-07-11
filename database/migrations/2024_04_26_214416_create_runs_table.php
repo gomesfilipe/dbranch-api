@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\AlgorithmMode;
 use App\Utils\RunResultsParser;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
@@ -8,6 +9,7 @@ use App\Enums\Algorithm;
 use App\Enums\Centrality;
 use App\Services\RunService;
 use App\Enums\InstanceGroup;
+use App\Enums\AlgorithmType;
 
 return new class extends Migration
 {
@@ -24,6 +26,10 @@ return new class extends Migration
             $table->string('instance');
             $table->decimal('value', unsigned: true);
             $table->enum('algorithm', Algorithm::values());
+            $table->enum('algorithm_type', AlgorithmType::values());
+            $table->enum('algorithm_mode', AlgorithmMode::values());
+            $table->enum('constructive_algorithm', array_column(Algorithm::constructiveAlgorithms(), 'value'))->nullable();
+            $table->decimal('constructive_algorithm_value')->nullable();
             $table->decimal('time', 10, 6)->nullable();
             $table->enum('centrality', Centrality::values())->nullable();
             $table->jsonb('branch_vertices')->nullable();
@@ -31,7 +37,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $this->seedResults(useSmallestRandom: false);
+        $this->seedResults(useSmallestRandom: true);
     }
 
     /**

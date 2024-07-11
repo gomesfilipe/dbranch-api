@@ -4,9 +4,9 @@ namespace App\Http\Requests;
 
 use App\Enums\Algorithm;
 use App\Rules\BranchVerticesRule;
+use Closure;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Illuminate\Validation\ValidationException;
 
 class RunStoreRequest extends FormRequest
 {
@@ -28,8 +28,44 @@ class RunStoreRequest extends FormRequest
         foreach ($this->input('*') as $index => $item) {
             $rules["$index.value"] = ['required', 'integer', 'min:0', "max:{$item['vertices']}"];
             $rules["$index.branch_vertices"] = ['sometimes', 'nullable', new BranchVerticesRule($item['value'], $item['vertices'])];
+
+            $rules["$index.constructive_algorithm"] = [
+                'present',
+                'nullable',
+                Rule::in(array_column(Algorithm::constructiveAlgorithms(), 'value')),
+                Rule::requiredIf(fn () => $this->isMetaHeuristic($this->input("$index.algorithm"))),
+                function (string $attribute, mixed $value, Closure $fail) use ($index)
+                {
+                    if (! $this->isMetaHeuristic($this->input("$index.algorithm")) && ! is_null($value)) {
+                        $fail("The $attribute field must be null.");
+                    }
+                },
+            ];
+
+            $rules["$index.constructive_algorithm_value"] = [
+                'present',
+                'nullable',
+                'integer',
+                'min:0',
+                "max:{$item['vertices']}",
+                Rule::requiredIf(fn () => $this->isMetaHeuristic($this->input("$index.algorithm"))),
+                function (string $attribute, mixed $value, Closure $fail) use ($index)
+                {
+                    if (! $this->isMetaHeuristic($this->input("$index.algorithm")) && ! is_null($value)) {
+                        $fail("The $attribute field must be null.");
+                    }
+                },
+            ];
         }
 
         return $rules;
+    }
+
+    private function isMetaHeuristic(string $algorithm): bool
+    {
+        return in_array(
+            $algorithm,
+            array_column(Algorithm::metaHeuristicAlgorithms(), 'value'),
+        );
     }
 }

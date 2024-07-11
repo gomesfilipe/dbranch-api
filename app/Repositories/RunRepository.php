@@ -47,6 +47,8 @@ class RunRepository implements RunRepositoryInterface
             'created_at' => now()->toDateTimeString(),
             'updated_at' => now()->toDateTimeString(),
             'centrality' => $algorithm->centrality(),
+            'algorithm_type' => $algorithm->type(),
+            'algorithm_mode' => $algorithm->mode(),
         ];
 
         return array_merge($runAttributes, $defaultValues);

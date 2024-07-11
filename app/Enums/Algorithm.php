@@ -35,11 +35,6 @@ enum Algorithm: string
 
     case GRASP_R_BEP_B_TVS = 'Grasp with R-BEP and Boosted Treevial Search';
 
-    public static function values(): array
-    {
-        return array_column(self::cases(), 'value');
-    }
-
     public static function referenceAlgorithmsValues(): array
     {
         return [

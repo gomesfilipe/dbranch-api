@@ -29,6 +29,8 @@ class RunStoreRequest extends FormRequest
             $rules["$index.value"] = ['required', 'integer', 'min:0', "max:{$item['vertices']}"];
             $rules["$index.branch_vertices"] = ['sometimes', 'nullable', new BranchVerticesRule($item['value'], $item['vertices'])];
 
+            // Passar somente quando o algoritmo for uma meta-heurística.
+            // Caso contrário, o valor desse campo deve ser obrigatoriamente nulo.
             $rules["$index.constructive_algorithm"] = [
                 'present',
                 'nullable',
@@ -42,16 +44,18 @@ class RunStoreRequest extends FormRequest
                 },
             ];
 
-            $rules["$index.constructive_algorithm_value"] = [
+            // Passar somente quando o algoritmo NÃO for construtivo.
+            // Caso contrário, o valor desse campo deve ser obrigatoriamente nulo.
+            $rules["$index.initial_value"] = [
                 'present',
                 'nullable',
                 'integer',
                 'min:0',
                 "max:{$item['vertices']}",
-                Rule::requiredIf(fn () => $this->isMetaHeuristic($this->input("$index.algorithm"))),
+                Rule::requiredIf(fn () => ! $this->isConstructive($this->input("$index.algorithm"))),
                 function (string $attribute, mixed $value, Closure $fail) use ($index)
                 {
-                    if (! $this->isMetaHeuristic($this->input("$index.algorithm")) && ! is_null($value)) {
+                    if ($this->isConstructive($this->input("$index.algorithm")) && ! is_null($value)) {
                         $fail("The $attribute field must be null.");
                     }
                 },
@@ -66,6 +70,14 @@ class RunStoreRequest extends FormRequest
         return in_array(
             $algorithm,
             array_column(Algorithm::metaHeuristicAlgorithms(), 'value'),
+        );
+    }
+
+    private function isConstructive(string $algorithm): bool
+    {
+        return in_array(
+            $algorithm,
+            array_column(Algorithm::constructiveAlgorithms(), 'value'),
         );
     }
 }

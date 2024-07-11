@@ -29,7 +29,7 @@ return new class extends Migration
             $table->enum('algorithm_type', AlgorithmType::values());
             $table->enum('algorithm_mode', AlgorithmMode::values());
             $table->enum('constructive_algorithm', array_column(Algorithm::constructiveAlgorithms(), 'value'))->nullable();
-            $table->decimal('constructive_algorithm_value')->nullable();
+            $table->decimal('initial_value')->nullable();
             $table->decimal('time', 10, 6)->nullable();
             $table->enum('centrality', Centrality::values())->nullable();
             $table->jsonb('branch_vertices')->nullable();

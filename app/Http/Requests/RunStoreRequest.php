@@ -60,6 +60,22 @@ class RunStoreRequest extends FormRequest
                     }
                 },
             ];
+
+            // Passar somente quando o algoritmo NÃO for construtivo.
+            // Caso contrário, o valor desse campo deve ser obrigatoriamente nulo.
+            $rules["$index.iterations"] = [
+                'present',
+                'nullable',
+                'integer',
+                'min:0',
+                Rule::requiredIf(fn () => ! $this->isConstructive($this->input("$index.algorithm"))),
+                function (string $attribute, mixed $value, Closure $fail) use ($index)
+                {
+                    if ($this->isConstructive($this->input("$index.algorithm")) && ! is_null($value)) {
+                        $fail("The $attribute field must be null.");
+                    }
+                },
+            ];
         }
 
         return $rules;

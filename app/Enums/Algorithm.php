@@ -100,7 +100,6 @@ enum Algorithm: string
     public static function constructiveAlgorithms(): array
     {
         return [
-            self::EXACT,
             self::MORENO_ET_AL,
             self::BEP_ANDERSON,
             self::R_BEP_ANDERSON,
@@ -124,6 +123,13 @@ enum Algorithm: string
         return [
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
+        ];
+    }
+
+    public static function exactAlgorithms(): array
+    {
+        return [
+          self::EXACT,
         ];
     }
 
@@ -151,6 +157,7 @@ enum Algorithm: string
             in_array($this, self::constructiveAlgorithms()) => AlgorithmType::CONSTRUCTIVE,
             in_array($this, self::localSearchAlgorithms()) => AlgorithmType::LOCAL_SEARCH,
             in_array($this, self::metaHeuristicAlgorithms()) => AlgorithmType::META_HEURISTIC,
+            in_array($this, self::exactAlgorithms()) => AlgorithmType::EXACT,
             default => null,
         };
     }

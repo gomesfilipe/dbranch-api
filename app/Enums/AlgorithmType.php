@@ -13,4 +13,6 @@ enum AlgorithmType: string
     case LOCAL_SEARCH = 'Local Search';
 
     case META_HEURISTIC = 'Meta Heuristic';
+
+    case EXACT = 'Exact';
 }

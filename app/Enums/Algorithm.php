@@ -50,6 +50,8 @@ enum Algorithm: string
             self::PR_BEP,
             self::R_BEP,
             self::R_PR_BEP,
+            self::GRASP_R_BEP_TVS,
+            self::GRASP_R_BEP_B_TVS,
         ];
     }
 

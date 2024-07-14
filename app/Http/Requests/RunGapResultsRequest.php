@@ -27,7 +27,8 @@ class RunGapResultsRequest extends FormRequest
                 'sometimes',
                 'nullable',
                 Rule::enum(Algorithm::class),
-                Rule::notIn(Algorithm::referenceAlgorithmsValues())],
+                Rule::notIn(Algorithm::referenceAlgorithmsValues())
+            ],
         ];
     }
 }

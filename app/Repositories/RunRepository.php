@@ -108,6 +108,7 @@ class RunRepository implements RunRepositoryInterface
             )
             ->when(! is_null($algorithms), fn (Builder $query) => $query
                 ->whereIn('algorithm', $algorithms)
+                ->orWhere('algorithm', '=', Algorithm::EXACT)
             )
             ->get();
     }

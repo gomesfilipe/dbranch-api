@@ -30,6 +30,7 @@ class RunResultsRequest extends FormRequest
                 Rule::enum(Algorithm::class),
                 Rule::notIn(Algorithm::referenceAlgorithmsValues())
             ],
+            'include_time' => ['sometimes', 'nullable', 'boolean'],
         ];
     }
 }

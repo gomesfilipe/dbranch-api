@@ -73,6 +73,7 @@ class RunRepository implements RunRepositoryInterface
                         'algorithm',
                         DB::raw('ROUND(AVG(edges), 2)::numeric as edges'),
                         DB::raw('ROUND(AVG(value), 2)::numeric as value'),
+                        DB::raw('ROUND(AVG(time), 2)::numeric as time'),
                     ])
                     ->from(
                         Run::query()
@@ -82,6 +83,7 @@ class RunRepository implements RunRepositoryInterface
                                 'edges',
                                 'algorithm',
                                 DB::raw("$sqlMetric(value) as value"),
+                                DB::raw("AVG(time) as time")
                             ])
                             ->where('vertices', $operator, $delimiter)
                             ->whereNotIn('algorithm', Algorithm::disregardRuns())

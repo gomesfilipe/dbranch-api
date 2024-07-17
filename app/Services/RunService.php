@@ -27,7 +27,7 @@ class RunService
     }
 
     // Os elementos de $results devem possuir os seguintes campos: 'vertices', 'edges', 'algorithm' e $resultField.
-    public function generateAlgorithmsColumns(Collection $results, string $resultField): array
+    public function generateAlgorithmsColumns(Collection $results, string $resultField, bool $includeTime = false): array
     {
         // Itens são instâncias de Model ou stdClass.
         return $results
@@ -36,17 +36,27 @@ class RunService
                 : (array) $item
             )
             ->groupBy(['vertices', 'edges'])
-            ->map(function (Collection $verticeItem, int $verticeGroup) use ($resultField)
+            ->map(function (Collection $verticeItem, int $verticeGroup) use ($resultField, $includeTime)
             {
-                return $verticeItem->map(function (Collection $edgeItem, string $edgeGroup) use ($verticeGroup, $resultField)
+                return $verticeItem->map(function (Collection $edgeItem, string $edgeGroup) use ($verticeGroup, $resultField, $includeTime)
                 {
-                    $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup, $resultField)
+                    $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup, $resultField, $includeTime)
                     {
-                        $algorithm = Algorithm::from($item['algorithm'])->name;
+                        $algorithm = Algorithm::from($item['algorithm']);
 
-                        return array_merge($carry, [
-                            $algorithm => floatval($item[$resultField]),
+                        $cell = array_merge($carry, [
+                            $algorithm->name => floatval($item[$resultField]),
                         ]);
+
+                        $time = $item['time'] ?? null;
+
+                        if ($includeTime && ! is_null($time)) {
+                            $cell = array_merge($cell, [
+                                $algorithm->timeColumn() => floatval($time),
+                            ]);
+                        }
+
+                        return $cell;
                     }, []);
 
                     return collect([
@@ -63,11 +73,14 @@ class RunService
             ->toArray();
     }
 
-    public function results(InstanceType $instanceType, Metric $metric, InstanceGroup $instanceGroup, array $params = []): array
+    public function results(InstanceType $instanceType, Metric $metric, InstanceGroup $instanceGroup, array $params = [], bool $includeTime = false): array
     {
+//        dd($this->runRepository->results($instanceType, $metric, $instanceGroup, $params)->toArray());
+
         return $this->generateAlgorithmsColumns(
             $this->runRepository->results($instanceType, $metric, $instanceGroup, $params),
             'value',
+            $includeTime,
         );
     }
 
@@ -78,41 +91,57 @@ class RunService
 
         return collect($results)->map(function (array $item)
         {
-                $excludeColumns = [
-                    'vertices',
-                    'edges',
-                ];
+            $excludeColumns = [
+                'vertices',
+                'edges',
+            ];
 
-                $optimalKey = Algorithm::EXACT->name;
-                $optimalValue = $item[$optimalKey];
+            $optimalKey = Algorithm::EXACT->name;
+            $optimalValue = $item[$optimalKey];
 
-                return collect($item)->map(function (int|float $value, string $key) use ($excludeColumns, $optimalValue)
-                    {
-                        return in_array($key, $excludeColumns)
-                            ? $value
-                            : $this->gap($optimalValue, $value);
-                    })
-                    ->filter(fn (int|float|null $value, string $key) => $key !== $optimalKey)
-                    ->toArray();
+            return collect($item)->map(function (int|float $value, string $key) use ($excludeColumns, $optimalValue)
+                {
+                    return in_array($key, $excludeColumns)
+                        ? $value
+                        : $this->gap($optimalValue, $value);
+                })
+                ->filter(fn (int|float|null $value, string $key) => $key !== $optimalKey)
+                ->toArray();
         })
         ->toArray();
     }
 
     private function sortKeysCallback(string $key): int
     {
-        return match ($key) {
-            'vertices' => 0,
-            'edges' => 1,
-            Algorithm::EXACT->name => 2,
-            Algorithm::MORENO_ET_AL->name => 3,
-            Algorithm::BEP_ANDERSON->name => 4,
-            Algorithm::BEP->name => 5,
-            Algorithm::PR_BEP->name => 6,
-            Algorithm::R_BEP_ANDERSON->name => 7,
-            Algorithm::R_BEP->name => 8,
-            Algorithm::R_PR_BEP->name => 9,
-            default => 10,
-        };
+        # Prioridade baseada na posição do array.
+        $algorithmsByPriority = [
+            Algorithm::EXACT,
+            Algorithm::MORENO_ET_AL,
+            Algorithm::BEP_ANDERSON,
+            Algorithm::BEP,
+            Algorithm::PR_BEP,
+            Algorithm::R_BEP_ANDERSON,
+            Algorithm::R_BEP,
+            Algorithm::R_PR_BEP,
+            Algorithm::GRASP_R_BEP_TVS,
+            Algorithm::GRASP_R_BEP_B_TVS,
+        ];
+
+        $columnsByPriority = [
+            'vertices',
+            'edges',
+        ];
+
+        foreach ($algorithmsByPriority as $algorithm) {
+            $columnsByPriority[] = $algorithm->name;
+            $columnsByPriority[] = $algorithm->timeColumn();
+        }
+
+        $index = array_search($key, $columnsByPriority);
+
+        return $index === false
+            ? count($columnsByPriority)
+            : $index;
     }
 
     private function gap(float $ref, float $value): ?float

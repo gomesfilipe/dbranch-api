@@ -41,11 +41,12 @@ class RunController extends Controller
         $instanceType = InstanceType::from($data['instance_type']);
         $metric = Metric::from($data['metric']);
         $instanceGroup = InstanceGroup::from($data['instance_group']);
+        $includeTime = boolval($data['include_time'] ?? true);
 
-        unset($data['instance_type'], $data['metric'], $data['instance_group']);
+        unset($data['instance_type'], $data['metric'], $data['instance_group'], $data['include_time']);
 
         return response()->json(
-            $this->runService->results($instanceType, $metric, $instanceGroup, $data)
+            $this->runService->results($instanceType, $metric, $instanceGroup, $data, $includeTime)
         );
     }
 

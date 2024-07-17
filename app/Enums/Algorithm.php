@@ -173,4 +173,9 @@ enum Algorithm: string
 //            self::EXACT,
         ];
     }
+
+    public function timeColumn(): string
+    {
+        return "$this->name (T)";
+    }
 }

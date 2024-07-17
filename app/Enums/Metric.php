@@ -3,6 +3,7 @@
 namespace App\Enums;
 
 use App\Traits\EnumTrait;
+use Illuminate\Support\Facades\DB;
 
 enum Metric: string
 {
@@ -20,12 +21,14 @@ enum Metric: string
                 'algorithm',
                 'edges',
                 'min',
+                DB::raw('null as time'),
             ],
             self::MEAN => [
                 'vertices',
                 'algorithm',
                 'edges',
                 'mean',
+                DB::raw('null as time'),
             ],
         };
     }

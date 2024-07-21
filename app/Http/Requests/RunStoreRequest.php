@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use App\Enums\Algorithm;
+use App\Enums\InstanceGroup;
 use App\Rules\BranchVerticesRule;
 use Closure;
 use Illuminate\Foundation\Http\FormRequest;
@@ -21,8 +22,10 @@ class RunStoreRequest extends FormRequest
             '*.vertices' => ['required', 'integer', 'min:1'],
             '*.edges' => ['required', 'integer', 'min:1'],
             '*.instance' => ['required', 'string'],
+            '*.instance_group' => ['required', Rule::enum(InstanceGroup::class)],
             '*.algorithm' => ['required', Rule::enum(Algorithm::class)],
             '*.time' => ['sometimes', 'nullable', 'numeric'],
+            '*.hyperparameters' => ['required', 'json'],
         ];
 
         foreach ($this->input('*') as $index => $item) {

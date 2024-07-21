@@ -54,13 +54,20 @@ class RunResultsParser
         $file = fopen($filename, 'r');
         $size = filesize($filename);
 
-        $content = json_decode(
+        $content = (array) json_decode(
             trim(fread($file, $size))
         );
 
-        return collect($content)
-            ->map(fn (\stdClass $item) => (array) $item)
-            ->toArray();
+        $hyperparameters = json_encode($content['hyperparameters']);
 
+        return collect($content['runs'])
+            ->map(function (\stdClass $item) use ($hyperparameters)
+            {
+                $item = (array) $item;
+                $item['hyperparameters'] = $hyperparameters;
+
+                return $item;
+            })
+            ->toArray();
     }
 }

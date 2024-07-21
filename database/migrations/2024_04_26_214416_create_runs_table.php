@@ -35,6 +35,7 @@ return new class extends Migration
             $table->enum('centrality', Centrality::values())->nullable();
             $table->jsonb('branch_vertices')->nullable();
             $table->unsignedInteger('d')->default(2);
+            $table->jsonb('hyperparameters');
             $table->timestamps();
         });
 

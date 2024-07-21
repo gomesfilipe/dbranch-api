@@ -25,5 +25,6 @@ class Run extends Model
         'centrality' => Centrality::class,
         'instance_group' => InstanceGroup::class,
         'branch_vertices' => 'array',
+        'hyperparameters' => 'array',
     ];
 }

@@ -112,12 +112,13 @@ class RunController extends Controller
         $data = $request->validated();
 
         $instanceGroup = InstanceGroup::from($data['instance_group']);
+        $instanceType = InstanceType::from($data['instance_type']);
         $algorithm = Algorithm::from($data['algorithm']);
         $hyperparameters = (array) json_decode($data['hyperparameters']);
         $d = intval($data['d']);
 
         return response()->json(
-            $this->runService->distancesFromOptimal($instanceGroup, $algorithm, $hyperparameters, $d)
+            $this->runService->distancesFromOptimal($instanceGroup, $instanceType, $algorithm, $hyperparameters, $d)
         );
     }
 }

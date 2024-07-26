@@ -173,9 +173,9 @@ class RunService
         );
     }
 
-    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2): array
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, InstanceType $instanceType, Algorithm $algorithm, array $hyperparameters, int $d = 2): array
     {
-        return $this->runRepository->distancesFromOptimal($instanceGroup, $algorithm, $hyperparameters, $d)
+        return $this->runRepository->distancesFromOptimal($instanceGroup, $instanceType, $algorithm, $hyperparameters, $d)
             ->map(fn ($item) => $item instanceof Model
                 ? $item->toArray()
                 : (array) $item

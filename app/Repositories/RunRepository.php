@@ -315,9 +315,10 @@ class RunRepository implements RunRepositoryInterface
             ->toArray();
     }
 
-    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2): Collection
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, InstanceType $instanceType, Algorithm $algorithm, array $hyperparameters, int $d = 2): Collection
     {
         $delimiter = InstanceType::delimiter();
+        $operator = $instanceType->operator();
         $hyperparametersJson = json_encode($hyperparameters);
 
         return DB::table('runs as s')
@@ -354,6 +355,7 @@ class RunRepository implements RunRepositoryInterface
                             ->on('s.instance', '=', 't.instance')
                             ->on('s.d', '=', 't.d')
                     )
+                    ->where('s.vertices', $operator, $delimiter)
                     ->where('s.instance_group', '=', $instanceGroup)
                     ->where('s.algorithm', '=', $algorithm)
                     ->where('s.hyperparameters', '=', $hyperparametersJson)

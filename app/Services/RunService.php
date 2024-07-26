@@ -75,8 +75,6 @@ class RunService
 
     public function results(InstanceType $instanceType, Metric $metric, InstanceGroup $instanceGroup, array $params = [], bool $includeTime = false): array
     {
-//        dd($this->runRepository->results($instanceType, $metric, $instanceGroup, $params)->toArray());
-
         return $this->generateAlgorithmsColumns(
             $this->runRepository->results($instanceType, $metric, $instanceGroup, $params),
             'value',
@@ -173,5 +171,53 @@ class RunService
             $this->runRepository->verticesClassificationAccuracy($instanceType, $instanceGroup, $params),
             'accuracy_avg'
         );
+    }
+
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2): array
+    {
+        return $this->runRepository->distancesFromOptimal($instanceGroup, $algorithm, $hyperparameters, $d)
+            ->map(fn ($item) => $item instanceof Model
+                ? $item->toArray()
+                : (array) $item
+            )
+            ->groupBy(['vertices', 'edges'])
+            ->map(function (Collection $verticeItem, int $verticeGroup)
+            {
+                return $verticeItem->map(function (Collection $edgeItem, string $edgeGroup) use ($verticeGroup)
+                {
+                    $values = $edgeItem->reduce(function (array $carry, array $item) use ($edgeGroup, $verticeGroup)
+                    {
+                        $diff = strval($item['diff']);
+                        $quantity = $item['quantity'];
+
+                        return array_merge($carry, [
+                            $diff => $quantity,
+                        ]);
+                    }, []);
+
+                    return collect([
+                        'vertices' => $verticeGroup,
+                        'edges' => floatval($edgeGroup),
+                        ...$values,
+                    ])
+                        ->sortBy(fn (int|float $value, string $key) => $this->sortKeysCallback($key))
+                        ->toArray();
+                })
+                    ->toArray();
+            })
+            ->flatten(1)
+            ->map(function (array $item)
+            {
+                return collect($item)
+                    ->mapWithKeys(function (int|float $value, string $key)
+                    {
+                        $key = is_numeric($key)
+                            ? intval($key)
+                            : $key;
+
+                        return [$key => $value];
+                    });
+            })
+            ->toArray();
     }
 }

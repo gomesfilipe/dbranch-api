@@ -9,6 +9,7 @@ use App\Enums\Metric;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RunAccuracyRequest;
 use App\Http\Requests\RunCompareRequest;
+use App\Http\Requests\RunDistancesFromOptimalRequest;
 use App\Http\Requests\RunGapResultsRequest;
 use App\Http\Requests\RunResultsRequest;
 use App\Http\Requests\RunStoreRequest;
@@ -103,6 +104,20 @@ class RunController extends Controller
 
         return response()->json(
             $this->runService->verticesClassificationAccuracy($instanceType, $instanceGroup, $data)
+        );
+    }
+
+    public function distancesFromOptimal(RunDistancesFromOptimalRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $instanceGroup = InstanceGroup::from($data['instance_group']);
+        $algorithm = Algorithm::from($data['algorithm']);
+        $hyperparameters = (array) json_decode($data['hyperparameters']);
+        $d = intval($data['d']);
+
+        return response()->json(
+            $this->runService->distancesFromOptimal($instanceGroup, $algorithm, $hyperparameters, $d)
         );
     }
 }

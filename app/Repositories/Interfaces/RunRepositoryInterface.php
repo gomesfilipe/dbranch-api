@@ -24,4 +24,6 @@ interface RunRepositoryInterface
     public function verticesClassificationAccuracy(InstanceType $instanceType, InstanceGroup $instanceGroup, array $params = []): Collection;
 
     public function getMinimumResultIdsByInstance(): array;
+
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2): Collection;
 }

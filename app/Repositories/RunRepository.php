@@ -314,5 +314,72 @@ class RunRepository implements RunRepositoryInterface
             ->pluck('id')
             ->toArray();
     }
+
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2): Collection
+    {
+        $delimiter = InstanceType::delimiter();
+        $hyperparametersJson = json_encode($hyperparameters);
+
+        return DB::table('runs as s')
+                    ->select([
+                        's.vertices',
+                        DB::raw("
+                            CASE
+                                WHEN s.vertices < $delimiter THEN
+                                    (
+                                        select avg(r.edges)
+                                        from runs as r
+                                        where
+                                            r.instance_group = '$instanceGroup->value'
+                                            and r.algorithm = '$algorithm->value'
+                                            and r.hyperparameters = '$hyperparametersJson'
+                                            and r.d = $d
+                                            and r.vertices = s.vertices
+                                    )
+                                WHEN s.vertices >= $delimiter THEN
+                                    s.edges
+                            END as edges
+                        "),
+                        DB::raw('(s.value - t.value) as diff'),
+                        DB::raw('count(1) as quantity')
+                    ])
+                    ->joinSub(
+                        Run::query()
+                            ->where('algorithm', '=', Algorithm::EXACT),
+                        't',
+                        fn (JoinClause $join) => $join
+                            ->on('s.instance_group', '=', 't.instance_group')
+                            ->on('s.vertices', '=', 't.vertices')
+                            ->on('s.edges', '=', 't.edges')
+                            ->on('s.instance', '=', 't.instance')
+                            ->on('s.d', '=', 't.d')
+                    )
+                    ->where('s.instance_group', '=', $instanceGroup)
+                    ->where('s.algorithm', '=', $algorithm)
+                    ->where('s.hyperparameters', '=', $hyperparametersJson)
+                    ->where('s.d', '=', $d)
+                    ->groupBy([
+                        's.vertices',
+                        DB::raw("
+                            CASE
+                                WHEN s.vertices < $delimiter THEN
+                                    (
+                                        select avg(r.edges)
+                                        from runs as r
+                                        where
+                                            r.instance_group = '$instanceGroup->value'
+                                            and r.algorithm = '$algorithm->value'
+                                            and r.hyperparameters = '$hyperparametersJson'
+                                            and r.d = $d
+                                            and r.vertices = s.vertices
+                                    )
+                                WHEN s.vertices >= $delimiter THEN
+                                    s.edges
+                            END
+                        "),
+                        DB::raw('(s.value - t.value)')
+                    ])
+                    ->get();
+    }
 }
 

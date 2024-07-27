@@ -10,6 +10,7 @@ use App\Models\Optimal;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use Illuminate\Database\Query\Builder;
+use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Query\JoinClause;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection;
@@ -370,5 +371,33 @@ class RunRepository implements RunRepositoryInterface
                         DB::raw('(s.value - t.value)'),
                     ])
                     ->get();
+    }
+
+    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2): Collection
+    {
+        return Run::query()
+            ->select([
+                'vertices',
+                'edges',
+                'instance',
+                'algorithm',
+                'value',
+            ])
+            ->where('instance_group', '=', $instanceGroup)
+            ->where('d', '=', $d)
+            ->where(function (EloquentBuilder $query) use ($algorithms)
+            {
+                foreach ($algorithms as $item) {
+                    $query->orWhere(fn (EloquentBuilder $query) => $query
+                        ->where('algorithm', '=', $item['algorithm'])
+                        ->where('hyperparameters', '=', $item['hyperparameters'])
+                    );
+                }
+
+                $query->orWhere('algorithm', '=', Algorithm::EXACT);
+            })
+            ->orderBy('vertices')
+            ->orderBy('edges')
+            ->get();
     }
 }

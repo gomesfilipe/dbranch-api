@@ -7,6 +7,7 @@ use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
 use App\Jobs\StoreRunsJob;
+use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -218,6 +219,27 @@ class RunService
                         return [$key => $value];
                     });
             })
+            ->toArray();
+    }
+
+    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2): array
+    {
+        return $this->runRepository->valuesFromAlgorithms($instanceGroup, $algorithms, $d)
+            ->groupBy('instance')
+            ->map(function (Collection $item, string $instance)
+            {
+                return $item ->reduce(function (array $carry, Run $item) use ($instance)
+                {
+                    /** @var Algorithm $algorithm */
+                    $algorithm = $item['algorithm'];
+
+                    return array_merge($carry, [
+                        'instance' => $instance,
+                        $algorithm->value => intval($item['value']),
+                    ]);
+                }, []);
+            })
+            ->values()
             ->toArray();
     }
 }

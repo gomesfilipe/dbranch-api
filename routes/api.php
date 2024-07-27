@@ -13,4 +13,5 @@ Route::middleware(['set_x_requested_with', 'throttle:100,1'])->group(function ()
     Route::get('runs/compare-values', [RunController::class, 'compareValues']);
     Route::get('runs/accuracy', [RunController::class, 'verticesClassificationAccuracy']);
     Route::get('runs/distances', [RunController::class, 'distancesFromOptimal']);
+    Route::get('runs/values', [RunController::class, 'valuesFromAlgorithms']);
 });

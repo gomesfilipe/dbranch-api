@@ -13,6 +13,7 @@ use App\Http\Requests\RunDistancesFromOptimalRequest;
 use App\Http\Requests\RunGapResultsRequest;
 use App\Http\Requests\RunResultsRequest;
 use App\Http\Requests\RunStoreRequest;
+use App\Http\Requests\RunValuesFromAlgorithmsRequest;
 use App\Repositories\Interfaces\RunRepositoryInterface;
 use App\Services\RunService;
 use Illuminate\Http\JsonResponse;
@@ -128,6 +129,31 @@ class RunController extends Controller
 
         return response()->json(
             $this->runService->distancesFromOptimal($instanceGroup, $algorithm, $hyperparameters, $d, $instanceType, $groupByVerticesOnly)
+        );
+    }
+
+    public function valuesFromAlgorithms(RunValuesFromAlgorithmsRequest $request): JsonResponse
+    {
+        $data = $request->validated();
+
+        $instanceGroup = InstanceGroup::from($data['instance_group']);
+
+        $algorithms = collect($data['algorithms'])
+            ->map(function (array $item)
+            {
+                return [
+                    'algorithm' => Algorithm::from($item['algorithm']),
+                    'hyperparameters' => $item['hyperparameters'],
+                ];
+            })
+            ->toArray();
+
+        $d = isset($data['d'])
+            ? intval($data['d'])
+            : 2;
+
+        return response()->json(
+            $this->runService->valuesFromAlgorithms($instanceGroup, $algorithms, $d)
         );
     }
 }

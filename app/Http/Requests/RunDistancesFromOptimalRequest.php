@@ -19,10 +19,11 @@ class RunDistancesFromOptimalRequest extends FormRequest
     {
         return [
             'instance_group' => ['required', Rule::enum(InstanceGroup::class)],
-            'instance_type' => ['required', Rule::enum(InstanceType::class)],
+            'instance_type' => ['sometimes', 'nullable', Rule::enum(InstanceType::class)],
             'algorithm' => ['required', Rule::enum(Algorithm::class)],
             'hyperparameters' => ['required', 'json'],
             'd' => ['sometimes', 'nullable', 'integer', 'min:2'],
+            'group_by_vertices_only' => ['sometimes', 'nullable', 'boolean'],
         ];
     }
 }

@@ -315,32 +315,34 @@ class RunRepository implements RunRepositoryInterface
             ->toArray();
     }
 
-    public function distancesFromOptimal(InstanceGroup $instanceGroup, InstanceType $instanceType, Algorithm $algorithm, array $hyperparameters, int $d = 2): Collection
+    public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2, ?InstanceType $instanceType = null, bool $groupByVerticesOnly = false): Collection
     {
         $delimiter = InstanceType::delimiter();
-        $operator = $instanceType->operator();
+        $operator = $instanceType?->operator();
         $hyperparametersJson = json_encode($hyperparameters);
+
+        $groupByVerticesOnlyStr = var_export($groupByVerticesOnly, 1);
+
+        $edgesAgroupmentQuery = "CASE
+            WHEN $groupByVerticesOnlyStr or s.vertices < $delimiter THEN
+                (
+                    select avg(r.edges)
+                    from runs as r
+                    where
+                        r.instance_group = '$instanceGroup->value'
+                        and r.algorithm = '$algorithm->value'
+                        and r.hyperparameters = '$hyperparametersJson'
+                        and r.d = $d
+                        and r.vertices = s.vertices
+                )
+            WHEN s.vertices >= $delimiter THEN
+                s.edges
+            END";
 
         return DB::table('runs as s')
                     ->select([
                         's.vertices',
-                        DB::raw("
-                            CASE
-                                WHEN s.vertices < $delimiter THEN
-                                    (
-                                        select avg(r.edges)
-                                        from runs as r
-                                        where
-                                            r.instance_group = '$instanceGroup->value'
-                                            and r.algorithm = '$algorithm->value'
-                                            and r.hyperparameters = '$hyperparametersJson'
-                                            and r.d = $d
-                                            and r.vertices = s.vertices
-                                    )
-                                WHEN s.vertices >= $delimiter THEN
-                                    s.edges
-                            END as edges
-                        "),
+                        DB::raw("$edgesAgroupmentQuery as edges"),
                         DB::raw('(s.value - t.value) as diff'),
                         DB::raw('count(1) as quantity')
                     ])
@@ -355,33 +357,18 @@ class RunRepository implements RunRepositoryInterface
                             ->on('s.instance', '=', 't.instance')
                             ->on('s.d', '=', 't.d')
                     )
-                    ->where('s.vertices', $operator, $delimiter)
+                    ->when(! is_null($instanceType), fn (Builder $query) => $query
+                        ->where('s.vertices', $operator, $delimiter)
+                    )
                     ->where('s.instance_group', '=', $instanceGroup)
                     ->where('s.algorithm', '=', $algorithm)
                     ->where('s.hyperparameters', '=', $hyperparametersJson)
                     ->where('s.d', '=', $d)
                     ->groupBy([
                         's.vertices',
-                        DB::raw("
-                            CASE
-                                WHEN s.vertices < $delimiter THEN
-                                    (
-                                        select avg(r.edges)
-                                        from runs as r
-                                        where
-                                            r.instance_group = '$instanceGroup->value'
-                                            and r.algorithm = '$algorithm->value'
-                                            and r.hyperparameters = '$hyperparametersJson'
-                                            and r.d = $d
-                                            and r.vertices = s.vertices
-                                    )
-                                WHEN s.vertices >= $delimiter THEN
-                                    s.edges
-                            END
-                        "),
-                        DB::raw('(s.value - t.value)')
+                        DB::raw($edgesAgroupmentQuery),
+                        DB::raw('(s.value - t.value)'),
                     ])
                     ->get();
     }
 }
-

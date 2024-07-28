@@ -234,6 +234,8 @@ class RunService
                     $algorithm = $item['algorithm'];
 
                     return array_merge($carry, [
+                        'vertices' => $item['vertices'],
+                        'edges' => $item['edges'],
                         'instance' => $instance,
                         $algorithm->value => intval($item['value']),
                     ]);

@@ -4,6 +4,7 @@ namespace App\Http\Requests;
 
 use App\Enums\Algorithm;
 use App\Enums\InstanceGroup;
+use App\Enums\InstanceType;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 
@@ -17,6 +18,7 @@ class RunValuesFromAlgorithmsRequest extends FormRequest
             'algorithms.*.algorithm' => ['required_with:algorithms.*.hyperparameters', Rule::enum(Algorithm::class)],
             'algorithms.*.hyperparameters' => ['required_with:algorithms.*.algorithm', 'json'],
             'd' => ['sometimes', 'nullable', 'integer', 'min:2'],
+            'instance_type' => ['sometimes', 'nullable', Rule::enum(InstanceType::class)],
         ];
     }
 }

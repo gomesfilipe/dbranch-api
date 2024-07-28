@@ -222,9 +222,9 @@ class RunService
             ->toArray();
     }
 
-    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2): array
+    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2, ?InstanceType $instanceType = null): array
     {
-        return $this->runRepository->valuesFromAlgorithms($instanceGroup, $algorithms, $d)
+        return $this->runRepository->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType)
             ->groupBy('instance')
             ->map(function (Collection $item, string $instance)
             {

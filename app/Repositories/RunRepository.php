@@ -373,8 +373,11 @@ class RunRepository implements RunRepositoryInterface
                     ->get();
     }
 
-    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2): Collection
+    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2, ?InstanceType $instanceType = null): Collection
     {
+        $delimiter = InstanceType::delimiter();
+        $operator = $instanceType?->operator();
+
         return Run::query()
             ->select([
                 'vertices',
@@ -385,6 +388,9 @@ class RunRepository implements RunRepositoryInterface
             ])
             ->where('instance_group', '=', $instanceGroup)
             ->where('d', '=', $d)
+            ->when(! is_null($instanceType), fn (EloquentBuilder $query) => $query
+                ->where('vertices', $operator, $delimiter)
+            )
             ->where(function (EloquentBuilder $query) use ($algorithms)
             {
                 foreach ($algorithms as $item) {

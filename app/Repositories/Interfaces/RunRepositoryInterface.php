@@ -27,5 +27,5 @@ interface RunRepositoryInterface
 
     public function distancesFromOptimal(InstanceGroup $instanceGroup, Algorithm $algorithm, array $hyperparameters, int $d = 2, ?InstanceType $instanceType = null, bool $groupByVerticesOnly = false): Collection;
 
-    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2): Collection;
+    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2, ?InstanceType $instanceType = null): Collection;
 }

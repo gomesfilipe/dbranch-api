@@ -152,8 +152,12 @@ class RunController extends Controller
             ? intval($data['d'])
             : 2;
 
+        $instanceType = isset($data['instance_type'])
+            ? InstanceType::from($data['instance_type'])
+            : null;
+
         return response()->json(
-            $this->runService->valuesFromAlgorithms($instanceGroup, $algorithms, $d)
+            $this->runService->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType)
         );
     }
 }

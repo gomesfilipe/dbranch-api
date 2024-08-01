@@ -134,6 +134,7 @@ class RunService
 
         foreach ($algorithmsByPriority as $algorithm) {
             $columnsByPriority[] = $algorithm->name;
+            $columnsByPriority[] = $algorithm->value;
             $columnsByPriority[] = $algorithm->timeColumn();
         }
 
@@ -237,7 +238,7 @@ class RunService
             ->groupBy('instance')
             ->map(function (Collection $item, string $instance) use ($valuesFromAlgorithmsMode)
             {
-                return $item ->reduce(function (array $carry, Run $item) use ($instance, $valuesFromAlgorithmsMode)
+                $value = $item->reduce(function (array $carry, Run $item) use ($instance, $valuesFromAlgorithmsMode)
                 {
                     /** @var Algorithm $algorithm */
                     $algorithm = $item['algorithm'];
@@ -251,6 +252,10 @@ class RunService
                         $algorithm->value => $valuesFromAlgorithmsMode->convertFieldType($item[$field]),
                     ]);
                 }, []);
+
+                return collect($value)
+                    ->sortBy(fn (int|float|string|null $value, string $key) => $this->sortKeysCallback($key))
+                    ->toArray();
             })
             ->values()
             ->toArray();

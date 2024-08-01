@@ -6,6 +6,7 @@ use App\Enums\Algorithm;
 use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
+use App\Enums\ValuesFromAlgorithmsMode;
 use App\Jobs\StoreRunsJob;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
@@ -222,22 +223,32 @@ class RunService
             ->toArray();
     }
 
-    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2, ?InstanceType $instanceType = null): array
+    public function valuesFromAlgorithms(
+        InstanceGroup $instanceGroup,
+        array $algorithms,
+        int $d = 2,
+        ?InstanceType $instanceType = null,
+        ?ValuesFromAlgorithmsMode $valuesFromAlgorithmsMode = null,
+    ): array
     {
-        return $this->runRepository->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType)
+        $valuesFromAlgorithmsMode ??= ValuesFromAlgorithmsMode::VALUE;
+
+        return $this->runRepository->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType, $valuesFromAlgorithmsMode)
             ->groupBy('instance')
-            ->map(function (Collection $item, string $instance)
+            ->map(function (Collection $item, string $instance) use ($valuesFromAlgorithmsMode)
             {
-                return $item ->reduce(function (array $carry, Run $item) use ($instance)
+                return $item ->reduce(function (array $carry, Run $item) use ($instance, $valuesFromAlgorithmsMode)
                 {
                     /** @var Algorithm $algorithm */
                     $algorithm = $item['algorithm'];
+
+                    $field = $valuesFromAlgorithmsMode->field();
 
                     return array_merge($carry, [
                         'vertices' => $item['vertices'],
                         'edges' => $item['edges'],
                         'instance' => $instance,
-                        $algorithm->value => intval($item['value']),
+                        $algorithm->value => $valuesFromAlgorithmsMode->convertFieldTypeCallback($item[$field]),
                     ]);
                 }, []);
             })

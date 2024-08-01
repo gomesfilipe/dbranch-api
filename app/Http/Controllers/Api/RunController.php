@@ -6,6 +6,7 @@ use App\Enums\Algorithm;
 use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
+use App\Enums\ValuesFromAlgorithmsMode;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RunAccuracyRequest;
 use App\Http\Requests\RunCompareRequest;
@@ -156,8 +157,12 @@ class RunController extends Controller
             ? InstanceType::from($data['instance_type'])
             : null;
 
+        $valuesFromAlgorithmMode = isset($data['mode'])
+            ? ValuesFromAlgorithmsMode::from($data['mode'])
+            : null;
+
         return response()->json(
-            $this->runService->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType)
+            $this->runService->valuesFromAlgorithms($instanceGroup, $algorithms, $d, $instanceType, $valuesFromAlgorithmMode)
         );
     }
 }

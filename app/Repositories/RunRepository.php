@@ -6,6 +6,7 @@ use App\Enums\Algorithm;
 use App\Enums\InstanceGroup;
 use App\Enums\InstanceType;
 use App\Enums\Metric;
+use App\Enums\ValuesFromAlgorithmsMode;
 use App\Models\Optimal;
 use App\Models\Run;
 use App\Repositories\Interfaces\RunRepositoryInterface;
@@ -373,10 +374,17 @@ class RunRepository implements RunRepositoryInterface
                     ->get();
     }
 
-    public function valuesFromAlgorithms(InstanceGroup $instanceGroup, array $algorithms, int $d = 2, ?InstanceType $instanceType = null): Collection
+    public function valuesFromAlgorithms(
+        InstanceGroup $instanceGroup,
+        array $algorithms,
+        int $d = 2,
+        ?InstanceType $instanceType = null,
+        ?ValuesFromAlgorithmsMode $valuesFromAlgorithmsMode = null,
+    ): Collection
     {
         $delimiter = InstanceType::delimiter();
         $operator = $instanceType?->operator();
+        $valuesFromAlgorithmsMode ??= ValuesFromAlgorithmsMode::VALUE;
 
         return Run::query()
             ->select([
@@ -384,7 +392,7 @@ class RunRepository implements RunRepositoryInterface
                 'edges',
                 'instance',
                 'algorithm',
-                'value',
+                $valuesFromAlgorithmsMode->field(),
             ])
             ->where('instance_group', '=', $instanceGroup)
             ->where('d', '=', $d)

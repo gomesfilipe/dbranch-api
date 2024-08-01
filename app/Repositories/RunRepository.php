@@ -390,9 +390,11 @@ class RunRepository implements RunRepositoryInterface
             ->select([
                 'vertices',
                 'edges',
+                'instance_group',
+                'd',
                 'instance',
                 'algorithm',
-                $valuesFromAlgorithmsMode->field(),
+                DB::raw($valuesFromAlgorithmsMode->fieldExpression()),
             ])
             ->where('instance_group', '=', $instanceGroup)
             ->where('d', '=', $d)

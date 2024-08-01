@@ -248,7 +248,7 @@ class RunService
                         'vertices' => $item['vertices'],
                         'edges' => $item['edges'],
                         'instance' => $instance,
-                        $algorithm->value => $valuesFromAlgorithmsMode->convertFieldTypeCallback($item[$field]),
+                        $algorithm->value => $valuesFromAlgorithmsMode->convertFieldType($item[$field]),
                     ]);
                 }, []);
             })

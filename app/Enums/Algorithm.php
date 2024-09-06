@@ -30,10 +30,14 @@ enum Algorithm: string
 
     case B_TVS = 'Boosted Treevial Search';
 
+    case IR = 'Iterative Refinement';
+
     // Meta Heuristics
     case GRASP_R_BEP_TVS = 'Grasp with R-BEP and Treevial Search';
 
     case GRASP_R_BEP_B_TVS = 'Grasp with R-BEP and Boosted Treevial Search';
+
+    case GRASP_R_BEP_IR = 'Grasp with R-BEP and Iterative Refinement';
 
     public static function referenceAlgorithmsValues(): array
     {
@@ -52,6 +56,7 @@ enum Algorithm: string
             self::R_PR_BEP,
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
+            self::GRASP_R_BEP_IR,
         ];
     }
 
@@ -64,6 +69,12 @@ enum Algorithm: string
             self::R_BEP,
             self::BEP_ANDERSON,
             self::EXACT,
+            self::TVS,
+            self::B_TVS,
+            self::IR,
+            self::GRASP_R_BEP_TVS,
+            self::GRASP_R_BEP_B_TVS,
+            self::GRASP_R_BEP_IR,
         ];
     }
 
@@ -85,6 +96,7 @@ enum Algorithm: string
             self::PR_BEP,
             self::TVS,
             self::B_TVS,
+            self::IR,
         ];
     }
 
@@ -96,6 +108,7 @@ enum Algorithm: string
             self::R_PR_BEP,
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
+            self::GRASP_R_BEP_IR,
         ];
     }
 
@@ -117,6 +130,7 @@ enum Algorithm: string
         return [
             self::TVS,
             self::B_TVS,
+            self::IR,
         ];
     }
 
@@ -125,6 +139,7 @@ enum Algorithm: string
         return [
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
+            self::GRASP_R_BEP_IR,
         ];
     }
 

@@ -36,6 +36,7 @@ return new class extends Migration
             $table->jsonb('branch_vertices')->nullable();
             $table->unsignedInteger('d')->default(2);
             $table->jsonb('hyperparameters');
+            $table->integer('seed')->nullable();
             $table->timestamps();
         });
 

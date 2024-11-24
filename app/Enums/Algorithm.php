@@ -10,34 +10,28 @@ enum Algorithm: string
 
     // Constructives
     case BEP = 'Branch Expanding Prim';
-
     case MORENO_ET_AL = 'Moreno Et Al';
-
     case EXACT = 'Exact';
-
     case BEP_ANDERSON = 'BEP Anderson';
-
     case R_BEP_ANDERSON = 'R-BEP Anderson';
-
     case PR_BEP = 'PageRank Branch Expanding Prim';
-
     case R_BEP = 'Randomized Branch Expanding Prim';
-
     case R_PR_BEP = 'Randomized PageRank Branch Expanding Prim';
+    case KRUSKAL = 'Kruskal';
+    case PRIM = 'Prim';
 
     // Local Searches
     case TVS = 'Treevial Search';
-
     case B_TVS = 'Boosted Treevial Search';
-
     case IR = 'Iterative Refinement';
+    case PR_IR = 'PageRank Iterative Refinement';
 
     // Meta Heuristics
     case GRASP_R_BEP_TVS = 'Grasp with R-BEP and Treevial Search';
-
     case GRASP_R_BEP_B_TVS = 'Grasp with R-BEP and Boosted Treevial Search';
-
     case GRASP_R_BEP_IR = 'Grasp with R-BEP and Iterative Refinement';
+    case GRASP_R_BEP_PR_IR = 'Grasp with R-BEP and PageRank Iterative Refinement';
+    case GRASP_KRUSKAL_IR = 'Grasp with Kruskal and Iterative Refinement';
 
     public static function referenceAlgorithmsValues(): array
     {
@@ -54,9 +48,14 @@ enum Algorithm: string
             self::PR_BEP,
             self::R_BEP,
             self::R_PR_BEP,
+            self::KRUSKAL,
+            self::PRIM,
+            self::PR_IR,
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
             self::GRASP_R_BEP_IR,
+            self::GRASP_R_BEP_PR_IR,
+            self::GRASP_KRUSKAL_IR,
         ];
     }
 
@@ -75,6 +74,9 @@ enum Algorithm: string
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
             self::GRASP_R_BEP_IR,
+            self::KRUSKAL,
+            self::PRIM,
+            self::GRASP_KRUSKAL_IR,
         ];
     }
 
@@ -83,6 +85,8 @@ enum Algorithm: string
         return [
             self::PR_BEP,
             self::R_PR_BEP,
+            self::PR_IR,
+            self::GRASP_R_BEP_PR_IR,
         ];
     }
 
@@ -97,6 +101,9 @@ enum Algorithm: string
             self::TVS,
             self::B_TVS,
             self::IR,
+            self::PR_IR,
+            self::KRUSKAL,
+            self::PRIM,
         ];
     }
 
@@ -109,6 +116,8 @@ enum Algorithm: string
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
             self::GRASP_R_BEP_IR,
+            self::GRASP_R_BEP_PR_IR,
+            self::GRASP_KRUSKAL_IR,
         ];
     }
 
@@ -122,6 +131,8 @@ enum Algorithm: string
             self::R_BEP,
             self::PR_BEP,
             self::R_PR_BEP,
+            self::KRUSKAL,
+            self::PRIM,
         ];
     }
 
@@ -131,6 +142,7 @@ enum Algorithm: string
             self::TVS,
             self::B_TVS,
             self::IR,
+            self::PR_IR,
         ];
     }
 
@@ -140,6 +152,8 @@ enum Algorithm: string
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
             self::GRASP_R_BEP_IR,
+            self::GRASP_R_BEP_PR_IR,
+            self::GRASP_KRUSKAL_IR,
         ];
     }
 

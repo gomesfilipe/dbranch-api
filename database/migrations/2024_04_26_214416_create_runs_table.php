@@ -40,7 +40,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $this->seedResults(useSmallestRandom: true);
+        $this->seedResults(useSmallestRandom: false);
     }
 
     /**
@@ -53,6 +53,7 @@ return new class extends Migration
 
     private function seedResults(bool $useSmallestRandom = true): void
     {
+        /** @var RunService $runService */
         $runService = app()->make(RunService::class);
 
         foreach (InstanceGroup::cases() as $instanceGroup) {

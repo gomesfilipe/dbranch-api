@@ -22,7 +22,7 @@ class RunService
         //
     }
 
-    public function createManyAsync(array $data, int $slice = 5000): void
+    public function createManyAsync(array $data, int $slice = 1000): void
     {
         collect($data)->chunk($slice)
             ->each(fn (Collection $slicedData) => StoreRunsJob::dispatch($slicedData->toArray()));
@@ -113,7 +113,7 @@ class RunService
 
     private function sortKeysCallback(string $key): int
     {
-        # Prioridade baseada na posição do array.
+        // Prioridade baseada na posição do array.
         $algorithmsByPriority = [
             Algorithm::EXACT,
             Algorithm::MORENO_ET_AL,
@@ -123,8 +123,11 @@ class RunService
             Algorithm::R_BEP_ANDERSON,
             Algorithm::R_BEP,
             Algorithm::R_PR_BEP,
+            Algorithm::KRUSKAL,
             Algorithm::GRASP_R_BEP_TVS,
             Algorithm::GRASP_R_BEP_B_TVS,
+            Algorithm::GRASP_R_BEP_PR_IR,
+            Algorithm::GRASP_KRUSKAL_IR,
         ];
 
         $columnsByPriority = [

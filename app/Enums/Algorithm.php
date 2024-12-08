@@ -32,6 +32,7 @@ enum Algorithm: string
     case GRASP_R_BEP_IR = 'Grasp with R-BEP and Iterative Refinement';
     case GRASP_R_BEP_PR_IR = 'Grasp with R-BEP and PageRank Iterative Refinement';
     case GRASP_KRUSKAL_IR = 'Grasp with Kruskal and Iterative Refinement';
+    case GRASP_R_BEP_T_TVS = 'Grasp with R-BEP and Turbo Treevial Search';
 
     public static function referenceAlgorithmsValues(): array
     {
@@ -56,6 +57,7 @@ enum Algorithm: string
             self::GRASP_R_BEP_IR,
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
+            self::GRASP_R_BEP_T_TVS,
         ];
     }
 
@@ -77,6 +79,7 @@ enum Algorithm: string
             self::KRUSKAL,
             self::PRIM,
             self::GRASP_KRUSKAL_IR,
+            self::GRASP_R_BEP_T_TVS,
         ];
     }
 
@@ -118,6 +121,7 @@ enum Algorithm: string
             self::GRASP_R_BEP_IR,
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
+            self::GRASP_R_BEP_T_TVS,
         ];
     }
 
@@ -154,6 +158,7 @@ enum Algorithm: string
             self::GRASP_R_BEP_IR,
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
+            self::GRASP_R_BEP_T_TVS,
         ];
     }
 

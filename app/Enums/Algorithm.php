@@ -23,6 +23,7 @@ enum Algorithm: string
     // Local Searches
     case TVS = 'Treevial Search';
     case B_TVS = 'Boosted Treevial Search';
+    case T_TVS = 'Turbo Treevial Search';
     case IR = 'Iterative Refinement';
     case PR_IR = 'PageRank Iterative Refinement';
 
@@ -72,6 +73,7 @@ enum Algorithm: string
             self::EXACT,
             self::TVS,
             self::B_TVS,
+            self::T_TVS,
             self::IR,
             self::GRASP_R_BEP_TVS,
             self::GRASP_R_BEP_B_TVS,
@@ -103,6 +105,7 @@ enum Algorithm: string
             self::PR_BEP,
             self::TVS,
             self::B_TVS,
+            self::T_TVS,
             self::IR,
             self::PR_IR,
             self::KRUSKAL,
@@ -145,6 +148,7 @@ enum Algorithm: string
         return [
             self::TVS,
             self::B_TVS,
+            self::T_TVS,
             self::IR,
             self::PR_IR,
         ];

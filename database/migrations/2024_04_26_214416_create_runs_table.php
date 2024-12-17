@@ -40,7 +40,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $this->seedResults(useSmallestRandom: false);
+        $this->seedResults(useSmallestRandom: true);
     }
 
     /**

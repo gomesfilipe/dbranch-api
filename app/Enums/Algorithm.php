@@ -19,6 +19,7 @@ enum Algorithm: string
     case R_PR_BEP = 'Randomized PageRank Branch Expanding Prim';
     case KRUSKAL = 'Kruskal';
     case PRIM = 'Prim';
+    case A_BEP = 'Alpha Branch Expanding Prim';
 
     // Local Searches
     case TVS = 'Treevial Search';
@@ -34,6 +35,7 @@ enum Algorithm: string
     case GRASP_R_BEP_PR_IR = 'Grasp with R-BEP and PageRank Iterative Refinement';
     case GRASP_KRUSKAL_IR = 'Grasp with Kruskal and Iterative Refinement';
     case GRASP_R_BEP_T_TVS = 'Grasp with R-BEP and Turbo Treevial Search';
+    CASE GRASP_A_BEP_T_TVS = 'Grasp with A-BEP and Turbo Treevial Search';
 
     public static function referenceAlgorithmsValues(): array
     {
@@ -59,6 +61,8 @@ enum Algorithm: string
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
             self::GRASP_R_BEP_T_TVS,
+            self::A_BEP,
+            self::GRASP_A_BEP_T_TVS,
         ];
     }
 
@@ -82,6 +86,8 @@ enum Algorithm: string
             self::PRIM,
             self::GRASP_KRUSKAL_IR,
             self::GRASP_R_BEP_T_TVS,
+            self::A_BEP,
+            self::GRASP_A_BEP_T_TVS,
         ];
     }
 
@@ -125,6 +131,8 @@ enum Algorithm: string
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
             self::GRASP_R_BEP_T_TVS,
+            self::A_BEP,
+            self::GRASP_A_BEP_T_TVS,
         ];
     }
 
@@ -140,6 +148,7 @@ enum Algorithm: string
             self::R_PR_BEP,
             self::KRUSKAL,
             self::PRIM,
+            self::A_BEP,
         ];
     }
 
@@ -163,6 +172,7 @@ enum Algorithm: string
             self::GRASP_R_BEP_PR_IR,
             self::GRASP_KRUSKAL_IR,
             self::GRASP_R_BEP_T_TVS,
+            self::GRASP_A_BEP_T_TVS,
         ];
     }
 

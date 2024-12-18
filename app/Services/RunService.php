@@ -123,11 +123,14 @@ class RunService
             Algorithm::R_BEP_ANDERSON,
             Algorithm::R_BEP,
             Algorithm::R_PR_BEP,
+            Algorithm::A_BEP,
             Algorithm::KRUSKAL,
             Algorithm::GRASP_R_BEP_TVS,
             Algorithm::GRASP_R_BEP_B_TVS,
             Algorithm::GRASP_R_BEP_PR_IR,
             Algorithm::GRASP_KRUSKAL_IR,
+            Algorithm::GRASP_R_BEP_T_TVS,
+            Algorithm::GRASP_A_BEP_T_TVS,
         ];
 
         $columnsByPriority = [
